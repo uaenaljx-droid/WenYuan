@@ -1,0 +1,3388 @@
+{
+  "retrievedAt": "2026-07-04",
+  "source": "Wikidata SPARQL, filtered locally for literary/philosophical/scholarly display",
+  "batchTargets": [
+    150,
+    250,
+    350,
+    500
+  ],
+  "added": [
+    {
+      "id": "percy-bysshe-shelley",
+      "name": "珀西·比希·雪莱",
+      "latinName": "Percy Bysshe Shelley",
+      "category": "小说家",
+      "work": "奧西曼德斯",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%8F%80%E8%A5%BF%C2%B7%E6%AF%94%E5%B8%8C%C2%B7%E9%9B%AA%E8%8E%B1"
+    },
+    {
+      "id": "walter-scott",
+      "name": "沃尔特·司各特",
+      "latinName": "Walter Scott",
+      "category": "小说家",
+      "work": "Old Mortality",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B2%83%E5%B0%94%E7%89%B9%C2%B7%E5%8F%B8%E5%90%84%E7%89%B9"
+    },
+    {
+      "id": "j-d-salinger",
+      "name": "杰罗姆·大卫·塞林格",
+      "latinName": "J. D. Salinger",
+      "category": "小说家",
+      "work": "九故事",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9D%B0%E7%BD%97%E5%A7%86%C2%B7%E5%A4%A7%E5%8D%AB%C2%B7%E5%A1%9E%E6%9E%97%E6%A0%BC"
+    },
+    {
+      "id": "toni-morrison",
+      "name": "托妮·莫里森",
+      "latinName": "Toni Morrison",
+      "category": "小说家",
+      "work": "家",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%89%98%E5%A6%AE%C2%B7%E8%8E%AB%E9%87%8C%E6%A3%AE"
+    },
+    {
+      "id": "elias-canetti",
+      "name": "埃利亞斯·卡內蒂",
+      "latinName": "Elias Canetti",
+      "category": "小说家",
+      "work": "Tongue Set Free",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%9F%83%E5%88%A9%E4%BA%9E%E6%96%AF%C2%B7%E5%8D%A1%E5%85%A7%E8%92%82"
+    },
+    {
+      "id": "elizabeth-von-arnim",
+      "name": "伊麗莎白·亞寧",
+      "latinName": "Elizabeth von Arnim",
+      "category": "小说家",
+      "work": "Christine",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E9%BA%97%E8%8E%8E%E7%99%BD%C2%B7%E4%BA%9E%E5%AF%A7"
+    },
+    {
+      "id": "emily-bronte",
+      "name": "艾米莉·勃朗特",
+      "latinName": "Emily Brontë",
+      "category": "小说家",
+      "work": "Poems by Currer, Ellis, and Acton Bell",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%89%BE%E7%B1%B3%E8%8E%89%C2%B7%E5%8B%83%E6%9C%97%E7%89%B9"
+    },
+    {
+      "id": "joseph-von-eichendorff",
+      "name": "约瑟夫·弗赖赫尔·冯·艾兴多尔夫",
+      "latinName": "Joseph von Eichendorff",
+      "category": "小说家",
+      "work": "Aus dem Leben eines Taugenichts",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%91%9F%E5%A4%AB%C2%B7%E5%86%AF%C2%B7%E8%89%BE%E5%85%B4%E5%A4%9A%E5%A4%AB"
+    },
+    {
+      "id": "mary-wollstonecraft",
+      "name": "玛丽·沃斯通克拉夫特",
+      "latinName": "Mary Wollstonecraft",
+      "category": "小说家",
+      "work": "瑞典、挪威和丹麦短居书简",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%8E%9B%E4%B8%BD%C2%B7%E6%B2%83%E6%96%AF%E9%80%9A%E5%85%8B%E6%8B%89%E5%A4%AB%E7%89%B9"
+    },
+    {
+      "id": "ilse-aichinger",
+      "name": "伊爾莎·艾興格爾",
+      "latinName": "Ilse Aichinger",
+      "category": "小说家",
+      "work": "The Greater Hope",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E5%B0%94%E8%8E%8E%C2%B7%E8%89%BE%E5%85%B4%E6%A0%BC%E5%B0%94"
+    },
+    {
+      "id": "friedrich-holderlin",
+      "name": "弗里德里希·荷爾德林",
+      "latinName": "Friedrich Hölderlin",
+      "category": "小说家",
+      "work": "Lied der Freundschaft",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%BC%97%E9%87%8C%E5%BE%B7%E9%87%8C%E5%B8%8C%C2%B7%E8%8D%B7%E7%88%BE%E5%BE%B7%E6%9E%97"
+    },
+    {
+      "id": "dorothy-l-sayers",
+      "name": "桃樂絲·榭爾絲",
+      "latinName": "Dorothy L. Sayers",
+      "category": "小说家",
+      "work": "Gaudy Night",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A4%9A%E8%90%9D%E8%A5%BF%C2%B7L%C2%B7%E5%A1%9E%E8%80%B6%E6%96%AF"
+    },
+    {
+      "id": "stendhal",
+      "name": "司汤达",
+      "latinName": "Stendhal",
+      "category": "小说家",
+      "work": "巴玛修道院",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%8F%B8%E6%B1%A4%E8%BE%BE"
+    },
+    {
+      "id": "mohamed-choukri",
+      "name": "穆罕默德·舒凯里",
+      "latinName": "Mohamed Choukri",
+      "category": "小说家",
+      "work": "Temptation of the White Blackbird",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%A9%86%E7%BD%95%E9%BB%98%E5%BE%B7%C2%B7%E8%88%92%E5%87%AF%E9%87%8C"
+    },
+    {
+      "id": "roger-zelazny",
+      "name": "羅傑·澤拉茲尼",
+      "latinName": "Roger Zelazny",
+      "category": "小说家",
+      "work": "安伯志",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BE%85%E5%82%91%C2%B7%E6%BE%A4%E6%8B%89%E8%8C%B2%E5%B0%BC"
+    },
+    {
+      "id": "harriet-beecher-stowe",
+      "name": "哈里特·伊丽莎白·比彻·斯托",
+      "latinName": "Harriet Beecher Stowe",
+      "category": "小说家",
+      "work": "汤姆叔叔小屋题解",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%AF%94%E5%BD%BB%C2%B7%E6%96%AF%E6%89%98%E5%A4%AB%E4%BA%BA"
+    },
+    {
+      "id": "kathy-reichs",
+      "name": "凱絲·萊克斯",
+      "latinName": "Kathy Reichs",
+      "category": "小说家",
+      "work": "Seizure",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%87%B1%E7%B5%B2%C2%B7%E8%90%8A%E5%85%8B%E6%96%AF"
+    },
+    {
+      "id": "denis-diderot",
+      "name": "德尼·狄德罗",
+      "latinName": "Denis Diderot",
+      "category": "小说家",
+      "work": "宿命论者雅克",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E5%B0%BC%C2%B7%E7%8B%84%E5%BE%B7%E7%BD%97"
+    },
+    {
+      "id": "john-bunyan",
+      "name": "約翰·班揚",
+      "latinName": "John Bunyan",
+      "category": "小说家",
+      "work": "天路歷程",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%B4%84%E7%BF%B0%C2%B7%E7%8F%AD%E6%8F%9A"
+    },
+    {
+      "id": "dbc-pierre",
+      "name": "DBC 皮埃尔",
+      "latinName": "DBC Pierre",
+      "category": "小说家",
+      "work": "維農少年",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/DBC%C2%B7%E7%9A%AE%E5%9F%83%E5%B0%94"
+    },
+    {
+      "id": "pierre-louys",
+      "name": "皮埃爾．路易斯",
+      "latinName": "Pierre Louÿs",
+      "category": "小说家",
+      "work": "《比利提斯之歌》",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%9A%AE%E8%80%B6%C2%B7%E8%B7%AF%E6%98%93%E6%96%AF"
+    },
+    {
+      "id": "julien-gracq",
+      "name": "朱利安·格拉克",
+      "latinName": "Julien Gracq",
+      "category": "小说家",
+      "work": "流沙海岸",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9C%B1%E5%88%A9%E5%AE%89%C2%B7%E6%A0%BC%E6%8B%89%E5%85%8B"
+    },
+    {
+      "id": "roberto-bolano",
+      "name": "罗贝托·波拉尼奥",
+      "latinName": "Roberto Bolaño",
+      "category": "小说家",
+      "work": "2666",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BD%97%E8%B4%9D%E6%89%98%C2%B7%E6%B3%A2%E6%8B%89%E5%B0%BC%E5%A5%A5"
+    },
+    {
+      "id": "audrey-niffenegger",
+      "name": "奧黛麗·尼芬格",
+      "latinName": "Audrey Niffenegger",
+      "category": "小说家",
+      "work": "Her Fearful Symmetry",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A5%A7%E9%BB%9B%E9%BA%97%C2%B7%E5%B0%BC%E8%8A%AC%E6%A0%BC"
+    },
+    {
+      "id": "dan-simmons",
+      "name": "丹·西蒙斯",
+      "latinName": "Dan Simmons",
+      "category": "小说家",
+      "work": "海伯利安",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%B8%B9%C2%B7%E8%A5%BF%E8%92%99%E6%96%AF"
+    },
+    {
+      "id": "alain-fournier",
+      "name": "亞蘭·傅尼葉",
+      "latinName": "Alain-Fournier",
+      "category": "小说家",
+      "work": "美麗的約定",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BA%9E%E8%98%AD%C2%B7%E5%82%85%E5%B0%BC%E8%91%89"
+    },
+    {
+      "id": "kenta-nishimura",
+      "name": "西村賢太",
+      "latinName": "Kenta Nishimura",
+      "category": "小说家",
+      "work": "苦役列車",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E6%9D%91%E8%B3%A2%E5%A4%AA"
+    },
+    {
+      "id": "marquis-de-sade",
+      "name": "薩德侯爵",
+      "latinName": "Marquis de Sade",
+      "category": "小说家",
+      "work": "索多瑪一百二十天",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%96%A9%E5%BE%B7%E4%BE%AF%E7%88%B5"
+    },
+    {
+      "id": "alexander-pushkin",
+      "name": "亞歷山大·普希金",
+      "latinName": "Alexander Pushkin",
+      "category": "小说家",
+      "work": "鮑里斯·戈杜諾夫",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%C2%B7%E6%99%AE%E5%B8%8C%E9%87%91"
+    },
+    {
+      "id": "grazia-deledda",
+      "name": "格拉齊亞·黛萊達",
+      "latinName": "Grazia Deledda",
+      "category": "小说家",
+      "work": "Canne al vento",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E6%8B%89%E9%BD%8A%E4%BA%9E%C2%B7%E9%BB%9B%E8%90%8A%E9%81%94"
+    },
+    {
+      "id": "fyodor-dostoyevsky",
+      "name": "費奧多爾·米哈伊洛維奇·陀思妥耶夫斯基",
+      "latinName": "Fyodor Dostoyevsky",
+      "category": "小说家",
+      "work": "窮人",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%B4%B9%E5%A5%A5%E5%A4%9A%E5%B0%94%C2%B7%E9%99%80%E6%80%9D%E5%A6%A5%E8%80%B6%E5%A4%AB%E6%96%AF%E5%9F%BA"
+    },
+    {
+      "id": "j-r-r-tolkien",
+      "name": "約翰·羅納德·魯埃爾·托爾金",
+      "latinName": "J. R. R. Tolkien",
+      "category": "小说家",
+      "work": "精靈寶鑽",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/J%C2%B7R%C2%B7R%C2%B7%E6%89%98%E7%88%BE%E9%87%91"
+    },
+    {
+      "id": "s-ren-kierkegaard",
+      "name": "索倫·克爾凱郭爾",
+      "latinName": "Søren Kierkegaard",
+      "category": "小说家",
+      "work": "畏惧与颤栗",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E5%80%AB%C2%B7%E5%85%8B%E7%88%BE%E5%87%B1%E9%83%AD%E7%88%BE"
+    },
+    {
+      "id": "maxine-hong-kingston",
+      "name": "汤婷婷",
+      "latinName": "Maxine Hong Kingston",
+      "category": "小说家",
+      "work": "孙行者",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B1%A4%E5%A9%B7%E5%A9%B7_(%E4%BD%9C%E5%AE%B6)"
+    },
+    {
+      "id": "chretien-de-troyes",
+      "name": "克雷蒂安·德·特鲁瓦",
+      "latinName": "Chrétien de Troyes",
+      "category": "小说家",
+      "work": "Perceval, the Story of the Grail",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%85%8B%E9%9B%B7%E8%92%82%E5%AE%89%C2%B7%E5%BE%B7%C2%B7%E7%89%B9%E9%B2%81%E7%93%A6"
+    },
+    {
+      "id": "alfred-jarry",
+      "name": "阿尔弗雷德·雅里",
+      "latinName": "Alfred Jarry",
+      "category": "小说家",
+      "work": "愚比王",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%B0%94%E5%BC%97%E9%9B%B7%E5%BE%B7%C2%B7%E9%9B%85%E9%87%8C"
+    },
+    {
+      "id": "herman-melville",
+      "name": "赫尔曼·梅尔维尔",
+      "latinName": "Herman Melville",
+      "category": "小说家",
+      "work": "白鯨記",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%B5%AB%E5%B0%94%E6%9B%BC%C2%B7%E6%A2%85%E5%B0%94%E7%BB%B4%E5%B0%94"
+    },
+    {
+      "id": "georges-duhamel",
+      "name": "乔治·迪阿梅尔",
+      "latinName": "Georges Duhamel",
+      "category": "小说家",
+      "work": "Chronicle of Pasquier",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%96%AC%E6%B2%BB%C2%B7%E6%9D%9C%E5%93%88%E6%9B%BC"
+    },
+    {
+      "id": "francois-rabelais",
+      "name": "弗朗索瓦·拉伯雷",
+      "latinName": "François Rabelais",
+      "category": "小说家",
+      "work": "巨人传",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9C%97%E7%B4%A2%E7%93%A6%C2%B7%E6%8B%89%E4%BC%AF%E9%9B%B7"
+    },
+    {
+      "id": "sylvia-plath",
+      "name": "希薇亞·普拉斯",
+      "latinName": "Sylvia Plath",
+      "category": "小说家",
+      "work": "普拉斯的美人鱼",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B8%8C%E8%96%87%E4%BA%9E%C2%B7%E6%99%AE%E6%8B%89%E6%96%AF"
+    },
+    {
+      "id": "zadie-smith",
+      "name": "查蒂·史密斯",
+      "latinName": "Zadie Smith",
+      "category": "小说家",
+      "work": "署名的男人",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9F%A5%E8%92%82%C2%B7%E5%8F%B2%E5%AF%86%E6%96%AF"
+    },
+    {
+      "id": "haruki-murakami",
+      "name": "村上春樹",
+      "latinName": "Haruki Murakami",
+      "category": "小说家",
+      "work": "寻羊冒险记",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9"
+    },
+    {
+      "id": "shmuel-yosef-agnon",
+      "name": "萨缪尔·约瑟夫·阿格农",
+      "latinName": "Shmuel Yosef Agnon",
+      "category": "小说家",
+      "work": "Invité pour la Nuit",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%90%A8%E7%BC%AA%E5%B0%94%C2%B7%E7%BA%A6%E7%91%9F%E5%A4%AB%C2%B7%E9%98%BF%E6%A0%BC%E5%86%9C"
+    },
+    {
+      "id": "nathaniel-hawthorne",
+      "name": "纳撒尼尔·霍桑",
+      "latinName": "Nathaniel Hawthorne",
+      "category": "小说家",
+      "work": "The Snow‐Image: A Childish Miracle",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BA%B3%E6%92%92%E5%B0%BC%E5%B0%94%C2%B7%E9%9C%8D%E6%A1%91"
+    },
+    {
+      "id": "ken-liu",
+      "name": "刘宇昆",
+      "latinName": "Ken Liu",
+      "category": "小说家",
+      "work": "Q48413184",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%88%98%E5%AE%87%E6%98%86"
+    },
+    {
+      "id": "viktor-suvorov",
+      "name": "维克托·苏沃洛夫",
+      "latinName": "Viktor Suvorov",
+      "category": "小说家",
+      "work": "M-Day",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E5%85%8B%E6%89%98%C2%B7%E8%8B%8F%E6%B2%83%E7%BD%97%E5%A4%AB"
+    },
+    {
+      "id": "ferdinand-von-schirach",
+      "name": "費迪南·馮·席拉赫",
+      "latinName": "Ferdinand von Schirach",
+      "category": "小说家",
+      "work": "Q15730106",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%B2%BB%E8%BF%AA%E5%8D%97%C2%B7%E9%A6%AE%C2%B7%E5%B8%AD%E6%8B%89%E8%B5%AB"
+    },
+    {
+      "id": "mahasweta-devi",
+      "name": "玛哈丝维塔·黛维",
+      "latinName": "Mahasweta Devi",
+      "category": "小说家",
+      "work": "Hajar Churashir Maa",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%8E%9B%E5%93%88%E4%B8%9D%E7%BB%B4%E5%A1%94%C2%B7%E9%BB%9B%E7%BB%B4"
+    },
+    {
+      "id": "j-g-ballard",
+      "name": "J·G·巴拉德",
+      "latinName": "J. G. Ballard",
+      "category": "小说家",
+      "work": "太陽帝國 (小說)",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/J%C2%B7G%C2%B7%E5%B7%B4%E6%8B%89%E5%BE%B7"
+    },
+    {
+      "id": "kim-stanley-robinson",
+      "name": "金·斯坦利·罗宾逊",
+      "latinName": "Kim Stanley Robinson",
+      "category": "小说家",
+      "work": "火星三部曲",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%87%91%C2%B7%E5%8F%B2%E4%B8%B9%E5%88%A9%C2%B7%E7%BE%85%E8%B3%93%E9%81%9C"
+    },
+    {
+      "id": "scott-o-dell",
+      "name": "司各特·奥台尔",
+      "latinName": "Scott O'Dell",
+      "category": "小说家",
+      "work": "Island of the Blue Dolphins",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%8F%B8%E5%90%84%E7%89%B9%C2%B7%E5%A5%A5%E5%8F%B0%E5%B0%94"
+    },
+    {
+      "id": "paula-fox",
+      "name": "寶拉·福克斯",
+      "latinName": "Paula Fox",
+      "category": "小说家",
+      "work": "舞奴",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%AF%B6%E6%8B%89%C2%B7%E7%A6%8F%E5%85%8B%E6%96%AF"
+    },
+    {
+      "id": "claude-simon",
+      "name": "克洛德·西蒙",
+      "latinName": "Claude Simon",
+      "category": "小说家",
+      "work": "Hommage à Piero della Francesca",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%85%8B%E5%8A%B3%E5%BE%B7%C2%B7%E8%A5%BF%E8%92%99"
+    },
+    {
+      "id": "ngugi-wa-thiong-o",
+      "name": "恩古吉·瓦·提昂戈",
+      "latinName": "Ngũgĩ wa Thiong'o",
+      "category": "小说家",
+      "work": "A Grain of Wheat",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%81%A9%E5%8F%A4%E5%90%89%C2%B7%E7%93%A6%C2%B7%E6%8F%90%E6%98%82%E6%88%88"
+    },
+    {
+      "id": "henry-wadsworth-longfellow",
+      "name": "亨利·沃茲沃思·朗費羅",
+      "latinName": "Henry Wadsworth Longfellow",
+      "category": "小说家",
+      "work": "Decoration Day",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BA%A8%E5%88%A9%C2%B7%E8%8F%AF%E8%8C%B2%E8%8F%AF%E6%96%AF%C2%B7%E6%9C%97%E8%B2%BB%E7%BE%85"
+    },
+    {
+      "id": "marion-zimmer-bradley",
+      "name": "瑪麗恩·季默·布拉德利",
+      "latinName": "Marion Zimmer Bradley",
+      "category": "小说家",
+      "work": "Darkover Landfall",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%8E%9B%E4%B8%BD%E6%98%82%C2%B7%E9%BD%90%E9%BB%98%C2%B7%E5%B8%83%E6%8B%89%E5%BE%B7%E5%88%A9"
+    },
+    {
+      "id": "iris-murdoch",
+      "name": "艾瑞斯·梅鐸",
+      "latinName": "Iris Murdoch",
+      "category": "小说家",
+      "work": "大海，大海",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%89%BE%E7%91%9E%E6%96%AF%C2%B7%E6%A2%85%E9%90%B8"
+    },
+    {
+      "id": "ludvig-holberg",
+      "name": "路維·郝爾拜",
+      "latinName": "Ludvig Holberg",
+      "category": "小说家",
+      "work": "The Political Tinker",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%B7%AF%E7%B6%AD%C2%B7%E9%83%9D%E7%88%BE%E6%8B%9C"
+    },
+    {
+      "id": "rosalia-de-castro",
+      "name": "罗萨莉娅·德·卡斯特罗",
+      "latinName": "Rosalía de Castro",
+      "category": "小说家",
+      "work": "O cabaleiro das botas azuis",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BD%97%E8%90%A8%E8%8E%89%E5%A8%85%C2%B7%E5%BE%B7%C2%B7%E5%8D%A1%E6%96%AF%E7%89%B9%E7%BD%97"
+    },
+    {
+      "id": "yuriko-miyamoto",
+      "name": "宫本百合子",
+      "latinName": "Yuriko Miyamoto",
+      "category": "小说家",
+      "work": "Q78121213",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%AE%AE%E6%9C%AC%E7%99%BE%E5%90%88%E5%AD%90"
+    },
+    {
+      "id": "michel-butor",
+      "name": "米歇尔·布托尔",
+      "latinName": "Michel Butor",
+      "category": "小说家",
+      "work": "Degrés",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%B1%B3%E6%AD%87%E5%B0%94%C2%B7%E5%B8%83%E6%89%98%E5%B0%94"
+    },
+    {
+      "id": "leon-bloy",
+      "name": "莱昂·布卢瓦",
+      "latinName": "Léon Bloy",
+      "category": "小说家",
+      "work": "The Woman Who Was Poor",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%8E%B1%E6%98%82%C2%B7%E5%B8%83%E5%8D%A2%E7%93%A6"
+    },
+    {
+      "id": "audre-lorde",
+      "name": "奥德雷·洛德",
+      "latinName": "Audre Lorde",
+      "category": "小说家",
+      "work": "Sister Outsider",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%BE%B7%E9%9B%B7%C2%B7%E6%B4%9B%E5%BE%B7"
+    },
+    {
+      "id": "rick-riordan",
+      "name": "雷克·萊爾頓",
+      "latinName": "Rick Riordan",
+      "category": "小说家",
+      "work": "The Maze of Bones",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%9B%B7%E5%85%8B%C2%B7%E8%90%8A%E7%88%BE%E9%A0%93"
+    },
+    {
+      "id": "giuseppe-tomasi-di-lampedusa",
+      "name": "朱塞佩·托马西·迪·兰佩杜萨",
+      "latinName": "Giuseppe Tomasi di Lampedusa",
+      "category": "小说家",
+      "work": "豹子 (小說)",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9C%B1%E5%A1%9E%E4%BD%A9%C2%B7%E6%89%98%E9%A9%AC%E8%A5%BF%C2%B7%E8%BF%AA%C2%B7%E5%85%B0%E4%BD%A9%E6%9D%9C%E8%90%A8"
+    },
+    {
+      "id": "ken-ichi-yoshida",
+      "name": "吉田健一",
+      "latinName": "Ken'ichi Yoshida",
+      "category": "小说家",
+      "work": "Q112744338",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%90%89%E7%94%B0%E5%81%A5%E4%B8%80"
+    },
+    {
+      "id": "alexander-radishchev",
+      "name": "亚历山大·尼古拉耶维奇·拉季舍夫",
+      "latinName": "Alexander Radishchev",
+      "category": "小说家",
+      "work": "从彼得堡到莫斯科旅行记",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%C2%B7%E6%8B%89%E5%AD%A3%E8%88%8D%E5%A4%AB"
+    },
+    {
+      "id": "aleksis-kivi",
+      "name": "阿莱克西斯·基维",
+      "latinName": "Aleksis Kivi",
+      "category": "小说家",
+      "work": "七兄弟",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%98%BF%E8%8E%B1%E5%85%8B%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%BA%E7%BB%B4"
+    },
+    {
+      "id": "han-suyin",
+      "name": "韩素音",
+      "latinName": "Han Suyin",
+      "category": "小说家",
+      "work": "吾宅双门",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%9F%A9%E7%B4%A0%E9%9F%B3"
+    },
+    {
+      "id": "edgar-allan-poe",
+      "name": "爱伦·坡",
+      "latinName": "Edgar Allan Poe",
+      "category": "小说家",
+      "work": "告密的心",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%89%BE%E5%BE%B7%E5%8A%A0%C2%B7%E6%84%9B%E5%80%AB%C2%B7%E5%9D%A1"
+    },
+    {
+      "id": "jonathan-swift",
+      "name": "乔纳森·斯威夫特",
+      "latinName": "Jonathan Swift",
+      "category": "小说家",
+      "work": "一只桶的故事",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%B9%94%E7%BA%B3%E6%A3%AE%C2%B7%E6%96%AF%E5%A8%81%E5%A4%AB%E7%89%B9"
+    },
+    {
+      "id": "alexandre-dumas",
+      "name": "大仲马",
+      "latinName": "Alexandre Dumas",
+      "category": "小说家",
+      "work": "Joseph Balsamo",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E4%BB%B2%E9%A9%AC"
+    },
+    {
+      "id": "jane-austen",
+      "name": "简·奥斯丁",
+      "latinName": "Jane Austen",
+      "category": "小说家",
+      "work": "理智与情感",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%AE%80%C2%B7%E5%A5%A5%E6%96%AF%E6%B1%80"
+    },
+    {
+      "id": "agatha-christie",
+      "name": "阿加莎·克里斯蒂",
+      "latinName": "Agatha Christie",
+      "category": "小说家",
+      "work": "危機四伏",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%8A%A0%E8%8E%8E%C2%B7%E5%85%8B%E9%87%8C%E6%96%AF%E8%92%82"
+    },
+    {
+      "id": "anne-tyler",
+      "name": "安妮·泰勒",
+      "latinName": "Anne Tyler",
+      "category": "小说家",
+      "work": "A Slipping-Down Life",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%A6%AE%C2%B7%E6%B3%B0%E5%8B%92"
+    },
+    {
+      "id": "joseph-campbell",
+      "name": "喬瑟夫·坎貝爾",
+      "latinName": "Joseph Campbell",
+      "category": "小说家",
+      "work": "千面英雄",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%B4%84%E7%91%9F%E5%A4%AB%C2%B7%E5%9D%8E%E4%BC%AF"
+    },
+    {
+      "id": "seicho-matsumoto",
+      "name": "松本清张",
+      "latinName": "Seichō Matsumoto",
+      "category": "小说家",
+      "work": "零的焦點",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9D%BE%E6%9C%AC%E6%B8%85%E5%BC%A0"
+    },
+    {
+      "id": "sadegh-hedayat",
+      "name": "萨迪克·希达亚特",
+      "latinName": "Sadegh Hedayat",
+      "category": "小说家",
+      "work": "瞎猫头鹰",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%90%A8%E8%BF%AA%E5%85%8B%C2%B7%E8%B5%AB%E8%BE%BE%E4%BA%9A%E7%89%B9"
+    },
+    {
+      "id": "alan-hollinghurst",
+      "name": "阿兰·霍灵赫斯特",
+      "latinName": "Alan Hollinghurst",
+      "category": "小说家",
+      "work": "The Spell",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%85%B0%C2%B7%E9%9C%8D%E7%81%B5%E8%B5%AB%E6%96%AF%E7%89%B9"
+    },
+    {
+      "id": "pu-songling",
+      "name": "蒲松龄",
+      "latinName": "Pu Songling",
+      "category": "小说家",
+      "work": "聊齋志異",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%92%B2%E6%9D%BE%E9%BE%84"
+    },
+    {
+      "id": "q191305",
+      "name": "熱拉爾·德·內瓦爾",
+      "latinName": "熱拉爾·德·內瓦爾",
+      "category": "小说家",
+      "work": "Aurélia",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%86%B1%E6%8B%89%E7%88%BE%C2%B7%E5%BE%B7%C2%B7%E5%85%A7%E7%93%A6%E7%88%BE"
+    },
+    {
+      "id": "osamu-dazai",
+      "name": "太宰治",
+      "latinName": "Osamu Dazai",
+      "category": "小说家",
+      "work": "御伽草紙",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%AE%B0%E6%B2%BB"
+    },
+    {
+      "id": "madeleine-thien",
+      "name": "鄧敏靈",
+      "latinName": "Madeleine Thien",
+      "category": "小说家",
+      "work": "不要說我們一無所有",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%84%A7%E6%95%8F%E9%9D%88"
+    },
+    {
+      "id": "lygia-fagundes-telles",
+      "name": "莉吉娅·特莱斯",
+      "latinName": "Lygia Fagundes Telles",
+      "category": "小说家",
+      "work": "Antes do Baile Verde",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%8E%89%E5%90%89%E5%A8%85%C2%B7%E6%B3%95%E8%B4%A1%E5%BE%B7%E6%96%AF%C2%B7%E7%89%B9%E8%8E%B1%E6%96%AF"
+    },
+    {
+      "id": "brandon-sanderson",
+      "name": "布蘭登·山德森",
+      "latinName": "Brandon Sanderson",
+      "category": "小说家",
+      "work": "邪惡圖書館系列",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B8%83%E8%98%AD%E7%99%BB%C2%B7%E5%B1%B1%E5%BE%B7%E6%A3%AE"
+    },
+    {
+      "id": "hilary-mantel",
+      "name": "希拉里·曼特尔",
+      "latinName": "Hilary Mantel",
+      "category": "小说家",
+      "work": "狼廳",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B8%8C%E6%8B%89%E9%87%8C%C2%B7%E6%9B%BC%E7%89%B9%E5%B0%94"
+    },
+    {
+      "id": "louise-erdrich",
+      "name": "路易丝·厄德里奇",
+      "latinName": "Louise Erdrich",
+      "category": "小说家",
+      "work": "The Birchbark House",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%B7%AF%E6%98%93%E4%B8%9D%C2%B7%E5%8E%84%E5%BE%B7%E9%87%8C%E5%A5%87"
+    },
+    {
+      "id": "nella-larsen",
+      "name": "内拉·拉森",
+      "latinName": "Nella Larsen",
+      "category": "小说家",
+      "work": "Quicksand",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%86%85%E5%8B%92%C2%B7%E6%8B%89%E6%A3%AE"
+    },
+    {
+      "id": "valerian-pidmohylny",
+      "name": "瓦列里安·皮德莫吉爾尼",
+      "latinName": "Valerian Pidmohylny",
+      "category": "小说家",
+      "work": "Misto",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%93%A6%E5%88%97%E9%87%8C%E5%AE%89%C2%B7%E7%9A%AE%E5%BE%B7%E8%8E%AB%E5%90%89%E5%88%A9%E5%B0%BC"
+    },
+    {
+      "id": "vikenty-veresaev",
+      "name": "維肯提·維肯提耶維奇·維列薩耶夫",
+      "latinName": "Vikenty Veresaev",
+      "category": "小说家",
+      "work": "The Deadlock",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%B6%AD%E8%82%AF%E6%8F%90%C2%B7%E7%B6%AD%E5%88%97%E8%96%A9%E8%80%B6%E5%A4%AB"
+    },
+    {
+      "id": "emily-wu",
+      "name": "巫一毛",
+      "latinName": "Emily Wu",
+      "category": "小说家",
+      "work": "Feather in the Storm",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B7%AB%E4%B8%80%E6%AF%9B"
+    },
+    {
+      "id": "ivo-andric",
+      "name": "伊沃·安德里奇",
+      "latinName": "Ivo Andrić",
+      "category": "小说家",
+      "work": "Most na Žepi",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%B2%83%C2%B7%E5%AE%89%E5%BE%B7%E9%87%8C%E5%A5%87"
+    },
+    {
+      "id": "giovanni-boccaccio",
+      "name": "乔万尼·薄伽丘",
+      "latinName": "Giovanni Boccaccio",
+      "category": "小说家",
+      "work": "Corbaccio",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%B9%94%E4%B8%87%E5%B0%BC%C2%B7%E8%96%84%E4%BC%BD%E4%B8%98"
+    },
+    {
+      "id": "nadine-gordimer",
+      "name": "内丁·戈迪默",
+      "latinName": "Nadine Gordimer",
+      "category": "小说家",
+      "work": "生态保护者",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%B4%8D%E4%B8%81%C2%B7%E6%88%88%E8%BF%AA%E9%BB%98"
+    },
+    {
+      "id": "mary-shelley",
+      "name": "玛丽·雪莱",
+      "latinName": "Mary Shelley",
+      "category": "小说家",
+      "work": "最后的人类",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%8E%9B%E4%B8%BD%C2%B7%E9%9B%AA%E8%8E%B1"
+    },
+    {
+      "id": "ivan-turgenev",
+      "name": "伊万·谢尔盖耶维奇·屠格涅夫",
+      "latinName": "Ivan Turgenev",
+      "category": "小说家",
+      "work": "猎人笔记",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E4%B8%87%C2%B7%E5%B1%A0%E6%A0%BC%E6%B6%85%E5%A4%AB"
+    },
+    {
+      "id": "boris-akunin",
+      "name": "鮑里斯·阿庫寧",
+      "latinName": "Boris Akunin",
+      "category": "小说家",
+      "work": "Erast Fandorin series",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%AE%91%E9%87%8C%E6%96%AF%C2%B7%E9%98%BF%E5%BA%AB%E5%AF%A7"
+    },
+    {
+      "id": "milorad-pavic",
+      "name": "米洛拉德·帕维奇",
+      "latinName": "Milorad Pavić",
+      "category": "小说家",
+      "work": "哈扎尔辞典",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%B1%B3%E6%B4%9B%E6%8B%89%E5%BE%B7%C2%B7%E5%B8%95%E7%BB%B4%E5%A5%87"
+    },
+    {
+      "id": "camille-flammarion",
+      "name": "卡米耶·弗拉马里翁",
+      "latinName": "Camille Flammarion",
+      "category": "小说家",
+      "work": "大众天文学",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E7%B1%B3%E8%80%B6%C2%B7%E5%BC%97%E6%8B%89%E9%A9%AC%E9%87%8C%E7%BF%81"
+    },
+    {
+      "id": "daina-chaviano",
+      "name": "黛依娜·查薇雅諾",
+      "latinName": "Daína Chaviano",
+      "category": "小说家",
+      "work": "Q8773804",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%BB%9B%E4%BE%9D%E5%A8%9C%C2%B7%E6%9F%A5%E8%96%87%E9%9B%85%E8%AB%BE"
+    },
+    {
+      "id": "gudrun-pausewang",
+      "name": "古德龙·帕塞汪",
+      "latinName": "Gudrun Pausewang",
+      "category": "小说家",
+      "work": "The Last Children of Schewenborn",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%8F%A4%E5%BE%B7%E4%BC%A6%C2%B7%E9%B2%8D%E7%91%9F%E7%8E%8B"
+    },
+    {
+      "id": "diana-gabaldon",
+      "name": "黛安娜·蓋伯頓",
+      "latinName": "Diana Gabaldon",
+      "category": "小说家",
+      "work": "異鄉人",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%BB%9B%E5%AE%89%E5%A8%9C%C2%B7%E8%93%8B%E4%BC%AF%E9%A0%93"
+    },
+    {
+      "id": "philip-k-dick",
+      "name": "菲利普·狄克",
+      "latinName": "Philip K. Dick",
+      "category": "小说家",
+      "work": "尤比克",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%8F%B2%E5%88%A9%E6%99%AE%C2%B7%E7%8B%84%E5%85%8B"
+    },
+    {
+      "id": "robert-jordan",
+      "name": "羅伯特·喬丹",
+      "latinName": "Robert Jordan",
+      "category": "小说家",
+      "work": "時間之輪",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BE%85%E4%BC%AF%E7%89%B9%C2%B7%E5%96%AC%E4%B8%B9"
+    },
+    {
+      "id": "joan-aiken",
+      "name": "瓊·艾肯",
+      "latinName": "Joan Aiken",
+      "category": "小说家",
+      "work": "威利山莊的狼群",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%93%8A%C2%B7%E8%89%BE%E8%82%AF"
+    },
+    {
+      "id": "erich-von-daniken",
+      "name": "艾利希·馮·丹尼肯",
+      "latinName": "Erich von Däniken",
+      "category": "小说家",
+      "work": "諸神的戰車？未解之謎",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%89%BE%E5%88%A9%E5%B8%8C%C2%B7%E9%A6%AE%C2%B7%E4%B8%B9%E5%B0%BC%E8%82%AF"
+    },
+    {
+      "id": "olaf-stapledon",
+      "name": "奥拉夫·斯塔普雷顿",
+      "latinName": "Olaf Stapledon",
+      "category": "小说家",
+      "work": "Odd John",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E6%8B%89%E5%A4%AB%C2%B7%E6%96%AF%E5%A1%94%E6%99%AE%E9%9B%B7%E9%A1%BF"
+    },
+    {
+      "id": "vladimir-a-obruchev",
+      "name": "弗拉基米尔·奥勃鲁切夫",
+      "latinName": "Vladimir A. Obruchev",
+      "category": "小说家",
+      "work": "Plutonia",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%8B%89%E5%9F%BA%E7%B1%B3%E7%88%BE%C2%B7%E5%A5%A7%E5%B8%83%E9%AD%AF%E5%88%87%E5%A4%AB"
+    },
+    {
+      "id": "walter-m-miller",
+      "name": "小沃尔特·邁克爾·米勒",
+      "latinName": "Walter M. Miller",
+      "category": "小说家",
+      "work": "The Darfsteller",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%B2%83%E5%B0%94%E7%89%B9%C2%B7M%C2%B7%E7%B1%B3%E5%8B%92"
+    },
+    {
+      "id": "jack-williamson",
+      "name": "杰克·威廉森",
+      "latinName": "Jack Williamson",
+      "category": "小说家",
+      "work": "Saga of Cuckoo",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9D%B0%E5%85%8B%C2%B7%E5%A8%81%E5%BB%89%E6%A3%AE"
+    },
+    {
+      "id": "robin-cook",
+      "name": "羅賓·庫克",
+      "latinName": "Robin Cook",
+      "category": "小说家",
+      "work": "Coma",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BD%97%E5%AE%BE%C2%B7%E7%A7%91%E5%85%8B"
+    },
+    {
+      "id": "stephen-baxter",
+      "name": "斯蒂芬·巴科斯特",
+      "latinName": "Stephen Baxter",
+      "category": "小说家",
+      "work": "The Long Earth",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%96%AF%E8%92%82%E8%8A%AC%C2%B7%E5%B7%B4%E7%A7%91%E6%96%AF%E7%89%B9"
+    },
+    {
+      "id": "jack-vance",
+      "name": "杰克·万斯",
+      "latinName": "Jack Vance",
+      "category": "小说家",
+      "work": "Lyonesse Trilogy",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9D%B0%E5%85%8B%C2%B7%E4%B8%87%E6%96%AF"
+    },
+    {
+      "id": "terry-brooks",
+      "name": "特里·布鲁克斯",
+      "latinName": "Terry Brooks",
+      "category": "小说家",
+      "work": "The Sword of Shannara Trilogy",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B3%B0%E7%91%9E%C2%B7%E5%B8%83%E9%AD%AF%E5%85%8B%E6%96%AF"
+    },
+    {
+      "id": "stefan-zeromski",
+      "name": "斯特凡·热罗姆斯基",
+      "latinName": "Stefan Żeromski",
+      "category": "小说家",
+      "work": "The Spring to Come",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%96%AF%E7%89%B9%E5%87%A1%C2%B7%E7%83%AD%E7%BD%97%E5%A7%86%E6%96%AF%E5%9F%BA"
+    },
+    {
+      "id": "charles-stross",
+      "name": "查尔斯·斯特罗斯",
+      "latinName": "Charles Stross",
+      "category": "小说家",
+      "work": "The Laundry Files",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9F%A5%E5%B0%94%E6%96%AF%C2%B7%E6%96%AF%E7%89%B9%E7%BD%97%E6%96%AF"
+    },
+    {
+      "id": "robert-conquest",
+      "name": "羅伯特·康奎斯特",
+      "latinName": "Robert Conquest",
+      "category": "小说家",
+      "work": "大恐怖",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BE%85%E4%BC%AF%E7%89%B9%C2%B7%E5%BA%B7%E5%A5%8E%E6%96%AF%E7%89%B9"
+    },
+    {
+      "id": "erle-stanley-gardner",
+      "name": "厄爾·史丹利·賈德納",
+      "latinName": "Erle Stanley Gardner",
+      "category": "小说家",
+      "work": "Cool and Lam",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%8E%84%E7%88%BE%C2%B7%E5%8F%B2%E4%B8%B9%E5%88%A9%C2%B7%E8%B3%88%E5%BE%B7%E7%B4%8D"
+    },
+    {
+      "id": "edmund-wnuk-lipinski",
+      "name": "艾德蒙·努克-李平斯基",
+      "latinName": "Edmund Wnuk-Lipiński",
+      "category": "小说家",
+      "work": "Q56547750",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%89%BE%E5%BE%B7%E8%92%99%C2%B7%E5%8A%AA%E5%85%8B-%E6%9D%8E%E5%B9%B3%E6%96%AF%E5%9F%BA"
+    },
+    {
+      "id": "gene-wolfe",
+      "name": "吉恩·沃爾夫",
+      "latinName": "Gene Wolfe",
+      "category": "小说家",
+      "work": "新太陽之書",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%90%89%E6%81%A9%C2%B7%E6%B2%83%E7%88%BE%E5%A4%AB"
+    },
+    {
+      "id": "r-a-salvatore",
+      "name": "R·A·萨尔瓦多",
+      "latinName": "R. A. Salvatore",
+      "category": "小说家",
+      "work": "list of Forgotten Realms characters",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/R%C2%B7A%C2%B7%E8%90%A8%E5%B0%94%E7%93%A6%E5%A4%9A"
+    },
+    {
+      "id": "francesco-patrizi",
+      "name": "弗朗切斯科·帕特里奇",
+      "latinName": "Francesco Patrizi",
+      "category": "小说家",
+      "work": "L’amorosa filosofia",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9C%97%E5%88%87%E6%96%AF%E7%A7%91%C2%B7%E5%B8%95%E7%89%B9%E9%87%8C%E5%A5%87"
+    },
+    {
+      "id": "tommaso-campanella",
+      "name": "托马索·康帕内拉",
+      "latinName": "Tommaso Campanella",
+      "category": "小说家",
+      "work": "Poesie",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%89%98%E9%A9%AC%E7%B4%A2%C2%B7%E5%BA%B7%E5%B8%95%E5%86%85%E6%8B%89"
+    },
+    {
+      "id": "alan-moore",
+      "name": "阿兰·摩尔",
+      "latinName": "Alan Moore",
+      "category": "小说家",
+      "work": "V煞",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%85%B0%C2%B7%E6%91%A9%E5%B0%94"
+    },
+    {
+      "id": "poul-anderson",
+      "name": "波尔·安德森",
+      "latinName": "Poul Anderson",
+      "category": "小说家",
+      "work": "The Broken Sword",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E5%B0%94%C2%B7%E5%AE%89%E5%BE%B7%E6%A3%AE"
+    },
+    {
+      "id": "andrei-bely",
+      "name": "安德烈·别雷",
+      "latinName": "Andrei Bely",
+      "category": "小说家",
+      "work": "彼得堡 (小說)",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%BE%B7%E7%83%88%C2%B7%E5%88%AB%E9%9B%B7"
+    },
+    {
+      "id": "margaret-atwood",
+      "name": "瑪格麗特·愛特伍",
+      "latinName": "Margaret Atwood",
+      "category": "小说家",
+      "work": "Stone Mattress: Nine Tales",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%91%AA%E6%A0%BC%E9%BA%97%E7%89%B9%C2%B7%E6%84%9B%E7%89%B9%E4%BC%8D"
+    },
+    {
+      "id": "charles-fort",
+      "name": "查爾斯·佛特",
+      "latinName": "Charles Fort",
+      "category": "小说家",
+      "work": "诅咒之书",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9F%A5%E5%B0%94%E6%96%AF%C2%B7%E7%A6%8F%E7%89%B9"
+    },
+    {
+      "id": "james-lovelock",
+      "name": "詹姆斯·洛夫洛克",
+      "latinName": "James Lovelock",
+      "category": "小说家",
+      "work": "電子捕獲檢測器",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%A9%B9%E5%A7%86%E6%96%AF%C2%B7%E6%B4%9B%E5%A4%AB%E6%B4%9B%E5%85%8B"
+    },
+    {
+      "id": "a-e-van-vogt",
+      "name": "范·沃格特",
+      "latinName": "A. E. van Vogt",
+      "category": "小说家",
+      "work": "The Weapon Shops of Isher",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%8C%83%C2%B7%E6%B2%83%E6%A0%BC%E7%89%B9"
+    },
+    {
+      "id": "andrei-platonov",
+      "name": "安德烈·普拉东诺夫",
+      "latinName": "Andrei Platonov",
+      "category": "小说家",
+      "work": "Happy Moscow",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%BE%B7%E7%83%88%C2%B7%E6%99%AE%E6%8B%89%E4%B8%9C%E8%AF%BA%E5%A4%AB"
+    },
+    {
+      "id": "rokeya-sakhawat-hossain",
+      "name": "蘿琪雅·薩哈瓦·侯賽因",
+      "latinName": "Rokeya Sakhawat Hossain",
+      "category": "小说家",
+      "work": "蘇丹娜之夢",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%98%BF%E7%90%AA%E9%9B%85%C2%B7%E8%96%A9%E5%93%88%E7%93%A6%E7%89%B9%C2%B7%E4%BE%AF%E8%B3%BD%E5%9B%A0"
+    },
+    {
+      "id": "valery-bryusov",
+      "name": "瓦列里·勃留索夫",
+      "latinName": "Valery Bryusov",
+      "category": "小说家",
+      "work": "Q4373758",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%93%A6%E5%88%97%E9%87%8C%C2%B7%E5%B8%83%E7%95%99%E7%B4%A2%E5%A4%AB"
+    },
+    {
+      "id": "edwin-abbott-abbott",
+      "name": "埃德温·A·阿博特",
+      "latinName": "Edwin Abbott Abbott",
+      "category": "小说家",
+      "work": "Onesimus: Memoirs of a Disciple of St. Paul",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%9F%83%E5%BE%B7%E6%B8%A9%C2%B7%E9%98%BF%E4%BC%AF%E7%89%B9%C2%B7%E9%98%BF%E4%BC%AF%E7%89%B9"
+    },
+    {
+      "id": "jonathan-lethem",
+      "name": "強納森·列瑟",
+      "latinName": "Jonathan Lethem",
+      "category": "小说家",
+      "work": "布魯克林孤兒",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%BC%B7%E7%B4%8D%E6%A3%AE%C2%B7%E5%88%97%E7%91%9F"
+    },
+    {
+      "id": "jane-roberts",
+      "name": "珍·羅伯茲",
+      "latinName": "Jane Roberts",
+      "category": "小说家",
+      "work": "The Oversoul Seven Trilogy",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%8F%8D%C2%B7%E7%BE%85%E4%BC%AF%E8%8C%B2"
+    },
+    {
+      "id": "france-preseren",
+      "name": "弗兰策·普列舍仁",
+      "latinName": "France Prešeren",
+      "category": "诗人",
+      "work": "薩維卡洗禮",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%BC%97%E5%85%B0%E7%AD%96%C2%B7%E6%99%AE%E5%88%97%E8%88%8D%E4%BB%81"
+    },
+    {
+      "id": "robert-frost",
+      "name": "羅伯特·佛洛斯特",
+      "latinName": "Robert Frost",
+      "category": "诗人",
+      "work": "A Masque of Reason",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BE%85%E4%BC%AF%E7%89%B9%C2%B7%E4%BD%9B%E6%B4%9B%E6%96%AF%E7%89%B9"
+    },
+    {
+      "id": "william-carlos-williams",
+      "name": "威廉·卡洛斯·威廉姆斯",
+      "latinName": "William Carlos Williams",
+      "category": "诗人",
+      "work": "裴特森",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%C2%B7%E5%8D%A1%E6%B4%9B%E6%96%AF%C2%B7%E5%A8%81%E5%BB%89%E6%96%AF"
+    },
+    {
+      "id": "ismail-kadare",
+      "name": "伊斯梅尔·卡达莱",
+      "latinName": "Ismail Kadare",
+      "category": "诗人",
+      "work": "Broken April",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%96%AF%E6%A2%85%E5%B0%94%C2%B7%E5%8D%A1%E8%BE%BE%E8%8E%B1"
+    },
+    {
+      "id": "torquato-tasso",
+      "name": "托尔夸托·塔索",
+      "latinName": "Torquato Tasso",
+      "category": "诗人",
+      "work": "Apology to the Accademia della Crusca",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%89%98%E5%B0%94%E5%A4%B8%E6%89%98%C2%B7%E5%A1%94%E7%B4%A2"
+    },
+    {
+      "id": "arthur-rimbaud",
+      "name": "阿蒂尔·兰波",
+      "latinName": "Arthur Rimbaud",
+      "category": "诗人",
+      "work": "地狱一季",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%98%BF%E8%92%82%E5%B0%94%C2%B7%E5%85%B0%E6%B3%A2"
+    },
+    {
+      "id": "petrarch",
+      "name": "弗朗切斯科·彼特拉克",
+      "latinName": "Petrarch",
+      "category": "诗人",
+      "work": "Epistolae familiares",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9C%97%E5%88%87%E6%96%AF%E7%A7%91%C2%B7%E5%BD%BC%E7%89%B9%E6%8B%89%E5%85%8B"
+    },
+    {
+      "id": "sebastian-barry",
+      "name": "塞巴斯蒂安·巴里",
+      "latinName": "Sebastian Barry",
+      "category": "诗人",
+      "work": "Annie Dunne",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A1%9E%E5%B7%B4%E6%96%AF%E8%92%82%E5%AE%89%C2%B7%E5%B7%B4%E9%87%8C"
+    },
+    {
+      "id": "adam-oehlenschlager",
+      "name": "亚当·戈特洛布·欧伦施莱厄",
+      "latinName": "Adam Oehlenschläger",
+      "category": "诗人",
+      "work": "Aladdin",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%BD%93%C2%B7%E6%AC%A7%E4%BC%A6%E6%96%BD%E8%8E%B1%E5%8E%84"
+    },
+    {
+      "id": "apuleius",
+      "name": "阿普列尤斯",
+      "latinName": "Apuleius",
+      "category": "诗人",
+      "work": "Apologia",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%99%AE%E5%88%97%E5%B0%A4%E6%96%AF"
+    },
+    {
+      "id": "q590",
+      "name": "路易·德賈梅士",
+      "latinName": "路易·德賈梅士",
+      "category": "诗人",
+      "work": "盧濟塔尼亞人之歌",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%B7%AF%E6%98%93%C2%B7%E5%BE%B7%C2%B7%E8%B3%88%E6%A2%85%E5%A3%AB"
+    },
+    {
+      "id": "alfred-de-musset",
+      "name": "阿爾弗雷德·德·繆塞",
+      "latinName": "Alfred de Musset",
+      "category": "诗人",
+      "work": "The Moods of Marianne",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%98%BF%E7%88%BE%E5%BC%97%E9%9B%B7%E5%BE%B7%C2%B7%E5%BE%B7%C2%B7%E7%B9%86%E5%A1%9E"
+    },
+    {
+      "id": "marie-de-france",
+      "name": "玛丽·德·法兰西",
+      "latinName": "Marie de France",
+      "category": "诗人",
+      "work": "Guigemar",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%8E%9B%E4%B8%BD%C2%B7%E5%BE%B7%C2%B7%E6%B3%95%E5%85%B0%E8%A5%BF"
+    },
+    {
+      "id": "ovid",
+      "name": "奧維德",
+      "latinName": "Ovid",
+      "category": "诗人",
+      "work": "Halieutica",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A5%A7%E7%B6%AD%E5%BE%B7"
+    },
+    {
+      "id": "hafez",
+      "name": "哈菲兹",
+      "latinName": "Hafez",
+      "category": "诗人",
+      "work": "The Divān of Hafez",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%93%88%E8%8F%B2%E5%85%B9"
+    },
+    {
+      "id": "horace",
+      "name": "贺拉斯",
+      "latinName": "Horace",
+      "category": "诗人",
+      "work": "讽刺诗",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%B4%BA%E6%8B%89%E6%96%AF"
+    },
+    {
+      "id": "william-auld",
+      "name": "威廉姆·奥尔德",
+      "latinName": "William Auld",
+      "category": "诗人",
+      "work": "La infana raso",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%E5%A7%86%C2%B7%E5%A5%A5%E5%B0%94%E5%BE%B7"
+    },
+    {
+      "id": "guimaraes-rosa",
+      "name": "若昂·吉马朗埃斯·罗萨",
+      "latinName": "Guimarães Rosa",
+      "category": "诗人",
+      "work": "广阔的腹地：条条小路",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%8B%A5%E6%98%82%C2%B7%E5%90%89%E9%A9%AC%E6%9C%97%E4%BC%8A%E6%96%AF%C2%B7%E7%BD%97%E8%90%A8"
+    },
+    {
+      "id": "hesiod",
+      "name": "赫西俄德",
+      "latinName": "Hesiod",
+      "category": "诗人",
+      "work": "女人总目",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%B5%AB%E8%A5%BF%E4%BF%84%E5%BE%B7"
+    },
+    {
+      "id": "jules-verne",
+      "name": "儒勒·凡尔纳",
+      "latinName": "Jules Verne",
+      "category": "诗人",
+      "work": "皇帝的密使",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%84%92%E5%8B%92%C2%B7%E5%87%A1%E5%B0%94%E7%BA%B3"
+    },
+    {
+      "id": "tycho-brahe",
+      "name": "第谷·布拉厄",
+      "latinName": "Tycho Brahe",
+      "category": "诗人",
+      "work": "De Mundi aetherei recentioribus Phaenomenis Liber secundus",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E8%B0%B7%C2%B7%E5%B8%83%E6%8B%89%E5%8E%84"
+    },
+    {
+      "id": "czes-aw-mi-osz",
+      "name": "切斯瓦夫·米沃什",
+      "latinName": "Czesław Miłosz",
+      "category": "诗人",
+      "work": "Ocalenie",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%88%87%E6%96%AF%E7%93%A6%E5%A4%AB%C2%B7%E7%B1%B3%E6%B2%83%E4%BB%80"
+    },
+    {
+      "id": "nikolai-gogol",
+      "name": "尼古拉·果戈理",
+      "latinName": "Nikolai Gogol",
+      "category": "诗人",
+      "work": "塔拉斯·布尔巴",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%8F%A4%E6%8B%89%C2%B7%E6%9E%9C%E6%88%88%E9%87%8C"
+    },
+    {
+      "id": "jerome",
+      "name": "耶柔米",
+      "latinName": "Jerome",
+      "category": "诗人",
+      "work": "Commentary on Paul's Epistle to the Galatians",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%80%B6%E6%9F%94%E7%B1%B3"
+    },
+    {
+      "id": "q44520",
+      "name": "安妮·勃朗特",
+      "latinName": "安妮·勃朗特",
+      "category": "诗人",
+      "work": "阿格尼斯·格雷",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%A6%AE%C2%B7%E5%8B%83%E6%9C%97%E7%89%B9"
+    },
+    {
+      "id": "ferdowsi",
+      "name": "菲爾多西",
+      "latinName": "Ferdowsi",
+      "category": "诗人",
+      "work": "列王紀",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%8F%B2%E7%88%BE%E5%A4%9A%E8%A5%BF"
+    },
+    {
+      "id": "qianlong-emperor",
+      "name": "乾隆帝",
+      "latinName": "Qianlong Emperor",
+      "category": "诗人",
+      "work": "樂善堂全集",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%B9%BE%E9%9A%86%E5%B8%9D"
+    },
+    {
+      "id": "joachim-du-bellay",
+      "name": "non ses te par unechinoi",
+      "latinName": "Joachim du Bellay",
+      "category": "诗人",
+      "work": "法语的捍卫与弘扬",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BA%A6%E9%98%BF%E5%B8%8C%E5%A7%86%C2%B7%E6%9D%9C%C2%B7%E8%B4%9D%E8%8E%B1"
+    },
+    {
+      "id": "gregory-of-nazianzus",
+      "name": "聖額我略·納齊安",
+      "latinName": "Gregory of Nazianzus",
+      "category": "诗人",
+      "work": "The Spirit and the Resurrection",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%81%96%E9%A1%8D%E6%88%91%E7%95%A5%C2%B7%E7%B4%8D%E9%BD%8A%E5%AE%89"
+    },
+    {
+      "id": "sergei-yesenin",
+      "name": "谢尔盖·亚历山德罗维奇·叶赛宁",
+      "latinName": "Sergei Yesenin",
+      "category": "诗人",
+      "work": "Q19188526",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%B0%A2%E5%B0%94%E7%9B%96%C2%B7%E5%8F%B6%E8%B5%9B%E5%AE%81"
+    },
+    {
+      "id": "selma-lagerlof",
+      "name": "塞尔玛·拉格洛夫",
+      "latinName": "Selma Lagerlöf",
+      "category": "诗人",
+      "work": "Jerusalem",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A1%9E%E5%B0%94%E7%8E%9B%C2%B7%E6%8B%89%E6%A0%BC%E6%B4%9B%E5%A4%AB"
+    },
+    {
+      "id": "hans-jakob-christoffel-von-grimmelshausen",
+      "name": "漢斯·雅各布·馮·克里斯托·格里梅爾斯豪森",
+      "latinName": "Hans Jakob Christoffel von Grimmelshausen",
+      "category": "诗人",
+      "work": "最傻的傻瓜",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%BC%A2%E6%96%AF%C2%B7%E9%9B%85%E5%90%84%E5%B8%83%C2%B7%E9%A6%AE%C2%B7%E5%85%8B%E9%87%8C%E6%96%AF%E6%89%98%C2%B7%E6%A0%BC%E9%87%8C%E6%A2%85%E7%88%BE%E6%96%AF%E8%B1%AA%E6%A3%AE"
+    },
+    {
+      "id": "hannah-more",
+      "name": "漢娜·摩爾",
+      "latinName": "Hannah More",
+      "category": "诗人",
+      "work": "Thoughts on the Importance of the Manners of the Great to General Society",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B1%89%E5%A8%9C%C2%B7%E8%8E%AB%E5%B0%94"
+    },
+    {
+      "id": "natalie-clifford-barney",
+      "name": "娜塔莉·克利福德·巴尼",
+      "latinName": "Natalie Clifford Barney",
+      "category": "诗人",
+      "work": "Quelques Portraits-Sonnets de Femmes",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A8%9C%E5%A1%94%E8%8E%89%C2%B7%E5%85%8B%E5%88%A9%E7%A6%8F%E5%BE%B7%C2%B7%E5%B7%B4%E5%B0%BC"
+    },
+    {
+      "id": "natsume-soseki",
+      "name": "夏目漱石",
+      "latinName": "Natsume Sōseki",
+      "category": "诗人",
+      "work": "門",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3"
+    },
+    {
+      "id": "menander",
+      "name": "米南德",
+      "latinName": "Menander",
+      "category": "诗人",
+      "work": "Misoumenos",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%B1%B3%E5%8D%97%E5%BE%B7"
+    },
+    {
+      "id": "pedro-calderon-de-la-barca",
+      "name": "佩德罗·卡尔德隆·德·拉·巴尔卡",
+      "latinName": "Pedro Calderón de la Barca",
+      "category": "诗人",
+      "work": "The Great Theater of the World",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BD%A9%E5%BE%B7%E7%BD%97%C2%B7%E5%8D%A1%E5%B0%94%E5%BE%B7%E9%9A%86%C2%B7%E5%BE%B7%C2%B7%E6%8B%89%C2%B7%E5%B7%B4%E5%B0%94%E5%8D%A1"
+    },
+    {
+      "id": "norbert-elias",
+      "name": "諾博特·伊里亞思",
+      "latinName": "Norbert Elias",
+      "category": "诗人",
+      "work": "文明进程",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%AB%BE%E5%8D%9A%E7%89%B9%C2%B7%E4%BC%8A%E9%87%8C%E4%BA%9E%E6%80%9D"
+    },
+    {
+      "id": "gertrude-stein",
+      "name": "格特鲁德·斯泰因",
+      "latinName": "Gertrude Stein",
+      "category": "诗人",
+      "work": "The Autobiography of Alice B. Toklas",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E7%89%B9%E9%B2%81%E5%BE%B7%C2%B7%E6%96%AF%E6%B3%B0%E5%9B%A0"
+    },
+    {
+      "id": "park-kyung-ni",
+      "name": "朴景利",
+      "latinName": "Park Kyung-ni",
+      "category": "诗人",
+      "work": "土地",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9C%B4%E6%99%AF%E5%88%A9"
+    },
+    {
+      "id": "geoffrey-of-monmouth",
+      "name": "謝菲",
+      "latinName": "Geoffrey of Monmouth",
+      "category": "诗人",
+      "work": "梅林預言集",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%92%99%E8%8C%85%E6%96%AF%E7%9A%84%E6%9D%B0%E5%BC%97%E9%87%8C"
+    },
+    {
+      "id": "ali-ibn-abi-talib",
+      "name": "阿里·本·阿比·塔利卜",
+      "latinName": "Alī ibn Abī Ṭālib",
+      "category": "诗人",
+      "work": "Mushaf Ali",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%98%BF%E9%87%8C%C2%B7%E6%9C%AC%C2%B7%E9%98%BF%E6%AF%94%C2%B7%E5%A1%94%E5%88%A9%E5%8D%9C"
+    },
+    {
+      "id": "herta-muller",
+      "name": "赫塔·米勒",
+      "latinName": "Herta Müller",
+      "category": "诗人",
+      "work": "The Passport",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%B5%AB%E5%A1%94%C2%B7%E7%B1%B3%E5%8B%92"
+    },
+    {
+      "id": "virgil",
+      "name": "维吉尔",
+      "latinName": "Virgil",
+      "category": "诗人",
+      "work": "牧歌集",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E5%90%89%E5%B0%94"
+    },
+    {
+      "id": "isidore-of-seville",
+      "name": "圣依西多禄",
+      "latinName": "Isidore of Seville",
+      "category": "哲学家",
+      "work": "De fide catholica contra Iudaeos",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E4%BE%9D%E8%A5%BF%E5%A4%9A%E7%A6%84"
+    },
+    {
+      "id": "emil-cioran",
+      "name": "埃米尔·齐奥朗",
+      "latinName": "Emil Cioran",
+      "category": "哲学家",
+      "work": "誕生之不便",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%9F%83%E7%B1%B3%E5%B0%94%C2%B7%E9%BD%90%E5%A5%A5%E6%9C%97"
+    },
+    {
+      "id": "cornelius-castoriadis",
+      "name": "科內利烏斯·卡斯托里亞迪斯",
+      "latinName": "Cornelius Castoriadis",
+      "category": "哲学家",
+      "work": "Q138281042",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%86%85%E5%88%A9%E4%B9%8C%E6%96%AF%C2%B7%E5%8D%A1%E6%96%AF%E6%89%98%E9%87%8C%E4%BA%9A%E8%BF%AA%E6%96%AF"
+    },
+    {
+      "id": "alexander-pope",
+      "name": "亚历山大·蒲柏",
+      "latinName": "Alexander Pope",
+      "category": "哲学家",
+      "work": "Messiah",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%C2%B7%E8%92%B2%E6%9F%8F"
+    },
+    {
+      "id": "christine-de-pizan",
+      "name": "克里斯蒂娜·德·皮桑",
+      "latinName": "Christine de Pizan",
+      "category": "哲学家",
+      "work": "Les lamentacions sur les maux de la France",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%85%8B%E9%87%8C%E6%96%AF%E8%92%82%E5%A8%9C%C2%B7%E5%BE%B7%C2%B7%E7%9A%AE%E6%A1%91"
+    },
+    {
+      "id": "johann-gottfried-herder",
+      "name": "约翰·哥特弗雷德·赫尔德",
+      "latinName": "Johann Gottfried Herder",
+      "category": "哲学家",
+      "work": "Sculpture",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%BF%B0%C2%B7%E6%88%88%E7%89%B9%E5%BC%97%E9%87%8C%E5%BE%B7%C2%B7%E8%B5%AB%E5%B0%94%E5%BE%B7"
+    },
+    {
+      "id": "julia-kristeva",
+      "name": "茱莉亞·克莉斯蒂娃",
+      "latinName": "Julia Kristeva",
+      "category": "哲学家",
+      "work": "Q2947073",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%8C%B1%E8%8E%89%E4%BA%9E%C2%B7%E5%85%8B%E8%8E%89%E6%96%AF%E8%92%82%E5%A8%83"
+    },
+    {
+      "id": "ernest-renan",
+      "name": "埃内斯特·勒南",
+      "latinName": "Ernest Renan",
+      "category": "哲学家",
+      "work": "Life of Jesus",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%AD%90%E5%85%A7%E6%96%AF%E7%89%B9%C2%B7%E5%8B%92%E5%8D%97"
+    },
+    {
+      "id": "julien-benda",
+      "name": "朱利安·班達",
+      "latinName": "Julien Benda",
+      "category": "哲学家",
+      "work": "The Treason of the Intellectuals",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9C%B1%E5%88%A9%E5%AE%89%C2%B7%E7%8F%AD%E9%81%94"
+    },
+    {
+      "id": "simone-weil",
+      "name": "西蒙娜·薇依",
+      "latinName": "Simone Weil",
+      "category": "哲学家",
+      "work": "Oppression and Liberty",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E8%92%99%E5%A8%9C%C2%B7%E9%9F%A6%E4%BC%8A"
+    },
+    {
+      "id": "pierre-bourdieu",
+      "name": "皮耶·布尔迪厄",
+      "latinName": "Pierre Bourdieu",
+      "category": "哲学家",
+      "work": "Reproduction in Education, Society, and Culture",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%9A%AE%E5%9F%83%E5%B0%94%C2%B7%E5%B8%83%E8%BF%AA%E5%8E%84"
+    },
+    {
+      "id": "j-b-s-haldane",
+      "name": "约翰·伯顿·桑德森·霍尔丹",
+      "latinName": "J.B.S. Haldane",
+      "category": "哲学家",
+      "work": "群体遗传学",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%BF%B0%C2%B7%E4%BC%AF%E9%A1%BF%C2%B7%E6%A1%91%E5%BE%B7%E6%A3%AE%C2%B7%E9%9C%8D%E5%B0%94%E4%B8%B9"
+    },
+    {
+      "id": "leszek-ko-akowski",
+      "name": "莱谢克·科拉科夫斯基",
+      "latinName": "Leszek Kołakowski",
+      "category": "哲学家",
+      "work": "Is God Happy?",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%8E%B1%E8%B0%A2%E5%85%8B%C2%B7%E7%A7%91%E6%8B%89%E7%A7%91%E5%A4%AB%E6%96%AF%E5%9F%BA"
+    },
+    {
+      "id": "pelagius",
+      "name": "伯拉糾",
+      "latinName": "Pelagius",
+      "category": "哲学家",
+      "work": "Verba seniorum",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BC%AF%E6%8B%89%E7%B3%BE"
+    },
+    {
+      "id": "paulo-freire",
+      "name": "保羅·弗萊雷",
+      "latinName": "Paulo Freire",
+      "category": "哲学家",
+      "work": "被压迫者教育学",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BF%9D%E7%BD%97%C2%B7%E5%BC%97%E8%8E%B1%E9%9B%B7"
+    },
+    {
+      "id": "enheduanna",
+      "name": "安海度亚娜",
+      "latinName": "Enheduanna",
+      "category": "哲学家",
+      "work": "The Exaltation of Inanna",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%AE%89%E6%B5%B7%E5%BA%A6%E4%BA%9A%E5%A8%9C"
+    },
+    {
+      "id": "william-stanley-jevons",
+      "name": "威廉·斯坦利·杰文斯",
+      "latinName": "William Stanley Jevons",
+      "category": "哲学家",
+      "work": "The principles of science : a treatise on logic and scientific method",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%C2%B7%E6%96%AF%E5%9D%A6%E5%88%A9%C2%B7%E6%9D%B0%E6%96%87%E6%96%AF"
+    },
+    {
+      "id": "photios-i-of-constantinople",
+      "name": "佛提乌",
+      "latinName": "Photios I of Constantinople",
+      "category": "哲学家",
+      "work": "Nomocanon",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BD%9B%E6%8F%90%E4%B9%8C"
+    },
+    {
+      "id": "nichiren",
+      "name": "日莲",
+      "latinName": "Nichiren",
+      "category": "哲学家",
+      "work": "On Repaying Debts of Gratitude",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%97%A5%E8%8E%B2"
+    },
+    {
+      "id": "a-c-bhaktivedanta-swami-prabhupada",
+      "name": "帕布帕德",
+      "latinName": "A. C. Bhaktivedanta Swami Prabhupada",
+      "category": "哲学家",
+      "work": "薄伽梵歌如其所是",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B8%95%E5%B8%83%E5%B8%95%E5%BE%B7"
+    },
+    {
+      "id": "juliusz-s-owacki",
+      "name": "尤利烏什·斯沃瓦茨基",
+      "latinName": "Juliusz Słowacki",
+      "category": "哲学家",
+      "work": "Kordian",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B0%A4%E5%88%A9%E7%83%8F%E4%BB%80%C2%B7%E6%96%AF%E6%B2%83%E7%93%A6%E8%8C%A8%E5%9F%BA"
+    },
+    {
+      "id": "giorgio-agamben",
+      "name": "乔治·阿甘本",
+      "latinName": "Giorgio Agamben",
+      "category": "哲学家",
+      "work": "Where Are We Now? The Epidemic as Politics",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E9%98%BF%E7%94%98%E6%9C%AC"
+    },
+    {
+      "id": "lawrence-kohlberg",
+      "name": "劳伦斯·柯尔伯格",
+      "latinName": "Lawrence Kohlberg",
+      "category": "哲学家",
+      "work": "柯尔伯格道德发展阶段",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%8A%B3%E4%BC%A6%E6%96%AF%C2%B7%E6%9F%AF%E5%B0%94%E4%BC%AF%E6%A0%BC"
+    },
+    {
+      "id": "allan-kardec",
+      "name": "阿朗·卡尔代克",
+      "latinName": "Allan Kardec",
+      "category": "哲学家",
+      "work": "The Book on Mediums",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%9C%97%C2%B7%E5%8D%A1%E5%B0%94%E4%BB%A3%E5%85%8B"
+    },
+    {
+      "id": "julian-of-norwich",
+      "name": "諾里奇的朱利安",
+      "latinName": "Julian of Norwich",
+      "category": "哲学家",
+      "work": "聖愛啟示",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%AB%BE%E9%87%8C%E5%A5%87%E7%9A%84%E6%9C%B1%E5%88%A9%E5%AE%89"
+    },
+    {
+      "id": "solomon-ibn-gabirol",
+      "name": "伊本·盖比鲁勒",
+      "latinName": "Solomon ibn Gabirol",
+      "category": "哲学家",
+      "work": "Azharot",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%9C%AC%C2%B7%E7%9B%96%E6%AF%94%E9%B2%81%E5%8B%92"
+    },
+    {
+      "id": "paul-grice",
+      "name": "保羅·格萊斯",
+      "latinName": "Paul Grice",
+      "category": "哲学家",
+      "work": "maxims of conversation",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BF%9D%E7%BE%85%C2%B7%E6%A0%BC%E8%90%8A%E6%96%AF"
+    },
+    {
+      "id": "donna-haraway",
+      "name": "唐娜·哈拉维",
+      "latinName": "Donna Haraway",
+      "category": "哲学家",
+      "work": "机器人宣言",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%94%90%E5%A8%9C%C2%B7%E5%93%88%E6%8B%89%E7%BB%B4"
+    },
+    {
+      "id": "ibn-tufayl",
+      "name": "伊本·圖菲利",
+      "latinName": "Ibn Tufayl",
+      "category": "哲学家",
+      "work": "自修的哲學家",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%9C%AC%C2%B7%E5%9B%BE%E8%B4%B9%E5%8B%92"
+    },
+    {
+      "id": "iamblichus",
+      "name": "楊布里科斯",
+      "latinName": "Iamblichus",
+      "category": "哲学家",
+      "work": "Life of Pythagoras",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%A5%8A%E5%B8%83%E9%87%8C%E7%A7%91%E6%96%AF"
+    },
+    {
+      "id": "jules-michelet",
+      "name": "儒勒·米什莱",
+      "latinName": "Jules Michelet",
+      "category": "哲学家",
+      "work": "Histoire de la revolution francaise",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%84%92%E5%8B%92%C2%B7%E7%B1%B3%E4%BB%80%E8%8E%B1"
+    },
+    {
+      "id": "alain-of-lille",
+      "name": "里爾的阿蘭",
+      "latinName": "Alain of Lille",
+      "category": "哲学家",
+      "work": "Sermons",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%87%8C%E7%88%BE%E7%9A%84%E9%98%BF%E8%98%AD"
+    },
+    {
+      "id": "q1035",
+      "name": "查尔斯·达尔文",
+      "latinName": "查尔斯·达尔文",
+      "category": "哲学家",
+      "work": "The Power of Movement in Plants",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9F%A5%E5%B0%94%E6%96%AF%C2%B7%E8%BE%BE%E5%B0%94%E6%96%87"
+    },
+    {
+      "id": "friedrich-hayek",
+      "name": "弗里德里希·奧古斯特·馮·哈耶克",
+      "latinName": "Friedrich Hayek",
+      "category": "哲学家",
+      "work": "致命的自负",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%BC%97%E9%87%8C%E5%BE%B7%E9%87%8C%E5%B8%8C%C2%B7%E5%93%88%E8%80%B6%E5%85%8B"
+    },
+    {
+      "id": "georg-wilhelm-friedrich-hegel",
+      "name": "格奥尔格·威廉·弗里德里希·黑格尔",
+      "latinName": "Georg Wilhelm Friedrich Hegel",
+      "category": "哲学家",
+      "work": "精神现象学",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E5%A5%A5%E5%B0%94%E6%A0%BC%C2%B7%E5%A8%81%E5%BB%89%C2%B7%E5%BC%97%E9%87%8C%E5%BE%B7%E9%87%8C%E5%B8%8C%C2%B7%E9%BB%91%E6%A0%BC%E5%B0%94"
+    },
+    {
+      "id": "anselm-of-canterbury",
+      "name": "安瑟倫",
+      "latinName": "Anselm of Canterbury",
+      "category": "哲学家",
+      "work": "De veritate",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%9D%8E%E7%89%B9%E4%BC%AF%E9%9B%B7%E7%9A%84%E5%AE%89%E7%91%9F%E8%8E%AB"
+    },
+    {
+      "id": "plutarch",
+      "name": "普魯塔克",
+      "latinName": "Plutarch",
+      "category": "哲学家",
+      "work": "Q19740354",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%99%AE%E9%AD%AF%E5%A1%94%E5%85%8B"
+    },
+    {
+      "id": "erasmus",
+      "name": "德西德里乌斯·伊拉斯谟",
+      "latinName": "Erasmus",
+      "category": "哲学家",
+      "work": "愚人颂",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%8B%89%E6%96%AF%E8%B0%9F"
+    },
+    {
+      "id": "adam-smith",
+      "name": "亚当·斯密",
+      "latinName": "Adam Smith",
+      "category": "哲学家",
+      "work": "國富論",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%BD%93%C2%B7%E6%96%AF%E5%AF%86"
+    },
+    {
+      "id": "xuanzang",
+      "name": "玄奘",
+      "latinName": "Xuanzang",
+      "category": "哲学家",
+      "work": "大唐西域記",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%8E%84%E5%A5%98"
+    },
+    {
+      "id": "george-berkeley",
+      "name": "喬治·伯克利",
+      "latinName": "George Berkeley",
+      "category": "哲学家",
+      "work": "分析學家",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E8%B4%9D%E5%85%8B%E8%8E%B1"
+    },
+    {
+      "id": "walker-percy",
+      "name": "沃克·柏西",
+      "latinName": "Walker Percy",
+      "category": "哲学家",
+      "work": "影迷（小说）",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B2%83%E5%85%8B%C2%B7%E6%9F%8F%E8%A5%BF"
+    },
+    {
+      "id": "jean-baudrillard",
+      "name": "尚·布希亞",
+      "latinName": "Jean Baudrillard",
+      "category": "哲学家",
+      "work": "消费社会",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B0%9A%C2%B7%E5%B8%83%E5%B8%8C%E4%BA%9E"
+    },
+    {
+      "id": "ramon-llull",
+      "name": "拉蒙·柳利",
+      "latinName": "Ramon Llull",
+      "category": "哲学家",
+      "work": "Llibre de santa Maria",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%8B%89%E8%92%99%C2%B7%E6%9F%B3%E5%88%A9"
+    },
+    {
+      "id": "samuel-taylor-coleridge",
+      "name": "塞缪尔·泰勒·柯勒律治",
+      "latinName": "Samuel Taylor Coleridge",
+      "category": "哲学家",
+      "work": "抒情歌謠集",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A1%9E%E7%BC%AA%E5%B0%94%C2%B7%E6%B3%B0%E5%8B%92%C2%B7%E6%9F%AF%E5%8B%92%E5%BE%8B%E6%B2%BB"
+    },
+    {
+      "id": "charles-fourier",
+      "name": "夏尔·傅立叶",
+      "latinName": "Charles Fourier",
+      "category": "哲学家",
+      "work": "法朗斯泰尔",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A4%8F%E5%B0%94%C2%B7%E5%82%85%E7%AB%8B%E5%8F%B6"
+    },
+    {
+      "id": "gershom-scholem",
+      "name": "哥舒姆·舒勒姆",
+      "latinName": "Gershom Scholem",
+      "category": "哲学家",
+      "work": "Major Trends in Jewish Mysticism",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E5%B0%94%E8%82%96%E5%A7%86%C2%B7%E6%9C%94%E5%8B%92%E5%A7%86"
+    },
+    {
+      "id": "jiddu-krishnamurti",
+      "name": "吉杜·克里希那穆提",
+      "latinName": "Jiddu Krishnamurti",
+      "category": "哲学家",
+      "work": "Commentaries on Living",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%90%89%E6%9D%9C%C2%B7%E5%85%8B%E9%87%8C%E5%B8%8C%E9%82%A3%E7%A9%86%E6%8F%90"
+    },
+    {
+      "id": "giovanni-pico-della-mirandola",
+      "name": "若望·皮科·德拉·米蘭多拉",
+      "latinName": "Giovanni Pico della Mirandola",
+      "category": "哲学家",
+      "work": "Apologia conclusionum suorum",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%96%AC%E7%93%A6%E5%B0%BC%C2%B7%E7%9A%AE%E7%A7%91%C2%B7%E5%BE%B7%E6%8B%89%C2%B7%E7%B1%B3%E8%98%AD%E5%A4%9A%E6%8B%89"
+    },
+    {
+      "id": "ivan-illich",
+      "name": "伊凡·伊利奇",
+      "latinName": "Ivan Illich",
+      "category": "哲学家",
+      "work": "Tools for Conviviality",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E4%B8%87%C2%B7%E4%BC%8A%E9%87%8C%E5%A5%87_(%E5%A5%A5%E5%9C%B0%E5%88%A9%E5%93%B2%E5%AD%A6%E5%AE%B6)"
+    },
+    {
+      "id": "ludwig-von-mises",
+      "name": "路德維希·馮·米塞斯",
+      "latinName": "Ludwig von Mises",
+      "category": "哲学家",
+      "work": "人類行為",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%B7%AF%E5%BE%B7%E7%B6%AD%E5%B8%8C%C2%B7%E9%A6%AE%C2%B7%E7%B1%B3%E5%A1%9E%E6%96%AF"
+    },
+    {
+      "id": "giambattista-vico",
+      "name": "詹巴蒂斯塔·维柯",
+      "latinName": "Giambattista Vico",
+      "category": "哲学家",
+      "work": "De rebus gestis Antonii Caraphaei",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%A9%B9%E5%B7%B4%E8%92%82%E6%96%AF%E5%A1%94%C2%B7%E7%BB%B4%E6%9F%AF"
+    },
+    {
+      "id": "teresa-of-avila",
+      "name": "阿维拉的德兰",
+      "latinName": "Teresa of Ávila",
+      "category": "哲学家",
+      "work": "Q130565065",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BA%9E%E7%B6%AD%E6%8B%89%E7%9A%84%E5%BE%B7%E8%98%AD"
+    },
+    {
+      "id": "emmanuel-levinas",
+      "name": "伊曼紐爾·列維納斯",
+      "latinName": "Emmanuel Levinas",
+      "category": "哲学家",
+      "work": "总体与无限",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%9B%BC%E7%B4%90%E7%88%BE%C2%B7%E5%88%97%E7%B6%AD%E7%B4%8D%E6%96%AF"
+    },
+    {
+      "id": "irenaeus",
+      "name": "爱任纽",
+      "latinName": "Irenaeus",
+      "category": "哲学家",
+      "work": "駁斥異端書",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%88%B1%E4%BB%BB%E7%BA%BD"
+    },
+    {
+      "id": "lucian-of-samosata",
+      "name": "琉善",
+      "latinName": "Lucian of Samosata",
+      "category": "诗人",
+      "work": "Dialogues of the Dead",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%90%89%E5%96%84"
+    },
+    {
+      "id": "saadi",
+      "name": "萨迪·设拉兹",
+      "latinName": "Saadi",
+      "category": "诗人",
+      "work": "真境花园 (书籍)",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%90%A8%E8%BF%AA%C2%B7%E8%AE%BE%E6%8B%89%E5%85%B9"
+    },
+    {
+      "id": "aratus",
+      "name": "阿拉托斯",
+      "latinName": "Aratus",
+      "category": "诗人",
+      "work": "Phaenomena",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%89%E6%89%98%E6%96%AF"
+    },
+    {
+      "id": "q154014",
+      "name": "格奥尔格·毕希纳",
+      "latinName": "格奥尔格·毕希纳",
+      "category": "剧作家",
+      "work": "丹敦之死",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E5%A5%A5%E5%B0%94%E6%A0%BC%C2%B7%E6%AF%95%E5%B8%8C%E7%BA%B3"
+    },
+    {
+      "id": "marguerite-yourcenar",
+      "name": "玛格丽特·尤瑟纳尔",
+      "latinName": "Marguerite Yourcenar",
+      "category": "剧作家",
+      "work": "Alexis",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%8E%9B%E6%A0%BC%E4%B8%BD%E7%89%B9%C2%B7%E5%B0%A4%E7%91%9F%E7%BA%B3%E5%B0%94"
+    },
+    {
+      "id": "hermann-broch",
+      "name": "赫尔曼·布洛赫",
+      "latinName": "Hermann Broch",
+      "category": "剧作家",
+      "work": "The Death of Virgil",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%B5%AB%E5%B0%94%E6%9B%BC%C2%B7%E5%B8%83%E6%B4%9B%E8%B5%AB"
+    },
+    {
+      "id": "friedrich-gottlieb-klopstock",
+      "name": "克洛普斯托克",
+      "latinName": "Friedrich Gottlieb Klopstock",
+      "category": "剧作家",
+      "work": "救世主",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%BC%97%E9%87%8C%E5%BE%B7%E9%87%8C%E5%B8%8C%C2%B7%E6%88%88%E7%89%B9%E5%88%A9%E5%B8%83%C2%B7%E5%85%8B%E6%B4%9B%E6%99%AE%E6%96%BD%E6%89%98%E5%85%8B"
+    },
+    {
+      "id": "sibylle-lewitscharoff",
+      "name": "西比勒·雷维莎霍夫",
+      "latinName": "Sibylle Lewitscharoff",
+      "category": "剧作家",
+      "work": "Q17122688",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E7%A2%A7%E6%8B%89%C2%B7%E8%8E%B1%E7%BB%B4%E6%9F%A5%E6%B4%9B%E5%A4%AB"
+    },
+    {
+      "id": "george-bernard-shaw",
+      "name": "萧伯纳",
+      "latinName": "George Bernard Shaw",
+      "category": "剧作家",
+      "work": "聖女貞德",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%90%A7%E4%BC%AF%E7%BA%B3"
+    },
+    {
+      "id": "jean-racine",
+      "name": "让·拉辛",
+      "latinName": "Jean Racine",
+      "category": "剧作家",
+      "work": "La Thébaïde",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%AE%A9%C2%B7%E6%8B%89%E8%BE%9B"
+    },
+    {
+      "id": "voltaire",
+      "name": "伏爾泰",
+      "latinName": "Voltaire",
+      "category": "剧作家",
+      "work": "Q19150125",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BC%8F%E7%88%BE%E6%B3%B0"
+    },
+    {
+      "id": "ugo-foscolo",
+      "name": "乌戈·福斯科洛",
+      "latinName": "Ugo Foscolo",
+      "category": "剧作家",
+      "work": "The Last Letters of Jacopo Ortis",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%B9%8C%E6%88%88%C2%B7%E7%A6%8F%E6%96%AF%E7%A7%91%E6%B4%9B"
+    },
+    {
+      "id": "alexander-blok",
+      "name": "亚历山大·勃洛克",
+      "latinName": "Alexander Blok",
+      "category": "剧作家",
+      "work": "十二个",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%C2%B7%E5%8B%83%E6%B4%9B%E5%85%8B"
+    },
+    {
+      "id": "joseph-brodsky",
+      "name": "约瑟夫·布罗茨基",
+      "latinName": "Joseph Brodsky",
+      "category": "剧作家",
+      "work": "戈尔布诺夫和戈尔恰科夫",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%91%9F%E5%A4%AB%C2%B7%E5%B8%83%E7%BD%97%E8%8C%A8%E5%9F%BA"
+    },
+    {
+      "id": "q28494",
+      "name": "海因里希·冯·克莱斯特",
+      "latinName": "海因里希·冯·克莱斯特",
+      "category": "剧作家",
+      "work": "The Broken Jug",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E5%9B%A0%E9%87%8C%E5%B8%8C%C2%B7%E5%86%AF%C2%B7%E5%85%8B%E8%8E%B1%E6%96%AF%E7%89%B9"
+    },
+    {
+      "id": "christopher-marlowe",
+      "name": "克里斯托弗·馬洛",
+      "latinName": "Christopher Marlowe",
+      "category": "剧作家",
+      "work": "馬爾他的猶太人",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%85%8B%E9%87%8C%E6%96%AF%E6%89%98%E5%BC%97%C2%B7%E9%A6%AC%E6%B4%9B"
+    },
+    {
+      "id": "pierre-corneille",
+      "name": "皮埃尔·高乃依",
+      "latinName": "Pierre Corneille",
+      "category": "剧作家",
+      "work": "熙德",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%9A%AE%E5%9F%83%E5%B0%94%C2%B7%E9%AB%98%E4%B9%83%E4%BE%9D"
+    },
+    {
+      "id": "cesar-aira",
+      "name": "塞薩·埃拉",
+      "latinName": "César Aira",
+      "category": "剧作家",
+      "work": "How I Became a Nun",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A1%9E%E8%96%A9%C2%B7%E5%9F%83%E6%8B%89"
+    },
+    {
+      "id": "lope-de-vega",
+      "name": "洛佩·德·维加",
+      "latinName": "Lope de Vega",
+      "category": "剧作家",
+      "work": "羊泉村",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B4%9B%E4%BD%A9%C2%B7%E5%BE%B7%C2%B7%E7%BB%B4%E5%8A%A0"
+    },
+    {
+      "id": "euripides",
+      "name": "欧里庇得斯",
+      "latinName": "Euripides",
+      "category": "剧作家",
+      "work": "Herakles' Children",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%AC%A7%E9%87%8C%E5%BA%87%E5%BE%97%E6%96%AF"
+    },
+    {
+      "id": "knut-hamsun",
+      "name": "克努特·汉姆生",
+      "latinName": "Knut Hamsun",
+      "category": "剧作家",
+      "work": "Growth of the Soil",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%85%8B%E5%8A%AA%E7%89%B9%C2%B7%E6%B1%89%E5%A7%86%E7%94%9F"
+    },
+    {
+      "id": "aristophanes",
+      "name": "阿里斯托芬",
+      "latinName": "Aristophanes",
+      "category": "剧作家",
+      "work": "财神",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%98%BF%E9%87%8C%E6%96%AF%E6%89%98%E8%8A%AC"
+    },
+    {
+      "id": "ivan-bunin",
+      "name": "伊凡·阿列克谢耶维奇·蒲宁",
+      "latinName": "Ivan Bunin",
+      "category": "剧作家",
+      "work": "幽暗的林间小径",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E4%B8%87%C2%B7%E8%92%B2%E5%AE%81"
+    },
+    {
+      "id": "plautus",
+      "name": "普劳图斯",
+      "latinName": "Plautus",
+      "category": "剧作家",
+      "work": "凶宅",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%99%AE%E5%8A%B3%E5%9B%BE%E6%96%AF"
+    },
+    {
+      "id": "georges-feydeau",
+      "name": "乔治·费多",
+      "latinName": "Georges Feydeau",
+      "category": "剧作家",
+      "work": "The Lady from Maxim's",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E8%B4%B9%E5%A4%9A"
+    },
+    {
+      "id": "wole-soyinka",
+      "name": "沃莱·索因卡",
+      "latinName": "Wole Soyinka",
+      "category": "剧作家",
+      "work": "Harmattan Haze on an African Spring",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B8%A5%E9%9B%B7%C2%B7%E7%B4%A2%E5%9B%A0%E5%8D%A1"
+    },
+    {
+      "id": "maurice-maeterlinck",
+      "name": "莫里斯·梅特林克",
+      "latinName": "Maurice Maeterlinck",
+      "category": "剧作家",
+      "work": "Interior",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%8E%AB%E9%87%8C%E6%96%AF%C2%B7%E6%A2%85%E7%89%B9%E6%9E%97%E5%85%8B"
+    },
+    {
+      "id": "friedrich-hebbel",
+      "name": "弗里德里希·黑贝尔",
+      "latinName": "Friedrich Hebbel",
+      "category": "剧作家",
+      "work": "Judith",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%BC%97%E9%87%8C%E5%BE%B7%E9%87%8C%E5%B8%8C%C2%B7%E9%BB%91%E8%B4%9D%E5%B0%94"
+    },
+    {
+      "id": "august-von-kotzebue",
+      "name": "奥古斯特·冯·科策布",
+      "latinName": "August von Kotzebue",
+      "category": "剧作家",
+      "work": "Menschenhass und Reue",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%8F%A4%E6%96%AF%E7%89%B9%C2%B7%E5%86%AF%C2%B7%E7%A7%91%E7%AD%96%E5%B8%83"
+    },
+    {
+      "id": "jan-kochanowski",
+      "name": "揚·科哈諾夫斯基",
+      "latinName": "Jan Kochanowski",
+      "category": "剧作家",
+      "work": "Chess",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%8F%9A%C2%B7%E7%A7%91%E5%93%88%E8%AB%BE%E5%A4%AB%E6%96%AF%E5%9F%BA"
+    },
+    {
+      "id": "melissus-of-samos",
+      "name": "麦里梭",
+      "latinName": "Melissus of Samos",
+      "category": "哲学家",
+      "work": "fragments",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%BA%A6%E9%87%8C%E6%A2%AD"
+    },
+    {
+      "id": "nizami-ganjavi",
+      "name": "尼扎米",
+      "latinName": "Nizami Ganjavi",
+      "category": "哲学家",
+      "work": "Khamsa",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B0%BC%E6%89%8E%E7%B1%B3"
+    },
+    {
+      "id": "tulsidas",
+      "name": "杜勒西达斯",
+      "latinName": "Tulsidas",
+      "category": "哲学家",
+      "work": "哈努曼四十颂",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9D%9C%E5%8B%92%E8%A5%BF%E8%BE%BE%E6%96%AF"
+    },
+    {
+      "id": "bonaventure",
+      "name": "圣文德",
+      "latinName": "Bonaventure",
+      "category": "哲学家",
+      "work": "Itinerarium mentis in Deum",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%81%96%E6%96%87%E5%BE%B7"
+    },
+    {
+      "id": "aesop",
+      "name": "伊索",
+      "latinName": "Aesop",
+      "category": "哲学家",
+      "work": "伊索寓言",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E7%B4%A2"
+    },
+    {
+      "id": "attar-of-nishapur",
+      "name": "内沙布尔的阿塔",
+      "latinName": "Attar of Nishapur",
+      "category": "哲学家",
+      "work": "Tazkirat al-Awliya",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%86%85%E6%B2%99%E5%B8%83%E5%B0%94%E7%9A%84%E9%98%BF%E5%A1%94"
+    },
+    {
+      "id": "giovanni-battista-riccioli",
+      "name": "乔万尼·巴蒂斯塔·里乔利",
+      "latinName": "Giovanni Battista Riccioli",
+      "category": "哲学家",
+      "work": "Almagestum Novum",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%B9%94%E7%93%A6%E5%B0%BC%C2%B7%E5%B7%B4%E8%92%82%E6%96%AF%E5%A1%94%C2%B7%E9%87%8C%E4%B9%94%E5%88%A9"
+    },
+    {
+      "id": "christopher-paolini",
+      "name": "克里斯托弗·鲍里尼",
+      "latinName": "Christopher Paolini",
+      "category": "小说家",
+      "work": "长老",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%85%8B%E9%87%8C%E6%96%AF%E6%89%98%E5%BC%97%C2%B7%E9%B2%8D%E9%87%8C%E5%B0%BC"
+    },
+    {
+      "id": "veronica-roth",
+      "name": "韦罗妮卡·罗思",
+      "latinName": "Veronica Roth",
+      "category": "小说家",
+      "work": "分歧者",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%9F%A6%E7%BD%97%E5%A6%AE%E5%8D%A1%C2%B7%E7%BD%97%E6%80%9D"
+    },
+    {
+      "id": "michel-tournier",
+      "name": "米歇尔·图尼埃",
+      "latinName": "Michel Tournier",
+      "category": "文学家",
+      "work": "The Erl-King",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%B1%B3%E6%AD%87%E5%B0%94%C2%B7%E5%9B%BE%E5%B0%BC%E5%9F%83"
+    },
+    {
+      "id": "pam-munoz-ryan",
+      "name": "帕姆·穆尼奥斯·瑞恩",
+      "latinName": "Pam Muñoz Ryan",
+      "category": "文学家",
+      "work": "Esperanza Rising",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B8%95%E5%A7%86%C2%B7%E7%A9%86%E5%B0%BC%E5%A5%A5%E6%96%AF%C2%B7%E7%91%9E%E6%81%A9"
+    },
+    {
+      "id": "edith-nesbit",
+      "name": "伊迪絲·內斯比特",
+      "latinName": "Edith Nesbit",
+      "category": "文学家",
+      "work": "鐵路邊的孩子們",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/E%C2%B7%E5%85%A7%E6%96%AF%E6%AF%94%E7%89%B9"
+    },
+    {
+      "id": "queen-rania-of-jordan",
+      "name": "拉尼娅·亚辛",
+      "latinName": "Queen Rania of Jordan",
+      "category": "文学家",
+      "work": "Q42332173",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%8B%89%E5%B0%BC%E5%A9%AD%E7%8E%8B%E5%90%8E"
+    },
+    {
+      "id": "bozena-nemcova",
+      "name": "鲍日娜·聂姆曹娃",
+      "latinName": "Božena Němcová",
+      "category": "文学家",
+      "work": "Wild Bára",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%B2%8D%E6%97%A5%E5%A8%9C%C2%B7%E8%81%82%E5%A7%86%E6%9B%B9%E5%A8%83"
+    },
+    {
+      "id": "michio-mado",
+      "name": "窓道雄",
+      "latinName": "Michio Mado",
+      "category": "文学家",
+      "work": "大象",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%AA%97%C2%B7%E9%81%93%E9%9B%84"
+    },
+    {
+      "id": "ion-creanga",
+      "name": "揚·克良格",
+      "latinName": "Ion Creangă",
+      "category": "文学家",
+      "work": "Q20054879",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%8F%9A%C2%B7%E5%85%8B%E8%89%AF%E6%A0%BC"
+    },
+    {
+      "id": "ken-kesey",
+      "name": "肯·克西",
+      "latinName": "Ken Kesey",
+      "category": "文学家",
+      "work": "飛越杜鵑窩",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%82%AF%C2%B7%E5%85%8B%E8%A5%BF"
+    },
+    {
+      "id": "louisa-may-alcott",
+      "name": "露意莎·梅·奧爾柯特",
+      "latinName": "Louisa May Alcott",
+      "category": "文学家",
+      "work": "The Brownie and the Princess",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%9C%B2%E6%84%8F%E8%8E%8E%C2%B7%E6%A2%85%C2%B7%E5%A5%A7%E7%88%BE%E6%9F%AF%E7%89%B9"
+    },
+    {
+      "id": "eoin-colfer",
+      "name": "埃因·科爾弗",
+      "latinName": "Eoin Colfer",
+      "category": "文学家",
+      "work": "The Supernaturalist",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%89%BE%E6%AC%A7%E5%9B%A0%C2%B7%E5%AF%87%E5%BC%97"
+    },
+    {
+      "id": "elizabeth-goudge",
+      "name": "依麗莎白·顧姬",
+      "latinName": "Elizabeth Goudge",
+      "category": "文学家",
+      "work": "The Little White Horse",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BE%9D%E9%BA%97%E8%8E%8E%E7%99%BD%C2%B7%E9%A1%A7%E5%A7%AC"
+    },
+    {
+      "id": "naoko-takeuchi",
+      "name": "武內直子",
+      "latinName": "Naoko Takeuchi",
+      "category": "文学家",
+      "work": "美少女戰士",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%AD%A6%E5%86%85%E7%9B%B4%E5%AD%90"
+    },
+    {
+      "id": "johanna-spyri",
+      "name": "約翰娜·施皮里",
+      "latinName": "Johanna Spyri",
+      "category": "文学家",
+      "work": "海蒂",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%B4%84%E7%BF%B0%E5%A8%9C%C2%B7%E6%96%BD%E7%9A%AE%E9%87%8C"
+    },
+    {
+      "id": "charles-perrault",
+      "name": "夏尔·佩罗",
+      "latinName": "Charles Perrault",
+      "category": "文学家",
+      "work": "鹅妈妈的故事",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A4%8F%E5%B0%94%C2%B7%E4%BD%A9%E7%BD%97"
+    },
+    {
+      "id": "nina-bawden",
+      "name": "妮娜·包登",
+      "latinName": "Nina Bawden",
+      "category": "文学家",
+      "work": "Carrie's War",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%A8%9C%C2%B7%E9%B2%8D%E7%99%BB"
+    },
+    {
+      "id": "lina-kostenko",
+      "name": "利娜·科斯坚科",
+      "latinName": "Lina Kostenko",
+      "category": "文学家",
+      "work": "Q55594566",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%8E%89%E5%A8%9C%C2%B7%E7%A7%91%E6%96%AF%E6%BB%95%E7%A7%91"
+    },
+    {
+      "id": "wilhelm-grimm",
+      "name": "威廉·格林",
+      "latinName": "Wilhelm Grimm",
+      "category": "文学家",
+      "work": "格林童話",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%C2%B7%E6%A0%BC%E6%9E%97"
+    },
+    {
+      "id": "kenji-miyazawa",
+      "name": "宮澤賢治",
+      "latinName": "Kenji Miyazawa",
+      "category": "文学家",
+      "work": "Q11567194",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%AE%AE%E6%BE%A4%E8%B3%A2%E6%B2%BB"
+    },
+    {
+      "id": "anna-laetitia-barbauld",
+      "name": "安娜·拉埃蒂茨娅·巴鲍德",
+      "latinName": "Anna Laetitia Barbauld",
+      "category": "文学家",
+      "work": "Poems",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%A8%9C%C2%B7%E6%8B%89%E5%9F%83%E8%92%82%E8%8C%A8%E5%A8%85%C2%B7%E5%B7%B4%E9%B2%8D%E5%BE%B7"
+    },
+    {
+      "id": "frances-hodgson-burnett",
+      "name": "法蘭西絲·霍森·柏納特",
+      "latinName": "Frances Hodgson Burnett",
+      "category": "文学家",
+      "work": "Racketty-Packetty House",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B3%95%E8%98%AD%E8%A5%BF%E7%B5%B2%C2%B7%E9%9C%8D%E6%A3%AE%C2%B7%E6%9F%8F%E7%B4%8D%E7%89%B9"
+    },
+    {
+      "id": "markus-zusak",
+      "name": "马库斯·祖萨克",
+      "latinName": "Markus Zusak",
+      "category": "文学家",
+      "work": "The Messenger",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E5%85%8B%E6%96%AF%C2%B7%E7%A5%96%E8%96%A9%E5%85%8B"
+    },
+    {
+      "id": "anne-sexton",
+      "name": "安妮·塞克斯顿",
+      "latinName": "Anne Sexton",
+      "category": "文学家",
+      "work": "Live or Die",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%A6%AE%C2%B7%E5%A1%9E%E5%85%8B%E6%96%AF%E9%A1%BF"
+    },
+    {
+      "id": "wilhelm-hauff",
+      "name": "威廉·豪夫",
+      "latinName": "Wilhelm Hauff",
+      "category": "文学家",
+      "work": "The Story of Caliph Stork",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%C2%B7%E8%B1%AA%E5%A4%AB"
+    },
+    {
+      "id": "lloyd-alexander",
+      "name": "洛伊·亞歷山大",
+      "latinName": "Lloyd Alexander",
+      "category": "文学家",
+      "work": "Westmark",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B4%9B%E4%BC%8A%C2%B7%E4%BA%9E%E6%AD%B7%E5%B1%B1%E5%A4%A7"
+    },
+    {
+      "id": "antoine-galland",
+      "name": "安托万·加朗",
+      "latinName": "Antoine Galland",
+      "category": "文学家",
+      "work": "一千零一夜",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%AE%89%E6%89%98%E4%B8%87%C2%B7%E5%8A%A0%E6%9C%97"
+    },
+    {
+      "id": "darren-o-shaughnessy",
+      "name": "向達倫",
+      "latinName": "Darren O'Shaughnessy",
+      "category": "文学家",
+      "work": "The City trilogy",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%90%91%E9%81%94%E5%80%AB"
+    },
+    {
+      "id": "judy-blume",
+      "name": "朱迪·布鲁姆",
+      "latinName": "Judy Blume",
+      "category": "文学家",
+      "work": "Double Fudge",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9C%B1%E8%BF%AA%C2%B7%E5%B8%83%E9%B2%81%E5%A7%86"
+    },
+    {
+      "id": "david-starr-jordan",
+      "name": "大衛·斯塔爾·佐敦",
+      "latinName": "David Starr Jordan",
+      "category": "文学家",
+      "work": "A classification of fishes: including families and genera as far as known",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%8D%AB%C2%B7%E6%96%AF%E5%A1%94%E5%B0%94%C2%B7%E4%B9%94%E4%B8%B9"
+    },
+    {
+      "id": "lydia-chukovskaya",
+      "name": "利季娅·科尔涅耶夫娜·楚科夫斯卡娅",
+      "latinName": "Lydia Chukovskaya",
+      "category": "文学家",
+      "work": "Q3963932",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%88%A9%E5%AD%A3%E5%A9%AD%C2%B7%E6%A5%9A%E7%A7%91%E5%A4%AB%E6%96%AF%E5%8D%A1%E5%A9%AD"
+    },
+    {
+      "id": "james-herriot",
+      "name": "詹姆士·赫利奧特",
+      "latinName": "James Herriot",
+      "category": "文学家",
+      "work": "All Creatures Great and Small",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%90%89%E7%B1%B3%C2%B7%E5%93%88%E5%88%A9"
+    },
+    {
+      "id": "roger-hargreaves",
+      "name": "罗杰·哈格里夫斯",
+      "latinName": "Roger Hargreaves",
+      "category": "文学家",
+      "work": "奇先生妙小姐",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BD%97%E6%9D%B0%C2%B7%E5%93%88%E6%A0%BC%E9%87%8C%E5%A4%AB%E6%96%AF"
+    },
+    {
+      "id": "kristin-cashore",
+      "name": "克莉絲汀·卡修",
+      "latinName": "Kristin Cashore",
+      "category": "文学家",
+      "work": "Graceling",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%85%8B%E8%8E%89%E7%B5%B2%E6%B1%80%C2%B7%E5%8D%A1%E4%BF%AE"
+    },
+    {
+      "id": "ludovico-ariosto",
+      "name": "阿里奥斯托",
+      "latinName": "Ludovico Ariosto",
+      "category": "剧作家",
+      "work": "瘋狂奧蘭多",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%98%BF%E9%87%8C%E5%A5%A5%E6%96%AF%E6%89%98"
+    },
+    {
+      "id": "elizabeth-bishop",
+      "name": "伊丽莎白·毕晓普",
+      "latinName": "Elizabeth Bishop",
+      "category": "文学家",
+      "work": "One Art",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E4%B8%BD%E8%8E%8E%E7%99%BD%C2%B7%E6%AF%95%E6%99%93%E6%99%AE"
+    },
+    {
+      "id": "flannery-o-connor",
+      "name": "芙蘭納莉·歐康納",
+      "latinName": "Flannery O'Connor",
+      "category": "文学家",
+      "work": "Wise Blood",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%8A%99%E8%98%AD%E7%B4%8D%E8%8E%89%C2%B7%E6%AD%90%E5%BA%B7%E7%B4%8D"
+    },
+    {
+      "id": "paul-celan",
+      "name": "保罗·策兰",
+      "latinName": "Paul Celan",
+      "category": "文学家",
+      "work": "语言栅栏",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BF%9D%E7%BD%97%C2%B7%E7%AD%96%E5%85%B0"
+    },
+    {
+      "id": "andre-breton",
+      "name": "安德烈·布勒東",
+      "latinName": "André Breton",
+      "category": "文学家",
+      "work": "Second Surrealist Manifesto",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%BE%B7%E7%83%88%C2%B7%E5%B8%83%E5%8B%92%E6%9D%B1"
+    },
+    {
+      "id": "annie-dillard",
+      "name": "安妮·迪拉德",
+      "latinName": "Annie Dillard",
+      "category": "文学家",
+      "work": "汀克溪的朝圣者",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%A6%AE%C2%B7%E8%BF%AA%E6%8B%89%E5%BE%B7"
+    },
+    {
+      "id": "oliver-goldsmith",
+      "name": "奧立佛·高德史密斯",
+      "latinName": "Oliver Goldsmith",
+      "category": "文学家",
+      "work": "威克菲德的牧師",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A5%A7%E7%AB%8B%E4%BD%9B%C2%B7%E9%AB%98%E5%BE%B7%E5%8F%B2%E5%AF%86%E6%96%AF"
+    },
+    {
+      "id": "paul-hazard",
+      "name": "保罗·阿扎尔",
+      "latinName": "Paul Hazard",
+      "category": "文学家",
+      "work": "Leopardi",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BF%9D%E7%BD%97%C2%B7%E9%98%BF%E6%89%8E%E5%B0%94"
+    },
+    {
+      "id": "saeko-himuro",
+      "name": "氷室冴子",
+      "latinName": "Saeko Himuro",
+      "category": "文学家",
+      "work": "海潮之声",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%86%B0%E5%AE%A4%E5%86%B4%E5%AD%90"
+    },
+    {
+      "id": "paul-claudel",
+      "name": "保羅·克洛岱爾",
+      "latinName": "Paul Claudel",
+      "category": "文学家",
+      "work": "The Story of Tobie and Sara",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BF%9D%E7%BE%85%C2%B7%E5%85%8B%E6%B4%9B%E5%B2%B1%E7%88%BE"
+    },
+    {
+      "id": "michel-onfray",
+      "name": "米歇尔·翁弗雷",
+      "latinName": "Michel Onfray",
+      "category": "文学家",
+      "work": "無神論宣言：一個反對基督教，猶太教，和伊斯蘭教的案例",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%B1%B3%E6%AD%87%E5%B0%94%C2%B7%E7%BF%81%E5%BC%97%E9%9B%B7"
+    },
+    {
+      "id": "kamo-no-chomei",
+      "name": "鴨長明",
+      "latinName": "Kamo no Chōmei",
+      "category": "文学家",
+      "work": "Hosshinshū",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%B4%A8%E9%95%B7%E6%98%8E"
+    },
+    {
+      "id": "akiko-yosano",
+      "name": "与謝野晶子",
+      "latinName": "Akiko Yosano",
+      "category": "文学家",
+      "work": "亂髮",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%88%87%E8%AC%9D%E9%87%8E%E6%99%B6%E5%AD%90"
+    },
+    {
+      "id": "jamaica-kincaid",
+      "name": "牙買加·金凱德",
+      "latinName": "Jamaica Kincaid",
+      "category": "文学家",
+      "work": "Lucy",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%89%99%E8%B2%B7%E5%8A%A0%C2%B7%E9%87%91%E5%87%B1%E5%BE%B7"
+    },
+    {
+      "id": "francois-cheng",
+      "name": "程抱一",
+      "latinName": "François Cheng",
+      "category": "文学家",
+      "work": "天一言",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%A8%8B%E6%8A%B1%E4%B8%80"
+    },
+    {
+      "id": "li-qingzhao",
+      "name": "李清照",
+      "latinName": "Li Qingzhao",
+      "category": "文学家",
+      "work": "如夢令",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%B8%85%E7%85%A7"
+    },
+    {
+      "id": "kanzo-uchimura",
+      "name": "內村艦三",
+      "latinName": "Kanzō Uchimura",
+      "category": "文学家",
+      "work": "How I Became a Christian",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%85%A7%E6%9D%91%E9%91%91%E4%B8%89"
+    },
+    {
+      "id": "david-foster-wallace",
+      "name": "大卫·福斯特·华莱士",
+      "latinName": "David Foster Wallace",
+      "category": "文学家",
+      "work": "The Broom of the System",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%8D%AB%C2%B7%E7%A6%8F%E6%96%AF%E7%89%B9%C2%B7%E5%8D%8E%E8%8E%B1%E5%A3%AB"
+    },
+    {
+      "id": "soji-shimada",
+      "name": "島田荘司",
+      "latinName": "Soji Shimada",
+      "category": "文学家",
+      "work": "占星術殺人事件",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B3%B6%E7%94%B0%E8%8E%8A%E5%8F%B8"
+    },
+    {
+      "id": "simon-leys",
+      "name": "李克曼",
+      "latinName": "Simon Leys",
+      "category": "文学家",
+      "work": "Notes from the Hall of Uselessness",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%85%8B%E6%9B%BC"
+    },
+    {
+      "id": "jonathan-franzen",
+      "name": "強納森·法蘭森",
+      "latinName": "Jonathan Franzen",
+      "category": "文学家",
+      "work": "自由",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%B9%94%E7%BA%B3%E6%A3%AE%C2%B7%E5%BC%97%E5%85%B0%E5%B2%91"
+    },
+    {
+      "id": "tzvetan-todorov",
+      "name": "茨維坦·托多洛夫",
+      "latinName": "Tzvetan Todorov",
+      "category": "文学家",
+      "work": "The Fantastic: A Structural Approach to a Literary Genre",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%8C%A8%E7%B6%AD%E5%9D%A6%C2%B7%E6%89%98%E5%A4%9A%E6%B4%9B%E5%A4%AB"
+    },
+    {
+      "id": "thomas-wolfe",
+      "name": "湯瑪斯·沃爾夫",
+      "latinName": "Thomas Wolfe",
+      "category": "文学家",
+      "work": "天使望鄉",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E7%91%AA%E6%96%AF%C2%B7%E4%BC%8D%E7%88%BE%E5%A4%AB"
+    },
+    {
+      "id": "hiraga-gennai",
+      "name": "平賀源內",
+      "latinName": "Hiraga Gennai",
+      "category": "文学家",
+      "work": "Butsurui Hinshitsu",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B9%B3%E8%B3%80%E6%BA%90%E5%85%A7"
+    },
+    {
+      "id": "hiroshi-mori",
+      "name": "森博嗣",
+      "latinName": "Hiroshi Mori",
+      "category": "文学家",
+      "work": "全部成為F",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%A3%AE%E5%8D%9A%E5%97%A3"
+    },
+    {
+      "id": "pramoedya-ananta-toer",
+      "name": "普拉姆迪亞·阿南達·杜爾",
+      "latinName": "Pramoedya Ananta Toer",
+      "category": "文学家",
+      "work": "Buru Quartet",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%99%AE%E6%8B%89%E5%A7%86%E8%BF%AA%E4%BA%9E%C2%B7%E9%98%BF%E5%8D%97%E9%81%94%C2%B7%E6%9D%9C%E7%88%BE"
+    },
+    {
+      "id": "boualem-sansal",
+      "name": "布瓦連·桑薩",
+      "latinName": "Boualem Sansal",
+      "category": "文学家",
+      "work": "The German Mujahid",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B8%83%E7%93%A6%E9%80%A3%C2%B7%E6%A1%91%E8%96%A9"
+    },
+    {
+      "id": "tony-judt",
+      "name": "托尼·朱特",
+      "latinName": "Tony Judt",
+      "category": "文学家",
+      "work": "Reappraisals: Reflections on the Forgotten Twentieth Century",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%89%98%E5%B0%BC%C2%B7%E6%9C%B1%E7%89%B9"
+    },
+    {
+      "id": "moses-mendelssohn",
+      "name": "摩西·门德尔松",
+      "latinName": "Moses Mendelssohn",
+      "category": "文学家",
+      "work": "Jerusalem",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%91%A9%E8%A5%BF%C2%B7%E9%97%A8%E5%BE%B7%E5%B0%94%E6%9D%BE"
+    },
+    {
+      "id": "bede",
+      "name": "比德",
+      "latinName": "Bede",
+      "category": "文学家",
+      "work": "Martyrologium",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%AF%94%E5%BE%B7"
+    },
+    {
+      "id": "joseph-derenbourg",
+      "name": "約瑟夫·德倫堡",
+      "latinName": "Joseph Derenbourg",
+      "category": "文学家",
+      "work": "Seder Ṭohorot / ...ʻim perush Mosheh ben Maimon be-lashon ʻArvi... ; me-ʻArvi le-ʻIvri ʻal yede Naftali Yosef Dirinburg",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%B4%84%E7%91%9F%E5%A4%AB%C2%B7%E5%BE%B7%E5%80%AB%E5%A0%A1"
+    },
+    {
+      "id": "hanna-johansen",
+      "name": "汉娜·约翰森",
+      "latinName": "Hanna Johansen",
+      "category": "文学家",
+      "work": "7×7 Tales of a Sevensleeper",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B1%89%E5%A8%9C%C2%B7%E7%BA%A6%E7%BF%B0%E6%A3%AE"
+    },
+    {
+      "id": "friedrich-schleiermacher",
+      "name": "弗里德里希·施萊爾馬赫",
+      "latinName": "Friedrich Schleiermacher",
+      "category": "文学家",
+      "work": "Christian Faith",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%BC%97%E9%87%8C%E5%BE%B7%E9%87%8C%E5%B8%8C%C2%B7%E6%96%BD%E8%90%8A%E7%88%BE%E9%A6%AC%E8%B5%AB"
+    },
+    {
+      "id": "johannes-scotus-eriugena",
+      "name": "裘安纳·斯哥德·艾儒吉纳",
+      "latinName": "Johannes Scotus Eriugena",
+      "category": "文学家",
+      "work": "Annotationes in Marcianum",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%B4%84%E7%BF%B0%E5%85%A7%E6%96%AF%C2%B7%E5%8F%B8%E5%90%84%E7%89%B9%C2%B7%E6%84%9B%E7%95%99%E6%A0%B9%E7%B4%8D"
+    },
+    {
+      "id": "richard-hakluyt",
+      "name": "理查德·哈克卢伊特",
+      "latinName": "Richard Hakluyt",
+      "category": "文学家",
+      "work": "Principal Navigations",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%90%86%E6%9F%A5%E5%BE%B7%C2%B7%E5%93%88%E5%85%8B%E5%8D%A2%E4%BC%8A%E7%89%B9"
+    },
+    {
+      "id": "kate-chopin",
+      "name": "凱特·蕭邦",
+      "latinName": "Kate Chopin",
+      "category": "文学家",
+      "work": "At the Cadian Ball",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%87%B1%E7%89%B9%C2%B7%E8%95%AD%E9%82%A6"
+    },
+    {
+      "id": "aphra-behn",
+      "name": "阿芙拉·贝恩",
+      "latinName": "Aphra Behn",
+      "category": "文学家",
+      "work": "Agnes de Castro, or, the Force of Generous Love",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%98%BF%E8%8A%99%E6%8B%89%C2%B7%E8%B2%9D%E6%81%A9"
+    },
+    {
+      "id": "giorgos-seferis",
+      "name": "喬治·塞菲里斯",
+      "latinName": "Giorgos Seferis",
+      "category": "文学家",
+      "work": "Q15113534",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%96%AC%E6%B2%BB%C2%B7%E5%A1%9E%E8%8F%B2%E9%87%8C%E6%96%AF"
+    },
+    {
+      "id": "d-t-suzuki",
+      "name": "鈴木大拙",
+      "latinName": "D. T. Suzuki",
+      "category": "文学家",
+      "work": "大乘起信论",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%88%B4%E6%9C%A8%E5%A4%A7%E6%8B%99"
+    },
+    {
+      "id": "wis-awa-szymborska",
+      "name": "维斯瓦娃·辛波斯卡",
+      "latinName": "Wisława Szymborska",
+      "category": "文学家",
+      "work": "Cat in an Empty Apartment",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%B6%AD%E6%96%AF%E7%93%A6%E5%A8%83%C2%B7%E8%BE%9B%E6%B3%A2%E7%B5%B2%E5%8D%A1"
+    },
+    {
+      "id": "giacomo-leopardi",
+      "name": "贾科莫·莱奥帕尔迪",
+      "latinName": "Giacomo Leopardi",
+      "category": "学者",
+      "work": "Q3730665",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%B4%BE%E7%A7%91%E8%8E%AB%C2%B7%E8%8E%B1%E5%A5%A5%E5%B8%95%E5%B0%94%E8%BF%AA"
+    },
+    {
+      "id": "max-horkheimer",
+      "name": "麥克斯·霍克海默",
+      "latinName": "Max Horkheimer",
+      "category": "学者",
+      "work": "Gesammelte Schriften",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%BA%A5%E5%85%8B%E6%96%AF%C2%B7%E9%9C%8D%E5%85%8B%E6%B5%B7%E9%BB%98"
+    },
+    {
+      "id": "fernando-pessoa",
+      "name": "費爾南多·佩索亞",
+      "latinName": "Fernando Pessoa",
+      "category": "学者",
+      "work": "惶然錄",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%B2%BB%E7%88%BE%E5%8D%97%E5%A4%9A%C2%B7%E4%BD%A9%E7%B4%A2%E9%98%BF"
+    },
+    {
+      "id": "rene-girard",
+      "name": "勒內·吉拉爾",
+      "latinName": "René Girard",
+      "category": "学者",
+      "work": "Violence and the Sacred",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%8B%92%E5%85%A7%C2%B7%E5%90%89%E6%8B%89%E7%88%BE"
+    },
+    {
+      "id": "karlheinz-deschner",
+      "name": "卡爾海因茨·德施納",
+      "latinName": "Karlheinz Deschner",
+      "category": "学者",
+      "work": "基督教犯罪史",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E7%88%BE%E6%B5%B7%E5%9B%A0%E8%8C%A8%C2%B7%E5%BE%B7%E6%96%BD%E7%B4%8D"
+    },
+    {
+      "id": "guillaume-apollinaire",
+      "name": "纪尧姆·阿波利奈尔",
+      "latinName": "Guillaume Apollinaire",
+      "category": "学者",
+      "work": "醇酒集",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BA%AA%E5%B0%A7%E5%A7%86%C2%B7%E9%98%BF%E6%B3%A2%E5%88%A9%E5%A5%88%E5%B0%94"
+    },
+    {
+      "id": "gaito-gazdanov",
+      "name": "加伊多·加兹达诺夫",
+      "latinName": "Gaito Gazdanov",
+      "category": "学者",
+      "work": "The Specter of Alexander Wolf",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E4%BC%8A%E5%A4%9A%C2%B7%E5%8A%A0%E5%85%B9%E8%BE%BE%E8%AF%BA%E5%A4%AB"
+    },
+    {
+      "id": "raymond-williams",
+      "name": "雷蒙·威廉斯",
+      "latinName": "Raymond Williams",
+      "category": "学者",
+      "work": "Mobile privatization",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%9B%B7%E8%92%99%E5%BE%B7%C2%B7%E5%A8%81%E5%BB%89%E6%96%AF"
+    },
+    {
+      "id": "emmanuel-todd",
+      "name": "埃马纽埃尔·托德",
+      "latinName": "Emmanuel Todd",
+      "category": "学者",
+      "work": "L'Invention de l'Europe",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%9F%83%E9%A9%AC%E7%BA%BD%E5%9F%83%E5%B0%94%C2%B7%E6%89%98%E5%BE%B7"
+    },
+    {
+      "id": "edmond-jaloux",
+      "name": "埃德蒙·雅卢",
+      "latinName": "Edmond Jaloux",
+      "category": "学者",
+      "work": "Q3228520",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%9F%83%E5%BE%B7%E8%92%99%C2%B7%E9%9B%85%E5%8D%A2"
+    },
+    {
+      "id": "altaf-hussain-hali",
+      "name": "阿尔塔夫·侯赛因·哈利",
+      "latinName": "Altaf Hussain Hali",
+      "category": "学者",
+      "work": "Hayat-i-Javed",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%B0%94%E5%A1%94%E5%A4%AB%C2%B7%E4%BE%AF%E8%B5%9B%E5%9B%A0%C2%B7%E5%93%88%E5%88%A9"
+    },
+    {
+      "id": "james-thomas-farrell",
+      "name": "詹姆斯·T·法雷爾",
+      "latinName": "James Thomas Farrell",
+      "category": "学者",
+      "work": "斯塔茲朗尼根三部曲",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%A9%B9%E5%A7%86%E6%96%AF%C2%B7T%C2%B7%E6%B3%95%E9%9B%B7%E7%88%BE"
+    },
+    {
+      "id": "georgy-ivanov",
+      "name": "弗拉基米罗维奇·伊万诺夫",
+      "latinName": "Georgy Ivanov",
+      "category": "学者",
+      "work": "Disintegration of the Atom",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E5%A5%A5%E5%B0%94%E5%9F%BA%C2%B7%E5%BC%97%E6%8B%89%E5%9F%BA%E7%B1%B3%E7%BD%97%E7%BB%B4%E5%A5%87%C2%B7%E4%BC%8A%E4%B8%87%E8%AF%BA%E5%A4%AB"
+    },
+    {
+      "id": "luis-cernuda",
+      "name": "路易斯·塞努达",
+      "latinName": "Luis Cernuda",
+      "category": "学者",
+      "work": "Donde habite el olvido",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%B7%AF%E6%98%93%E6%96%AF%C2%B7%E5%A1%9E%E5%8A%AA%E8%BE%BE"
+    },
+    {
+      "id": "james-beattie",
+      "name": "詹姆斯·比蒂",
+      "latinName": "James Beattie",
+      "category": "学者",
+      "work": "The Minstrel",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%A9%B9%E5%A7%86%E6%96%AF%C2%B7%E6%AF%94%E8%92%82_(%E8%AF%97%E4%BA%BA)"
+    },
+    {
+      "id": "charles-lamb",
+      "name": "查爾斯·蘭姆",
+      "latinName": "Charles Lamb",
+      "category": "学者",
+      "work": "Hamlet, Prince of Denmark",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9F%A5%E7%88%BE%E6%96%AF%C2%B7%E8%98%AD%E5%A7%86"
+    },
+    {
+      "id": "yu-jie",
+      "name": "余杰",
+      "latinName": "Yu Jie",
+      "category": "学者",
+      "work": "中国影帝温家宝",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BD%99%E6%9D%B0"
+    },
+    {
+      "id": "francois-de-malherbe",
+      "name": "弗朗索瓦·德·马莱伯",
+      "latinName": "François de Malherbe",
+      "category": "学者",
+      "work": "Consolation à M. du Perrier sur la mort de sa fille",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9C%97%E7%B4%A2%E7%93%A6%C2%B7%E5%BE%B7%C2%B7%E9%A9%AC%E8%8E%B1%E4%BC%AF"
+    },
+    {
+      "id": "mori-ogai",
+      "name": "森鷗外",
+      "latinName": "Mori Ōgai",
+      "category": "学者",
+      "work": "municipal anthem of Hamamatsu",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%A3%AE%E9%B7%97%E5%A4%96"
+    },
+    {
+      "id": "jacques-pierre-amette",
+      "name": "雅克-皮埃尔·阿梅特",
+      "latinName": "Jacques-Pierre Amette",
+      "category": "学者",
+      "work": "Brecht's Mistress",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%9B%85%E5%85%8B-%E7%9A%AE%E5%9F%83%E5%B0%94%C2%B7%E9%98%BF%E6%A2%85%E7%89%B9"
+    },
+    {
+      "id": "donna-tartt",
+      "name": "唐娜·塔特",
+      "latinName": "Donna Tartt",
+      "category": "学者",
+      "work": "金翅雀",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%94%90%E5%A8%9C%C2%B7%E5%A1%94%E7%89%B9"
+    },
+    {
+      "id": "joris-karl-huysmans",
+      "name": "若利斯-卡尔·于斯曼",
+      "latinName": "Joris-Karl Huysmans",
+      "category": "学者",
+      "work": "À rebours",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%8B%A5%E5%88%A9%E6%96%AF-%E5%8D%A1%E5%B0%94%C2%B7%E4%BA%8E%E6%96%AF%E6%9B%BC"
+    },
+    {
+      "id": "osip-mandelstam",
+      "name": "奥西普·曼德尔施塔姆",
+      "latinName": "Osip Mandelstam",
+      "category": "学者",
+      "work": "Stone",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E8%A5%BF%E6%99%AE%C2%B7%E6%9B%BC%E5%BE%B7%E5%B0%94%E6%96%BD%E5%A1%94%E5%A7%86"
+    },
+    {
+      "id": "mikhail-bakhtin",
+      "name": "米哈伊尔·巴赫汀",
+      "latinName": "Mikhail Bakhtin",
+      "category": "学者",
+      "work": "複述寫作法",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%B1%B3%E5%93%88%E4%BC%8A%E5%B0%94%C2%B7%E7%B1%B3%E5%93%88%E4%BC%8A%E6%B4%9B%E7%BB%B4%E5%A5%87%C2%B7%E5%B7%B4%E8%B5%AB%E4%BA%AC"
+    },
+    {
+      "id": "frederik-van-eeden",
+      "name": "霭覃",
+      "latinName": "Frederik van Eeden",
+      "category": "学者",
+      "work": "Flora Batava, Netherlands",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%94%BC%E8%A6%83"
+    },
+    {
+      "id": "eudora-welty",
+      "name": "尤多拉·韋爾蒂",
+      "latinName": "Eudora Welty",
+      "category": "学者",
+      "work": "A Curtain of Green",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B0%A4%E5%A4%9A%E6%8B%89%C2%B7%E9%9F%A6%E5%B0%94%E8%92%82"
+    },
+    {
+      "id": "maria-konopnicka",
+      "name": "瑪麗亞·科諾普尼茨卡",
+      "latinName": "Maria Konopnicka",
+      "category": "学者",
+      "work": "Mendel Gdański",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%91%AA%E9%BA%97%E4%BA%9E%C2%B7%E7%A7%91%E8%AB%BE%E6%99%AE%E5%B0%BC%E8%8C%A8%E5%8D%A1"
+    },
+    {
+      "id": "john-dryden",
+      "name": "约翰·德莱顿",
+      "latinName": "John Dryden",
+      "category": "学者",
+      "work": "The Wild Gallant",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%BF%B0%C2%B7%E5%BE%B7%E8%8E%B1%E9%A1%BF"
+    },
+    {
+      "id": "sulpicius-severus",
+      "name": "蘇爾皮基烏斯·塞維魯斯",
+      "latinName": "Sulpicius Severus",
+      "category": "学者",
+      "work": "Vita S. Martini",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%98%87%E7%88%BE%E7%9A%AE%E5%9F%BA%E7%83%8F%E6%96%AF%C2%B7%E5%A1%9E%E7%B6%AD%E9%AD%AF%E6%96%AF"
+    },
+    {
+      "id": "cornelius-nepos",
+      "name": "康涅利乌斯·尼波斯",
+      "latinName": "Cornelius Nepos",
+      "category": "学者",
+      "work": "De viris illustribus",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%A7%91%E7%88%BE%E5%A5%88%E5%88%A9%E7%83%8F%E6%96%AF%C2%B7%E5%A5%88%E6%B3%A2%E6%96%AF"
+    },
+    {
+      "id": "saxo-grammaticus",
+      "name": "萨克索·格拉玛提库斯",
+      "latinName": "Saxo Grammaticus",
+      "category": "学者",
+      "work": "丹麦人的事迹",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%90%A8%E5%85%8B%E7%B4%A2%C2%B7%E6%A0%BC%E6%8B%89%E7%8E%9B%E6%8F%90%E5%BA%93%E6%96%AF"
+    },
+    {
+      "id": "achille-mbembe",
+      "name": "阿基里·姆贝姆比",
+      "latinName": "Achille Mbembe",
+      "category": "学者",
+      "work": "On the Postcolony",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%9F%BA%E5%8B%92%C2%B7%E5%A7%86%E8%B4%9D%E5%A7%86%E8%B4%9D"
+    },
+    {
+      "id": "karl-dietrich-bracher",
+      "name": "卡尔·迪特里希·布拉赫",
+      "latinName": "Karl Dietrich Bracher",
+      "category": "学者",
+      "work": "Q106558962",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E5%B0%94%C2%B7%E8%BF%AA%E7%89%B9%E9%87%8C%E5%B8%8C%C2%B7%E5%B8%83%E6%8B%89%E8%B5%AB"
+    },
+    {
+      "id": "francois-furet",
+      "name": "弗朗索瓦·福雷",
+      "latinName": "François Furet",
+      "category": "学者",
+      "work": "The Passing of an Illusion",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9C%97%E7%B4%A2%E7%93%A6%C2%B7%E5%82%85%E5%8B%92"
+    },
+    {
+      "id": "alexandre-de-rhodes",
+      "name": "亞歷山德羅",
+      "latinName": "Alexandre de Rhodes",
+      "category": "学者",
+      "work": "越葡拉詞典",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%AD%B7%E5%B1%B1"
+    },
+    {
+      "id": "nikephoros-i-of-constantinople",
+      "name": "尼基弗鲁斯一世（君士坦丁堡普世牧首）",
+      "latinName": "Nikephoros I of Constantinople",
+      "category": "学者",
+      "work": "Chronographikon syntomon",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%9F%BA%E5%BC%97%E9%B2%81%E6%96%AF%E4%B8%80%E4%B8%96_(%E5%90%9B%E5%A3%AB%E5%9D%A6%E4%B8%81%E5%A0%A1)"
+    },
+    {
+      "id": "marcus-terentius-varro",
+      "name": "馬庫斯·特倫提烏斯·瓦羅",
+      "latinName": "Marcus Terentius Varro",
+      "category": "学者",
+      "work": "De lingua Latina",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E5%BA%AB%E6%96%AF%C2%B7%E7%89%B9%E5%80%AB%E6%8F%90%E7%83%8F%E6%96%AF%C2%B7%E7%93%A6%E7%BE%85"
+    },
+    {
+      "id": "socrates-of-constantinople",
+      "name": "索克拉蒂斯",
+      "latinName": "Socrates of Constantinople",
+      "category": "学者",
+      "work": "Ecclesiastical history",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E5%85%8B%E6%8B%89%E8%92%82%E6%96%AF"
+    },
+    {
+      "id": "jacques-le-goff",
+      "name": "雅克·勒高夫",
+      "latinName": "Jacques Le Goff",
+      "category": "学者",
+      "work": "Q110427691",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%9B%85%E5%85%8B%C2%B7%E5%8B%92%E9%AB%98%E5%A4%AB"
+    },
+    {
+      "id": "flinders-petrie",
+      "name": "弗林德斯·皮特里",
+      "latinName": "Flinders Petrie",
+      "category": "学者",
+      "work": "麦伦普塔赫石碑",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9E%97%E5%BE%B7%E6%96%AF%C2%B7%E7%9A%AE%E7%89%B9%E9%87%8C"
+    },
+    {
+      "id": "sei-shonagon",
+      "name": "清少納言",
+      "latinName": "Sei Shōnagon",
+      "category": "学者",
+      "work": "枕草子",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B8%85%E5%B0%91%E7%B4%8D%E8%A8%80"
+    },
+    {
+      "id": "benedict-anderson",
+      "name": "本尼迪克特·安德森",
+      "latinName": "Benedict Anderson",
+      "category": "学者",
+      "work": "全球化时代",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%9C%AC%E5%B0%BC%E8%BF%AA%E5%85%8B%E7%89%B9%C2%B7%E5%AE%89%E5%BE%B7%E6%A3%AE"
+    },
+    {
+      "id": "abu-al-ghazi-bahadur",
+      "name": "阿布勒哈兹·巴哈杜尔",
+      "latinName": "Abu al-Ghazi Bahadur",
+      "category": "学者",
+      "work": "Shajara-i Tarākima",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%B8%83%E5%8B%92%E5%93%88%E5%85%B9%C2%B7%E5%B7%B4%E5%93%88%E6%9D%9C%E5%B0%94"
+    },
+    {
+      "id": "nestor-the-chronicler",
+      "name": "聶斯特",
+      "latinName": "Nestor the Chronicler",
+      "category": "学者",
+      "work": "往年纪事",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%81%B6%E6%96%AF%E7%89%B9"
+    },
+    {
+      "id": "david-manker-abshire",
+      "name": "大衛·曼科爾·艾布夏爾",
+      "latinName": "David Manker Abshire",
+      "category": "学者",
+      "work": "Papers of David M. Abshire (NAID 138924161)",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%A1%9B%C2%B7%E6%9B%BC%E7%A7%91%E7%88%BE%C2%B7%E8%89%BE%E5%B8%83%E5%A4%8F%E7%88%BE"
+    },
+    {
+      "id": "adam-of-bremen",
+      "name": "不来梅的亚当",
+      "latinName": "Adam of Bremen",
+      "category": "学者",
+      "work": "汉堡大主教史",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E6%9D%A5%E6%A2%85%E7%9A%84%E4%BA%9A%E5%BD%93"
+    },
+    {
+      "id": "shere-hite",
+      "name": "雪儿·海特",
+      "latinName": "Shere Hite",
+      "category": "学者",
+      "work": "Rapport Hite",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%9B%AA%E5%84%BF%C2%B7%E6%B5%B7%E7%89%B9"
+    },
+    {
+      "id": "herodotus",
+      "name": "希羅多德",
+      "latinName": "Herodotus",
+      "category": "学者",
+      "work": "歷史",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B8%8C%E7%BE%85%E5%A4%9A%E5%BE%B7"
+    },
+    {
+      "id": "guibert-of-nogent",
+      "name": "吉贝尔·德·诺让",
+      "latinName": "Guibert of Nogent",
+      "category": "学者",
+      "work": "De pignoribus sanctorum",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%90%89%E8%B4%9D%E5%B0%94%C2%B7%E5%BE%B7%C2%B7%E8%AF%BA%E8%AE%A9"
+    },
+    {
+      "id": "steven-runciman",
+      "name": "史蒂芬·朗西曼",
+      "latinName": "Steven Runciman",
+      "category": "学者",
+      "work": "The Great Church in Captivity. A Study of the Patriarchate of Constantinople from the Eve of the Turkish Conquest to the Greek War of Independence",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E8%92%82%E6%96%87%C2%B7%E6%9C%97%E8%A5%BF%E6%9B%BC"
+    },
+    {
+      "id": "daniele-ganser",
+      "name": "丹尼勒·甘泽",
+      "latinName": "Daniele Ganser",
+      "category": "学者",
+      "work": "The USA Empire",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%B8%B9%E5%B0%BC%E5%8B%92%C2%B7%E7%94%98%E6%B3%BD"
+    },
+    {
+      "id": "polybius",
+      "name": "波利比奥斯",
+      "latinName": "Polybius",
+      "category": "学者",
+      "work": "歷史",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E5%88%A9%E6%AF%94%E7%83%8F%E6%96%AF"
+    },
+    {
+      "id": "jung-chang",
+      "name": "张戎",
+      "latinName": "Jung Chang",
+      "category": "学者",
+      "work": "Empress Dowager Cixi: The Concubine Who Launched Modern China",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%BC%A0%E6%88%8E"
+    },
+    {
+      "id": "abraham-ortelius",
+      "name": "亚伯拉罕·奥特柳斯",
+      "latinName": "Abraham Ortelius",
+      "category": "学者",
+      "work": "戲台奧比斯地角",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E4%BC%AF%E6%8B%89%E7%BD%95%C2%B7%E5%A5%A5%E7%89%B9%E6%9F%B3%E6%96%AF"
+    },
+    {
+      "id": "jordanes",
+      "name": "约达尼斯",
+      "latinName": "Jordanes",
+      "category": "学者",
+      "work": "哥特史",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%BA%A6%E8%BE%BE%E5%B0%BC%E6%96%AF"
+    },
+    {
+      "id": "madame-de-lafayette",
+      "name": "拉斐特夫人",
+      "latinName": "Madame de Lafayette",
+      "category": "学者",
+      "work": "Zaïde",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%8B%89%E6%96%90%E7%89%B9%E5%A4%AB%E4%BA%BA"
+    },
+    {
+      "id": "jan-d-ugosz",
+      "name": "扬·德乌戈什",
+      "latinName": "Jan Długosz",
+      "category": "学者",
+      "work": "Annals or Chronicles of the Famous Kingdom of Poland",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%89%AC%C2%B7%E5%BE%B7%E4%B9%8C%E6%88%88%E4%BB%80"
+    },
+    {
+      "id": "fernand-braudel",
+      "name": "費爾南·布勞岱爾",
+      "latinName": "Fernand Braudel",
+      "category": "学者",
+      "work": "菲利普二世时代的地中海和地中海世界",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%B2%BB%E7%88%BE%E5%8D%97%C2%B7%E5%B8%83%E5%8B%9E%E5%B2%B1%E7%88%BE"
+    },
+    {
+      "id": "theda-skocpol",
+      "name": "西达·斯科克波",
+      "latinName": "Theda Skocpol",
+      "category": "学者",
+      "work": "国家与社会革命",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E8%BE%BE%C2%B7%E6%96%AF%E8%80%83%E5%88%87%E6%B3%A2"
+    },
+    {
+      "id": "daniel-goldhagen",
+      "name": "丹尼尔·戈德哈根",
+      "latinName": "Daniel Goldhagen",
+      "category": "学者",
+      "work": "希特勒意志的執行者們",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E4%B8%B9%E5%B0%BC%E5%B0%94%C2%B7%E6%88%88%E5%BE%B7%E5%93%88%E6%A0%B9"
+    },
+    {
+      "id": "xenophon",
+      "name": "色诺芬",
+      "latinName": "Xenophon",
+      "category": "学者",
+      "work": "希尔罗",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%89%B2%E8%AF%BA%E8%8A%AC"
+    },
+    {
+      "id": "jean-charles-leonard-de-sismondi",
+      "name": "让·夏尔·莱昂纳尔·德·西斯蒙第",
+      "latinName": "Jean Charles Léonard de Sismondi",
+      "category": "学者",
+      "work": "Q136581875",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%AE%A9%C2%B7%E5%A4%8F%E5%B0%94%C2%B7%E8%8E%B1%E6%98%82%E7%BA%B3%E5%B0%94%C2%B7%E5%BE%B7%C2%B7%E8%A5%BF%E6%96%AF%E8%92%99%E7%AC%AC"
+    },
+    {
+      "id": "josephus",
+      "name": "弗拉維奧·約瑟夫斯",
+      "latinName": "Josephus",
+      "category": "学者",
+      "work": "猶太古史",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%8B%89%E7%B6%AD%E5%A5%A7%C2%B7%E7%B4%84%E7%91%9F%E5%A4%AB%E6%96%AF"
+    },
+    {
+      "id": "pietro-bembo",
+      "name": "彼得罗·本博",
+      "latinName": "Pietro Bembo",
+      "category": "学者",
+      "work": "Prose nelle quali si ragiona della volgar lingua",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%9A%AE%E5%9F%83%E7%89%B9%E7%BE%85%C2%B7%E6%9C%AC%E5%8D%9A"
+    },
+    {
+      "id": "muhammad-ibn-ismaeel-al-bukhari",
+      "name": "穆罕默德·伊本·伊斯梅尔·布哈里",
+      "latinName": "Muḥammad ibn Ismaeel al-Bukhārī",
+      "category": "学者",
+      "work": "Q19455078",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%A9%86%E7%BD%95%E9%BB%98%E5%BE%B7%C2%B7%E4%BC%8A%E6%9C%AC%C2%B7%E4%BC%8A%E6%96%AF%E6%A2%85%E5%B0%94%C2%B7%E5%B8%83%E5%93%88%E9%87%8C"
+    },
+    {
+      "id": "timothy-brook",
+      "name": "卜正民",
+      "latinName": "Timothy Brook",
+      "category": "学者",
+      "work": "Category:Books by Timothy Brook",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%8D%9C%E6%AD%A3%E6%B0%91"
+    },
+    {
+      "id": "william-camden",
+      "name": "威廉·卡姆登",
+      "latinName": "William Camden",
+      "category": "学者",
+      "work": "Britannia",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%C2%B7%E5%8D%A1%E5%A7%86%E7%99%BB"
+    },
+    {
+      "id": "kukai",
+      "name": "空海",
+      "latinName": "Kūkai",
+      "category": "学者",
+      "work": "On the Title of the Lotus Sūtra",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%A9%BA%E6%B5%B7"
+    },
+    {
+      "id": "nadezhda-mandelstam",
+      "name": "娜杰日达·曼德尔施塔姆",
+      "latinName": "Nadezhda Mandelstam",
+      "category": "学者",
+      "work": "Hope Against Hope: A Memoir",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A8%9C%E6%9D%B0%E6%97%A5%E8%BE%BE%C2%B7%E6%9B%BC%E5%BE%B7%E5%B0%94%E6%96%BD%E5%A1%94%E5%A7%86"
+    },
+    {
+      "id": "steven-pinker",
+      "name": "史迪芬·平克",
+      "latinName": "Steven Pinker",
+      "category": "学者",
+      "work": "Words and Rules",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%96%AF%E8%92%82%E8%8A%AC%C2%B7%E5%B9%B3%E5%85%8B"
+    },
+    {
+      "id": "william-caxton",
+      "name": "威廉·卡克斯頓",
+      "latinName": "William Caxton",
+      "category": "学者",
+      "work": "The boke of the fayt of armes and of chyvalrye",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%C2%B7%E5%8D%A1%E5%85%8B%E6%96%AF%E9%A0%93"
+    },
+    {
+      "id": "otto-franke",
+      "name": "奥托·福兰阁",
+      "latinName": "Otto Franke",
+      "category": "学者",
+      "work": "Die orientalischen Wissenschaften − Indien, Mittel- und Ostasien",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%A6%8F%E5%85%B0%E9%98%81"
+    },
+    {
+      "id": "e-v-gordon",
+      "name": "E·V·戈登",
+      "latinName": "E. V. Gordon",
+      "category": "学者",
+      "work": "An Introduction to Old Norse",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/E%C2%B7V%C2%B7%E6%88%88%E7%99%BB"
+    },
+    {
+      "id": "nikolai-marr",
+      "name": "尼古拉·马尔",
+      "latinName": "Nikolai Marr",
+      "category": "学者",
+      "work": "雅弗理论",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%8F%A4%E6%8B%89%C2%B7%E9%A9%AC%E5%B0%94"
+    },
+    {
+      "id": "paul-georg-von-mollendorff",
+      "name": "穆麟德",
+      "latinName": "Paul Georg von Möllendorff",
+      "category": "学者",
+      "work": "穆麟德转写",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%A9%86%E9%BA%9F%E5%BE%B7"
+    },
+    {
+      "id": "karl-richard-lepsius",
+      "name": "卡爾·理察·累普濟烏斯",
+      "latinName": "Karl Richard Lepsius",
+      "category": "学者",
+      "work": "Denkmäler aus Ägypten und Äthiopien",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E5%B0%94%C2%B7%E7%90%86%E6%9F%A5%E5%BE%B7%C2%B7%E8%8E%B1%E6%99%AE%E4%BF%AE%E6%96%AF"
+    }
+  ]
+}

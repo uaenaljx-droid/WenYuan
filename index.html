@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preload" as="image" href="/assets/qingnang/qingnang-bg-main.webp" />
+    <link rel="preload" as="image" href="/assets/qingnang/qingnang-bg-flow.webp" />
+    <link rel="preload" as="image" href="/assets/space/wenyuan-nebula-bg.png" />
+    <meta
+      name="description"
+      content="文渊舆图，一座写实地球上的文学、哲学与思想人物档案馆。"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23020407'/%3E%3Ccircle cx='32' cy='32' r='18' fill='%23b9c7c4'/%3E%3C/svg%3E"
+    />
+    <title>文渊舆图</title>
+    <style>
+      :root {
+        --z-loading: 60;
+      }
+
+      html,
+      body,
+      #app {
+        min-height: 100%;
+        margin: 0;
+        background: #efe7d2;
+      }
+
+      .intro-mountain-lines path,
+      .gold-vein-flow path {
+        fill: none;
+      }
+
+      .wenyuan-loading-screen {
+        position: fixed;
+        inset: 0;
+        z-index: var(--z-loading);
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+        opacity: 1;
+        visibility: visible;
+        background:
+          radial-gradient(circle at 50% 42%, rgba(252, 246, 226, 0.42), rgba(235, 226, 201, 0.32) 36%, rgba(214, 218, 198, 0.42) 100%);
+        transition:
+          opacity 520ms ease,
+          transform 520ms ease,
+          visibility 520ms ease;
+      }
+
+      .wenyuan-loading-screen.is-hidden {
+        display: none;
+      }
+
+      .wenyuan-loading-screen.is-leaving {
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(1.01);
+        pointer-events: none;
+      }
+
+      .wenyuan-loading-backdrop,
+      .wenyuan-loading-pageghost,
+      .wenyuan-loading-blur {
+        position: absolute;
+        inset: 0;
+      }
+
+      .wenyuan-loading-backdrop {
+        background:
+          linear-gradient(180deg, rgba(246, 239, 215, 0.36), rgba(228, 220, 194, 0.24)),
+          radial-gradient(circle at 72% 28%, rgba(154, 87, 76, 0.1), transparent 28%),
+          radial-gradient(circle at 24% 72%, rgba(50, 96, 85, 0.1), transparent 30%);
+      }
+
+      .wenyuan-loading-pageghost {
+        opacity: 0.14;
+        transform: scale(1.02);
+        filter: blur(18px) saturate(0.86);
+        background:
+          radial-gradient(ellipse at 50% 38%, rgba(255, 249, 230, 0.44), transparent 27%),
+          radial-gradient(ellipse at 50% 96%, rgba(43, 77, 70, 0.22), transparent 34%),
+          linear-gradient(180deg, rgba(228, 219, 194, 0.56), rgba(175, 190, 181, 0.46));
+      }
+
+      .wenyuan-loading-pageghost::before,
+      .wenyuan-loading-pageghost::after {
+        content: "";
+        position: absolute;
+        pointer-events: none;
+      }
+
+      .wenyuan-loading-pageghost::before {
+        left: 3%;
+        right: 3%;
+        top: 28px;
+        height: 62px;
+        border-radius: 10px;
+        background: rgba(42, 70, 62, 0.2);
+        box-shadow:
+          0 330px 72px rgba(25, 53, 48, 0.2),
+          0 620px 92px rgba(22, 44, 40, 0.18);
+      }
+
+      .wenyuan-loading-pageghost::after {
+        left: 44%;
+        top: 19%;
+        width: 12%;
+        height: 18%;
+        border-radius: 50%;
+        background: rgba(250, 239, 205, 0.34);
+        box-shadow:
+          -390px 300px 120px rgba(28, 68, 61, 0.3),
+          390px 296px 110px rgba(37, 76, 70, 0.22),
+          0 430px 80px rgba(36, 67, 59, 0.18);
+      }
+
+      .wenyuan-loading-blur {
+        backdrop-filter: blur(16px) saturate(0.86);
+        -webkit-backdrop-filter: blur(16px) saturate(0.86);
+        background: rgba(242, 234, 208, 0.08);
+      }
+
+      .wenyuan-loading-card {
+        position: relative;
+        width: 126px;
+        min-height: 112px;
+        border-radius: 16px;
+        display: grid;
+        place-items: center;
+        align-content: center;
+        gap: 11px;
+        padding: 18px 16px 15px;
+        background: rgba(250, 244, 225, 0.78);
+        color: rgba(42, 44, 36, 0.88);
+        box-shadow: 0 8px 18px rgba(53, 45, 28, 0.14);
+      }
+
+      .wenyuan-loading-spinner {
+        width: 30px;
+        height: 30px;
+        border-radius: 999px;
+        border: 2px solid rgba(126, 91, 63, 0.16);
+        border-top-color: rgba(164, 65, 61, 0.78);
+        animation: wenyuanSpin 980ms linear infinite;
+      }
+
+      .wenyuan-loading-text {
+        font: 500 13px/1.45 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+        letter-spacing: 0.08em;
+        text-align: center;
+        white-space: nowrap;
+      }
+
+      @keyframes wenyuanSpin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      @media (max-width: 720px) {
+        .wenyuan-loading-blur {
+          backdrop-filter: blur(9px) saturate(0.88);
+          -webkit-backdrop-filter: blur(9px) saturate(0.88);
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .wenyuan-loading-screen {
+          transition: opacity 200ms ease, visibility 200ms ease;
+        }
+
+        .wenyuan-loading-spinner {
+          animation: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <main id="sceneMount" class="scene-mount" aria-label="文学与思想人物 3D 地球"></main>
+
+      <div id="introScreen" class="intro-screen" aria-live="polite">
+        <div class="intro-visual" aria-hidden="true">
+          <div class="mountain-base"></div>
+          <div class="far-mist"></div>
+          <div class="mid-mist"></div>
+          <div class="mist-flow"></div>
+          <div class="bottom-haze"></div>
+          <svg class="intro-mountain-lines" viewBox="0 0 1600 520" preserveAspectRatio="none" focusable="false" fill="none">
+            <path fill="none" d="M-30 374 C145 306 220 325 356 258 C494 190 588 206 694 244 C842 298 903 242 1034 184 C1178 120 1298 178 1404 134 C1486 100 1547 94 1642 124" />
+            <path fill="none" d="M-30 430 C122 386 233 398 374 342 C548 274 684 318 806 292 C943 263 1028 196 1148 220 C1275 245 1360 318 1642 206" />
+            <path fill="none" d="M-30 484 C167 448 294 467 436 408 C590 344 719 372 868 352 C1034 330 1164 264 1294 306 C1404 342 1484 386 1642 338" />
+          </svg>
+          <svg class="gold-vein-flow" viewBox="0 0 1600 520" preserveAspectRatio="none" focusable="false" fill="none">
+            <path fill="none" d="M40 386 C196 338 298 352 442 286 C580 222 706 254 824 260 C972 268 1058 188 1196 178 C1322 168 1436 226 1560 168" />
+            <path fill="none" d="M150 456 C318 420 430 432 584 374 C736 316 854 344 994 318 C1136 292 1258 250 1444 298" />
+          </svg>
+          <div class="intro-starfield"></div>
+          <div class="intro-cosmic-overlay"></div>
+          <span class="intro-orbit one"></span>
+          <span class="intro-orbit two"></span>
+          <span class="intro-orbit three"></span>
+        </div>
+        <div class="intro-exit-overlay" aria-hidden="true"></div>
+
+        <header class="intro-nav" aria-label="进入页导航">
+          <a class="intro-brand" href="#" aria-label="文渊舆图">
+            <span>WENYUAN ATLAS</span>
+            <strong>文渊</strong>
+          </a>
+          <div class="intro-search" role="search">
+            <input id="introSearchInput" type="search" aria-label="搜索你想寻访的人物" placeholder="搜一位人物、作品或思想流派" />
+            <button id="introSearchButton" type="button">寻访</button>
+          </div>
+        </header>
+
+        <div class="intro-copy">
+          <span class="intro-mark">WENYUAN ATLAS</span>
+          <h1 id="introTitle">文渊</h1>
+          <p id="introSubtitle">沿一颗地球，寻访文学与思想的精神坐标</p>
+          <button id="enterButton" class="enter-button" type="button" disabled aria-label="入卷">
+            <span class="enter-ring"></span>
+            <span class="enter-symbol"></span>
+            <span class="enter-ripple"></span>
+          </button>
+          <div class="intro-loader" aria-hidden="true"><span></span></div>
+          <p id="introStatus" class="intro-status">正在铺展云海与文脉...</p>
+        </div>
+
+        <aside class="intro-poem" aria-label="封面题跋">
+          <span>云海为页，山河为轴</span>
+          <strong><span>一卷山河初展，</span><span>万千文心渐明。</span></strong>
+        </aside>
+
+        <footer class="intro-footer" aria-label="封面信息">
+          <div class="intro-meta">
+            <span>溯文脉 · 见群像</span>
+            <p>从一片流动云海进入作家、诗人与思想者的地理。</p>
+            <div class="intro-tags" aria-hidden="true">
+              <span>山河云海</span>
+              <span>人物档案</span>
+              <span>文学星图</span>
+            </div>
+          </div>
+          <div class="wenmai-guide">
+            <span class="guide-title">文脉索引</span>
+            <nav id="introGuideCategories" class="guide-categories" aria-label="文脉分类">
+              <button type="button" data-category="文学家">文学家</button>
+              <button type="button" data-category="诗人">诗人</button>
+              <button type="button" data-category="小说家">小说家</button>
+              <button type="button" data-category="剧作家">剧作家</button>
+              <button type="button" data-category="哲学家">哲学家</button>
+              <button type="button" data-category="思想家">思想家</button>
+              <button type="button" data-category="学者">学者</button>
+            </nav>
+            <span class="guide-hint">循文入境</span>
+          </div>
+        </footer>
+      </div>
+
+      <header class="topbar" aria-label="页面导航">
+        <div class="brand-block">
+          <p id="brandEyebrow" class="kicker">PERSONA ATLAS</p>
+          <h2 id="brandTitle">文渊舆图</h2>
+          <p id="brandSubtitle">在文学与思想的地理中，漫游人类精神坐标</p>
+        </div>
+
+        <nav id="filterBar" class="filter-bar" aria-label="人物分类筛选"></nav>
+
+        <div class="nav-actions">
+          <select id="routeSelect" class="route-select" aria-label="选择策展路线"></select>
+          <button id="autoButton" class="nav-button is-active" type="button">自动漫游</button>
+          <button id="manualButton" class="nav-button" type="button">暂停</button>
+          <button id="sourceButton" class="nav-button" type="button">来源</button>
+          <button id="refreshButton" class="nav-button" type="button">刷新</button>
+        </div>
+      </header>
+
+      <section class="search-panel" aria-label="搜索人物">
+        <input
+          id="searchInput"
+          type="search"
+          autocomplete="off"
+          spellcheck="false"
+          placeholder="搜索人物、作品、思想流派"
+          aria-label="搜索人物、作品、思想流派"
+        />
+        <span id="resultStats" class="result-stats">0 位人物</span>
+      </section>
+
+      <aside id="personaWhisper" class="persona-whisper" aria-live="polite">
+        <p id="whisperText">在星球上选择一位人物</p>
+        <span id="whisperName">文渊舆图</span>
+      </aside>
+
+      <section class="route-caption" aria-label="路线字幕">
+        <p id="routeCaptionText">正在准备策展路线</p>
+      </section>
+
+      <section class="cards-dock" aria-label="人物胶片卡">
+        <div id="cardTrack" class="card-track"></div>
+      </section>
+
+      <div id="modalBackdrop" class="modal-backdrop" hidden></div>
+      <section
+        id="profileModal"
+        class="profile-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="profileName"
+        hidden
+      >
+        <button id="closeModalButton" class="icon-button modal-close" type="button" aria-label="关闭人物档案">×</button>
+        <div class="profile-poster">
+          <div id="profileAvatar" class="profile-avatar" aria-hidden="true"></div>
+          <div class="profile-meta">
+            <span id="profileCategory" class="profile-category">待选择</span>
+            <h2 id="profileName">选择人物</h2>
+            <p id="profileLatin" class="profile-latin"></p>
+            <p id="profileIdentity" class="profile-identity"></p>
+          </div>
+        </div>
+        <div class="profile-scroll">
+          <dl class="profile-facts">
+            <div>
+              <dt>时代</dt>
+              <dd id="profileEra">资料未详</dd>
+            </div>
+            <div>
+              <dt>出生地</dt>
+              <dd id="profileBirthplace">资料未详</dd>
+            </div>
+            <div>
+              <dt>流派</dt>
+              <dd id="profileSchool">资料未详</dd>
+            </div>
+          </dl>
+          <section class="profile-section">
+            <p id="profileEpigraph" class="profile-epigraph">在人物的来路中辨认一条精神线索。</p>
+          </section>
+          <section class="profile-section">
+            <h3>他是谁</h3>
+            <p id="profileWhoHeIs">资料未详</p>
+          </section>
+          <section class="profile-section">
+            <h3>一生的线索</h3>
+            <p id="profileBio">资料未详</p>
+          </section>
+          <section class="profile-section">
+            <h3>为什么重要</h3>
+            <p id="profileWhyMatters">资料未详</p>
+          </section>
+          <section class="profile-section">
+            <h3>写作与思想气质</h3>
+            <p id="profilePersona">资料未详</p>
+          </section>
+          <section class="profile-section">
+            <h3>如何开始读他</h3>
+            <p id="profileHowToRead">资料未详</p>
+          </section>
+          <section class="profile-section">
+            <h3>代表作品</h3>
+            <div id="profileWorks" class="chip-list"></div>
+          </section>
+          <section class="profile-section">
+            <h3>与时代的关系</h3>
+            <p id="profileHistoricalRelation">资料未详</p>
+          </section>
+          <section class="profile-section">
+            <h3>相关路径</h3>
+            <p id="profileRelatedPath">资料未详</p>
+          </section>
+          <section class="profile-section">
+            <h3>关键词</h3>
+            <div id="profileKeywords" class="chip-list"></div>
+          </section>
+          <section id="relatedSection" class="profile-section related-section" hidden>
+            <h3>相关人物</h3>
+            <div id="relatedList" class="related-list"></div>
+          </section>
+        </div>
+        <footer class="profile-actions">
+          <button id="prevRouteButton" class="profile-button" type="button">上一位</button>
+          <button id="continueRouteButton" class="profile-button primary" type="button">继续路线</button>
+          <button id="nextRouteButton" class="profile-button" type="button">下一位</button>
+          <button id="profileSourceButton" class="profile-button subtle" type="button">查看来源</button>
+        </footer>
+      </section>
+
+      <section
+        id="sourceDialog"
+        class="source-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="sourceTitle"
+        hidden
+      >
+        <button id="closeSourceButton" class="icon-button modal-close" type="button" aria-label="关闭来源">×</button>
+        <h2 id="sourceTitle">资料来源</h2>
+        <p id="sourceIntro">
+          此处只列出人物资料、图片状态和策展数据的来源线索。主界面不展示内部路径。
+        </p>
+        <div id="sourceContent" class="source-content"></div>
+      </section>
+
+      <section
+        id="workReader"
+        class="work-reader"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="workTitle"
+        hidden
+      >
+        <button id="closeWorkButton" class="icon-button modal-close" type="button" aria-label="关闭作品阅读">×</button>
+        <header class="work-reader-header">
+          <span id="workStatus" class="work-status">作品</span>
+          <h2 id="workTitle">选择作品</h2>
+          <p id="workMeta" class="work-meta"></p>
+          <p id="workSummary" class="work-summary"></p>
+          <div class="work-reader-actions">
+            <input id="workSearchInput" type="search" autocomplete="off" placeholder="寻章问义" aria-label="寻章问义" />
+            <button id="workSourceLink" class="profile-button subtle" type="button">延伸阅读</button>
+            <button id="copyWorkSourceButton" class="profile-button" type="button">复制书目</button>
+          </div>
+        </header>
+        <div class="work-reader-main">
+          <nav id="workToc" class="work-toc" aria-label="作品目录"></nav>
+          <article id="workBody" class="work-body"></article>
+        </div>
+      </section>
+
+      <div id="tooltip" class="tooltip" role="status" aria-live="polite"></div>
+      <button id="musicToggle" class="music-toggle" type="button" aria-pressed="true" aria-label="关闭背景音乐">
+        <span class="music-toggle-mark" aria-hidden="true">♪</span>
+        <span data-music-label>乐声</span>
+      </button>
+      <div id="notice" class="notice" role="status" aria-live="polite"></div>
+      <div id="appLoadingScreen" class="wenyuan-loading-screen" aria-live="polite" aria-busy="true">
+        <div class="wenyuan-loading-backdrop" aria-hidden="true"></div>
+        <div class="wenyuan-loading-pageghost" aria-hidden="true"></div>
+        <div class="wenyuan-loading-blur" aria-hidden="true"></div>
+        <div class="wenyuan-loading-card">
+          <div class="wenyuan-loading-spinner" aria-hidden="true"></div>
+          <div id="appLoadingText" class="wenyuan-loading-text">文脉入卷中</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      (() => {
+        const LONG_WAIT_MS = 8000;
+        const FALLBACK_MS = 15000;
+        const LEAVE_MS = 560;
+        const longWaitMessage = "文脉仍在铺展，请稍候";
+        const fallbackMessage = "先入文渊，余卷稍后展开";
+        let longWaitTimer = null;
+        let fallbackTimer = null;
+        let hidden = false;
+
+        function getLoadingElements() {
+          return {
+            screen: document.querySelector("#appLoadingScreen"),
+            text: document.querySelector("#appLoadingText")
+          };
+        }
+
+        function setMessage(message) {
+          const { text } = getLoadingElements();
+          if (text) text.textContent = message;
+        }
+
+        function clear() {
+          window.clearTimeout(longWaitTimer);
+          window.clearTimeout(fallbackTimer);
+          longWaitTimer = null;
+          fallbackTimer = null;
+        }
+
+        function release() {
+          if (hidden) return;
+          const { screen } = getLoadingElements();
+          if (!screen) return;
+          hidden = true;
+          clear();
+          screen.setAttribute("aria-busy", "false");
+          screen.classList.add("is-leaving");
+          window.setTimeout(() => {
+            screen.classList.add("is-hidden");
+          }, LEAVE_MS);
+        }
+
+        longWaitTimer = window.setTimeout(() => setMessage(longWaitMessage), LONG_WAIT_MS);
+        fallbackTimer = window.setTimeout(() => {
+          setMessage(fallbackMessage);
+          window.setTimeout(release, 1200);
+        }, FALLBACK_MS);
+
+        window.__wenyuanLoadingGuard = {
+          clear,
+          release,
+          setMessage
+        };
+
+        window.addEventListener("error", () => {
+          setMessage("文脉暂未接上，请稍候");
+          window.setTimeout(release, 1200);
+        });
+      })();
+    </script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

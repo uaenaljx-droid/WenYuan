@@ -1,0 +1,16 @@
+{
+  "workId": "confucius-rlm-rn1",
+  "title": "论语",
+  "author": "孔子",
+  "sourceUrl": "https://ctext.org/analects/zh",
+  "sourceName": "Chinese Text Project",
+  "license": "Public domain classical Chinese text",
+  "language": "zh-classical",
+  "fetchedAt": "2026-07-03T07:24:30.336Z",
+  "sections": [
+    {
+      "heading": "学而",
+      "text": "子曰：“学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？”\n\n有子曰：“其为人也孝弟，而好犯上者，鲜矣；不好犯上，而好作乱者，未之有也。君子务本，本立而道生。孝弟也者，其为仁之本与！”"
+    }
+  ]
+}

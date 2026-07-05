@@ -1,0 +1,122 @@
+[
+  {
+    "id": "socrates-plato",
+    "from": "socrates",
+    "to": "plato",
+    "type": "inheritance",
+    "label": "师承",
+    "description": "柏拉图的对话录保存并重塑了苏格拉底的哲学形象。",
+    "confidence": "high",
+    "references": ["https://plato.stanford.edu/entries/socrates/", "https://plato.stanford.edu/entries/plato/"]
+  },
+  {
+    "id": "plato-aristotle",
+    "from": "plato",
+    "to": "aristotle",
+    "type": "inheritance",
+    "label": "师承",
+    "description": "亚里士多德曾在柏拉图学院学习，后形成不同的问题体系。",
+    "confidence": "high",
+    "references": ["https://plato.stanford.edu/entries/plato/", "https://plato.stanford.edu/entries/aristotle/"]
+  },
+  {
+    "id": "confucius-mencius",
+    "from": "confucius",
+    "to": "mencius",
+    "type": "inheritance",
+    "label": "继承",
+    "description": "孟子承接并扩展孔子儒家传统，强调性善与仁政。",
+    "confidence": "high",
+    "references": ["https://plato.stanford.edu/entries/confucius/", "https://plato.stanford.edu/entries/mencius/"]
+  },
+  {
+    "id": "laozi-zhuangzi",
+    "from": "laozi",
+    "to": "zhuangzi",
+    "type": "dialogue",
+    "label": "思想对话",
+    "description": "庄子与老子同属道家传统，但以寓言和齐物论展开更自由的表达。",
+    "confidence": "medium",
+    "references": ["https://plato.stanford.edu/entries/laozi/", "https://plato.stanford.edu/entries/zhuangzi/"]
+  },
+  {
+    "id": "kant-hegel",
+    "from": "kant",
+    "to": "hegel",
+    "type": "influence",
+    "label": "影响",
+    "description": "黑格尔的德国观念论体系在批判并继承康德问题意识中展开。",
+    "confidence": "high",
+    "references": ["https://plato.stanford.edu/entries/kant/", "https://plato.stanford.edu/entries/hegel/"]
+  },
+  {
+    "id": "schopenhauer-nietzsche",
+    "from": "schopenhauer",
+    "to": "nietzsche",
+    "type": "influence",
+    "label": "影响",
+    "description": "尼采早期深受叔本华影响，后来又对其悲观主义展开反思和反叛。",
+    "confidence": "high",
+    "references": ["https://plato.stanford.edu/entries/schopenhauer/", "https://plato.stanford.edu/entries/nietzsche/"]
+  },
+  {
+    "id": "du-fu-lu-xun",
+    "from": "du-fu",
+    "to": "lu-xun",
+    "type": "dialogue",
+    "label": "精神对照",
+    "description": "二者都以文学承受时代压力，一个偏诗史，一个偏现代批判。",
+    "confidence": "medium",
+    "references": ["https://zh.wikipedia.org/wiki/杜甫", "https://zh.wikipedia.org/wiki/鲁迅"]
+  },
+  {
+    "id": "kafka-foucault",
+    "from": "kafka",
+    "to": "foucault",
+    "type": "dialogue",
+    "label": "制度对照",
+    "description": "卡夫卡以文学呈现制度迷宫，福柯以思想史分析规训与权力结构。",
+    "confidence": "medium",
+    "references": ["https://www.britannica.com/biography/Franz-Kafka", "https://plato.stanford.edu/entries/foucault/"]
+  },
+  {
+    "id": "proust-woolf",
+    "from": "proust",
+    "to": "woolf",
+    "type": "contemporary",
+    "label": "同代",
+    "description": "二者都以现代小说形式深入处理时间、意识和内在经验。",
+    "confidence": "medium",
+    "references": ["https://www.britannica.com/biography/Marcel-Proust", "https://www.britannica.com/biography/Virginia-Woolf"]
+  },
+  {
+    "id": "joyce-woolf",
+    "from": "joyce",
+    "to": "woolf",
+    "type": "contemporary",
+    "label": "同代",
+    "description": "乔伊斯与伍尔夫都是现代主义小说中意识流和形式实验的重要名字。",
+    "confidence": "high",
+    "references": ["https://www.britannica.com/biography/James-Joyce", "https://www.britannica.com/biography/Virginia-Woolf"]
+  },
+  {
+    "id": "arendt-foucault",
+    "from": "hannah-arendt",
+    "to": "foucault",
+    "type": "contrast",
+    "label": "对照",
+    "description": "阿伦特强调公共行动和责任，福柯追问现代制度如何塑造主体。",
+    "confidence": "medium",
+    "references": ["https://plato.stanford.edu/entries/arendt/", "https://plato.stanford.edu/entries/foucault/"]
+  },
+  {
+    "id": "cao-xueqin-borges",
+    "from": "cao-xueqin",
+    "to": "borges",
+    "type": "contrast",
+    "label": "叙事对照",
+    "description": "曹雪芹以家族群像展开长篇世界，博尔赫斯以短篇结构制造无限迷宫。",
+    "confidence": "medium",
+    "references": ["https://zh.wikipedia.org/wiki/曹雪芹", "https://www.britannica.com/biography/Jorge-Luis-Borges"]
+  }
+]

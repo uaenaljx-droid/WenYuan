@@ -1,0 +1,159 @@
+[
+  {
+    "id": "east-west-dialogue",
+    "name": "中西对照",
+    "description": "把东方修身传统与西方哲学、现代文学并置，观察人格理想如何在不同文明中展开。",
+    "personaIds": [
+      "confucius",
+      "socrates",
+      "laozi",
+      "plato",
+      "zhuangzi",
+      "aristotle",
+      "zhu-xi",
+      "augustine",
+      "wang-yangming",
+      "descartes",
+      "lu-xun",
+      "nietzsche",
+      "qian-zhongshu",
+      "wittgenstein",
+      "wang-xiaobo",
+      "foucault"
+    ],
+    "default": true
+  },
+  {
+    "id": "oriental-thought",
+    "name": "东方思想",
+    "description": "从先秦诸子到理学、经世与现代启蒙，梳理中国人格修养和现实批判的路线。",
+    "personaIds": [
+      "confucius",
+      "laozi",
+      "zhuangzi",
+      "mencius",
+      "xunzi",
+      "han-feizi",
+      "zhu-xi",
+      "wang-yangming",
+      "gu-yanwu",
+      "liang-qichao",
+      "lu-xun",
+      "qian-zhongshu",
+      "wang-xiaobo"
+    ]
+  },
+  {
+    "id": "chinese-literature",
+    "name": "中国文学",
+    "description": "沿诗、史、词、曲、小说与现代文学，观看中文传统如何书写人心和时代。",
+    "personaIds": [
+      "qu-yuan",
+      "sima-qian",
+      "tao-yuanming",
+      "wang-wei",
+      "li-bai",
+      "du-fu",
+      "bai-juyi",
+      "li-shangyin",
+      "su-shi",
+      "xin-qiji",
+      "guan-hanqing",
+      "tang-xianzu",
+      "cao-xueqin",
+      "lu-xun",
+      "shen-congwen",
+      "zhang-ailing"
+    ]
+  },
+  {
+    "id": "western-philosophy",
+    "name": "西方哲学",
+    "description": "从雅典对话到中世纪、近代主体、社会批判和二十世纪欧陆思想。",
+    "personaIds": [
+      "socrates",
+      "plato",
+      "aristotle",
+      "augustine",
+      "thomas-aquinas",
+      "descartes",
+      "spinoza",
+      "locke",
+      "rousseau",
+      "hume",
+      "kant",
+      "hegel",
+      "schopenhauer",
+      "kierkegaard",
+      "marx",
+      "nietzsche",
+      "wittgenstein",
+      "heidegger",
+      "sartre",
+      "foucault",
+      "derrida",
+      "hannah-arendt"
+    ]
+  },
+  {
+    "id": "world-literature",
+    "name": "世界文学",
+    "description": "沿着史诗、戏剧、小说和现代叙事，观看世界文学如何书写命运、记忆和内心。",
+    "personaIds": [
+      "homer",
+      "dante",
+      "shakespeare",
+      "cervantes",
+      "goethe",
+      "victor-hugo",
+      "baudelaire",
+      "dostoevsky",
+      "tolstoy",
+      "kafka",
+      "proust",
+      "joyce",
+      "woolf",
+      "borges",
+      "calvino",
+      "camus",
+      "gabriel-garcia-marquez"
+    ]
+  },
+  {
+    "id": "modernism",
+    "name": "现代主义",
+    "description": "聚焦二十世纪前后的语言实验、意识结构、荒诞经验和现代制度感。",
+    "personaIds": [
+      "nietzsche",
+      "freud",
+      "baudelaire",
+      "kafka",
+      "proust",
+      "joyce",
+      "woolf",
+      "t-s-eliot",
+      "rilke",
+      "borges",
+      "beckett",
+      "camus",
+      "foucault",
+      "roland-barthes"
+    ]
+  },
+  {
+    "id": "civilization-border",
+    "name": "文明边界",
+    "description": "从南亚、中东、波斯、日本与拉美边界，看文学如何跨越语言和文明。",
+    "personaIds": [
+      "tagore",
+      "gibran",
+      "rumi",
+      "omar-khayyam",
+      "murasaki-shikibu",
+      "kawabata",
+      "calvino",
+      "borges",
+      "gabriel-garcia-marquez"
+    ]
+  }
+]

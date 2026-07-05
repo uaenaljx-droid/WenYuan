@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+cloudflare-dist/
+.wrangler/
+
+# Local caches and temporary browser profiles
+.agents/
+.codex/
+.impeccable/
+.satk/
+.tmp-chrome*/
+.vite/
+.cache/
+coverage/
+pptx_work/
+xmn-particle-memorial/
+
+# Logs
+*.log
+*.err.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local archives and generated deployment bundles
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# Verification screenshots and local QA artifacts
+verification*.png
+verification*.jpg
+verification*.jpeg
+verification*.webp
+public/debug/
+public/promo/frames/
+public/promo/generated/
+
+# Video render outputs are bulky and should be published separately
+dist/video/
+public/assets/video/
+*.mp4
+*.mov
+*.webm
+
+# Runtime uses compressed WebP avatars; keep raw originals out of Git.
+public/assets/avatars/originals/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+
+# Unrelated local working files
+*.slx
+
+# Local environment secrets
+.env
+.env.*
+!.env.example

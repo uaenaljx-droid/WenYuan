@@ -1,0 +1,64 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="349" y1="47" x2="1446" y2="1046" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9EC7EA"/>
+      <stop offset="0.32" stop-color="#2B6B9D"/>
+      <stop offset="0.64" stop-color="#6D8394"/>
+      <stop offset="1" stop-color="#161D20"/>
+    </linearGradient>
+    <radialGradient id="vault" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1112 424) rotate(124) scale(876 588)">
+      <stop stop-color="#EAF6FF" stop-opacity="0.92"/>
+      <stop offset="0.19" stop-color="#8DC2EC" stop-opacity="0.74"/>
+      <stop offset="0.42" stop-color="#3B75A8" stop-opacity="0.46"/>
+      <stop offset="0.72" stop-color="#1D2A35" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#050504" stop-opacity="0.86"/>
+    </radialGradient>
+    <linearGradient id="stoneA" x1="257" y1="879" x2="1443" y2="241" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C9B284"/>
+      <stop offset="0.38" stop-color="#9A8B86"/>
+      <stop offset="0.72" stop-color="#D6BBC8"/>
+      <stop offset="1" stop-color="#314151"/>
+    </linearGradient>
+    <linearGradient id="stoneB" x1="122" y1="1054" x2="1322" y2="492" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#334235"/>
+      <stop offset="0.32" stop-color="#6F7A75"/>
+      <stop offset="0.64" stop-color="#B8A1B0"/>
+      <stop offset="1" stop-color="#D9D3C7"/>
+    </linearGradient>
+    <filter id="softCloud" x="-20%" y="-40%" width="140%" height="180%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+    <filter id="farBlur" x="-20%" y="-40%" width="140%" height="180%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <rect width="1920" height="1080" fill="url(#vault)"/>
+  <path d="M-74 804C202 696 330 612 573 629C739 641 813 514 1016 462C1213 412 1348 482 1548 374C1727 278 1880 202 2023 240V1120H-74V804Z" fill="#E8F4F4" opacity="0.22" filter="url(#farBlur)"/>
+  <path d="M-30 692C113 625 252 612 384 639C558 674 666 600 792 561C932 518 1062 566 1214 520C1435 454 1637 410 1948 486V1088H-30V692Z" fill="#FFFFFF" opacity="0.2" filter="url(#softCloud)"/>
+  <path d="M0 883C183 743 316 742 488 666C682 580 767 459 935 374C1049 317 1160 312 1248 364C1350 424 1378 514 1505 522C1651 532 1784 489 1920 408V1080H0V883Z" fill="url(#stoneA)" opacity="0.18"/>
+  <path d="M-34 1037C128 839 321 800 491 703C668 602 778 494 920 481C1032 471 1098 537 1188 548C1364 569 1529 440 1918 311V1080H-34V1037Z" fill="url(#stoneB)" opacity="0.14"/>
+  <path d="M247 1080C386 875 505 754 657 652C812 548 974 489 1188 542C990 606 861 722 760 867C710 939 696 1019 699 1080H247Z" fill="#F0E3CE" opacity="0.08"/>
+  <path d="M1157 1080C1240 894 1314 767 1454 648C1580 541 1744 441 1948 373V1080H1157Z" fill="#DBCAD1" opacity="0.08"/>
+  <g opacity="0.92" filter="url(#softCloud)">
+    <ellipse cx="130" cy="724" rx="280" ry="76" fill="#F6FBFF" opacity="0.56"/>
+    <ellipse cx="408" cy="678" rx="240" ry="66" fill="#F7FBFF" opacity="0.42"/>
+    <ellipse cx="715" cy="642" rx="190" ry="50" fill="#E9F7FF" opacity="0.24"/>
+    <ellipse cx="1328" cy="674" rx="330" ry="86" fill="#FFFFFF" opacity="0.38"/>
+    <ellipse cx="1644" cy="604" rx="250" ry="72" fill="#F7FBFF" opacity="0.42"/>
+    <ellipse cx="945" cy="302" rx="420" ry="88" fill="#D9EEFF" opacity="0.18"/>
+  </g>
+  <path d="M-40 973C168 856 315 836 470 766C626 696 750 570 902 529C1048 489 1166 584 1306 594C1458 605 1597 541 1920 439" stroke="#FAF7ED" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M-28 1017C174 903 330 873 487 803C654 729 784 614 927 588C1079 560 1179 646 1316 657C1484 671 1640 600 1947 503" stroke="#243744" stroke-opacity="0.24" stroke-width="2"/>
+  <path d="M41 1056C224 940 364 911 520 834C692 749 820 659 950 648C1109 634 1198 718 1344 727C1514 737 1662 665 1914 595" stroke="#E9CFB9" stroke-opacity="0.12" stroke-width="2"/>
+  <g opacity="0.4">
+    <circle cx="366" cy="245" r="1.6" fill="#F8F2DB"/>
+    <circle cx="712" cy="144" r="1.2" fill="#F8F2DB"/>
+    <circle cx="1118" cy="171" r="1.8" fill="#F8F2DB"/>
+    <circle cx="1510" cy="210" r="1.3" fill="#F8F2DB"/>
+    <circle cx="1652" cy="634" r="1.5" fill="#F8F2DB"/>
+    <circle cx="202" cy="574" r="1.2" fill="#F8F2DB"/>
+  </g>
+  <rect width="1920" height="1080" fill="url(#sky)" style="mix-blend-mode:soft-light" opacity="0.2"/>
+  <rect width="1920" height="1080" fill="#050504" opacity="0.12"/>
+</svg>

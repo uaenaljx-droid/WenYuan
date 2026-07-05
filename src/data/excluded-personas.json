@@ -1,0 +1,44 @@
+[
+  {
+    "id": "yongle-encyclopedia",
+    "title": "永乐大典 Skill",
+    "reason": "非具体人物，是古籍或文本集合。",
+    "sourceUrl": "https://github.com/momozi1996/awesome-ai-persona-skills",
+    "excludedAt": "2026-07-03"
+  },
+  {
+    "id": "zimeiti-creators",
+    "title": "自媒体作者与运营号集合",
+    "reason": "当前产品范围限定为文学、哲学、思想人物，非目标范围。",
+    "sourceUrl": "https://github.com/momozi1996/awesome-ai-persona-skills/tree/main/zimeiti",
+    "excludedAt": "2026-07-03"
+  },
+  {
+    "id": "tianya-gods-framework",
+    "title": "天涯 20 神多 Agent 体系",
+    "reason": "属于多 Agent 团队或框架，不是可验证的文学思想人物档案。",
+    "sourceUrl": "https://github.com/momozi1996/awesome-ai-persona-skills/tree/main/tianya-gods-framework",
+    "excludedAt": "2026-07-03"
+  },
+  {
+    "id": "director-agents",
+    "title": "DirectorAgents-1",
+    "reason": "属于导演风格多 Agent 体系，本次不展示框架或工具型条目。",
+    "sourceUrl": "https://github.com/momozi1996/awesome-ai-persona-skills/tree/main/DirectorAgents-1",
+    "excludedAt": "2026-07-03"
+  },
+  {
+    "id": "eq-training",
+    "title": "EQ 情商训练与 SEL 训练",
+    "reason": "属于训练课程或模块，不是具体历史人物。",
+    "sourceUrl": "https://github.com/momozi1996/awesome-ai-persona-skills/tree/main/EQ",
+    "excludedAt": "2026-07-03"
+  },
+  {
+    "id": "readme-directory-items",
+    "title": "README、目录名与 Skill 框架名",
+    "reason": "属于工程结构或说明文档，不是具体人物。",
+    "sourceUrl": "https://github.com/momozi1996/awesome-ai-persona-skills",
+    "excludedAt": "2026-07-03"
+  }
+]

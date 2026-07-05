@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-07-04T10:04:35.542Z",
+  "total": 500,
+  "categories": {
+    "小说家": 154,
+    "哲学家": 80,
+    "学者": 78,
+    "文学家": 77,
+    "诗人": 64,
+    "剧作家": 32,
+    "思想家": 15
+  },
+  "regions": {
+    "global-modern": 288,
+    "british-isles": 49,
+    "mediterranean": 45,
+    "east-asia-china": 28,
+    "east-asia-japan": 24,
+    "eastern-europe-russia": 22,
+    "western-europe": 16,
+    "central-europe": 11,
+    "south-asia": 7,
+    "ancient-greece": 4,
+    "latin-america": 3,
+    "middle-east-persia": 3
+  },
+  "eras": {
+    "19世纪": 120,
+    "现代主义时期": 114,
+    "20世纪文学": 62,
+    "启蒙时代": 38,
+    "文艺复兴": 37,
+    "中世纪": 32,
+    "古罗马晚期": 30,
+    "20世纪思想": 10,
+    "17世纪": 8,
+    "现代中国": 7,
+    "唐代": 5,
+    "当代中国": 4,
+    "古希腊": 4,
+    "平安时代": 4,
+    "战国": 4,
+    "明代": 3,
+    "清代": 3,
+    "宋代": 3,
+    "中世纪文学": 3,
+    "春秋": 2,
+    "德国古典哲学": 2,
+    "楚辞时代": 1,
+    "东晋": 1,
+    "秦汉": 1,
+    "元代": 1,
+    "中世纪经院哲学": 1
+  },
+  "avatar": {
+    "total": 500,
+    "local": 500,
+    "remote": 0,
+    "fallback": 0,
+    "authentic": 479,
+    "pending": 21,
+    "verified": 479,
+    "missing": 0,
+    "kinds": {
+      "photo": 257,
+      "historical_portrait": 207,
+      "pending_authentic_image": 21,
+      "sculpture": 9,
+      "museum_image": 4,
+      "engraving": 2
+    },
+    "confidence": {
+      "low": 192,
+      "medium": 180,
+      "high": 107,
+      "pending": 21
+    },
+    "needsReview": 393
+  },
+  "coordinates": {
+    "total": 500,
+    "numericBirthplace": 500,
+    "mediumOrBetter": 500,
+    "needsReview": 0
+  },
+  "works": {
+    "enrichedGuides": 621,
+    "personasWithWorks": 500
+  },
+  "reviewScope": {
+    "generatedExpansion": 422,
+    "biographyPartial": 472,
+    "worksPartial": 427
+  }
+}

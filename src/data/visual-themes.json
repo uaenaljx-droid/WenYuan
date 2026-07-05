@@ -1,0 +1,176 @@
+{
+  "eras": {
+    "春秋": {
+      "temperature": "ink-warm-gray",
+      "accent": "#c8b894",
+      "overlay": "rgba(18, 17, 14, 0.34)"
+    },
+    "战国": {
+      "temperature": "bronze-gray",
+      "accent": "#b8aa86",
+      "overlay": "rgba(20, 18, 14, 0.36)"
+    },
+    "楚辞时代": {
+      "temperature": "river-bronze",
+      "accent": "#b9a56f",
+      "overlay": "rgba(18, 16, 18, 0.36)"
+    },
+    "东晋": {
+      "temperature": "mist-gray",
+      "accent": "#b7c1b5",
+      "overlay": "rgba(12, 16, 15, 0.34)"
+    },
+    "唐代": {
+      "temperature": "deep-gold",
+      "accent": "#d0b879",
+      "overlay": "rgba(20, 16, 9, 0.34)"
+    },
+    "宋代": {
+      "temperature": "soft-slate",
+      "accent": "#b7c4bd",
+      "overlay": "rgba(12, 17, 18, 0.34)"
+    },
+    "清代": {
+      "temperature": "dark-lacquer",
+      "accent": "#b9a484",
+      "overlay": "rgba(17, 13, 14, 0.36)"
+    },
+    "明代": {
+      "temperature": "ink-stone",
+      "accent": "#c0b596",
+      "overlay": "rgba(16, 15, 13, 0.34)"
+    },
+    "现代中国": {
+      "temperature": "cool-ink",
+      "accent": "#9fb4bd",
+      "overlay": "rgba(9, 14, 18, 0.4)"
+    },
+    "当代中国": {
+      "temperature": "neutral-charcoal",
+      "accent": "#aebbb7",
+      "overlay": "rgba(11, 13, 15, 0.38)"
+    },
+    "古希腊": {
+      "temperature": "stone-cool",
+      "accent": "#c4c0ad",
+      "overlay": "rgba(15, 16, 17, 0.34)"
+    },
+    "古罗马晚期": {
+      "temperature": "deep-umber",
+      "accent": "#b59a72",
+      "overlay": "rgba(20, 14, 12, 0.38)"
+    },
+    "17世纪": {
+      "temperature": "cool-white",
+      "accent": "#b8c7c9",
+      "overlay": "rgba(10, 15, 18, 0.38)"
+    },
+    "启蒙时代": {
+      "temperature": "clear-gray",
+      "accent": "#c6c2a8",
+      "overlay": "rgba(16, 16, 14, 0.34)"
+    },
+    "德国古典哲学": {
+      "temperature": "cold-blue-gray",
+      "accent": "#aab9c4",
+      "overlay": "rgba(10, 15, 22, 0.42)"
+    },
+    "19世纪": {
+      "temperature": "warm-dark-gold",
+      "accent": "#c0a36f",
+      "overlay": "rgba(18, 13, 10, 0.38)"
+    },
+    "文艺复兴": {
+      "temperature": "aged-olive-gray",
+      "accent": "#b8b48e",
+      "overlay": "rgba(15, 16, 12, 0.34)"
+    },
+    "现代主义时期": {
+      "temperature": "cool-blue-gray",
+      "accent": "#9fb7c7",
+      "overlay": "rgba(9, 13, 20, 0.44)"
+    },
+    "20世纪思想": {
+      "temperature": "neutral-documentary",
+      "accent": "#b9c7c4",
+      "overlay": "rgba(10, 12, 14, 0.42)"
+    },
+    "秦汉": {
+      "temperature": "bronze-history",
+      "accent": "#c2ae82",
+      "overlay": "rgba(18, 15, 10, 0.36)"
+    },
+    "魏晋南北朝": {
+      "temperature": "mist-ink",
+      "accent": "#b7c1b8",
+      "overlay": "rgba(11, 16, 15, 0.34)"
+    },
+    "元代": {
+      "temperature": "stage-umber",
+      "accent": "#b8a17a",
+      "overlay": "rgba(18, 14, 11, 0.36)"
+    },
+    "中世纪经院哲学": {
+      "temperature": "stone-gold",
+      "accent": "#c5b894",
+      "overlay": "rgba(16, 15, 12, 0.36)"
+    },
+    "中世纪文学": {
+      "temperature": "manuscript-night",
+      "accent": "#c2b486",
+      "overlay": "rgba(17, 14, 10, 0.38)"
+    },
+    "中世纪": {
+      "temperature": "manuscript-night",
+      "accent": "#c2b486",
+      "overlay": "rgba(17, 14, 10, 0.38)"
+    },
+    "平安时代": {
+      "temperature": "moon-paper",
+      "accent": "#c8bfa3",
+      "overlay": "rgba(15, 14, 12, 0.34)"
+    },
+    "20世纪文学": {
+      "temperature": "modern-document",
+      "accent": "#aebfc1",
+      "overlay": "rgba(9, 13, 17, 0.4)"
+    }
+  },
+  "routes": {
+    "east-west-dialogue": {
+      "temperature": "neutral-documentary",
+      "accent": "#b9c7c4",
+      "overlay": "rgba(7, 10, 13, 0.38)"
+    },
+    "oriental-thought": {
+      "temperature": "ink-warm-gray",
+      "accent": "#c8b894",
+      "overlay": "rgba(15, 14, 12, 0.36)"
+    },
+    "western-philosophy": {
+      "temperature": "cold-blue-gray",
+      "accent": "#aab9c4",
+      "overlay": "rgba(8, 13, 20, 0.42)"
+    },
+    "world-literature": {
+      "temperature": "warm-black-gold",
+      "accent": "#c3ad7b",
+      "overlay": "rgba(17, 13, 8, 0.36)"
+    },
+    "modernism": {
+      "temperature": "cool-modern",
+      "accent": "#9fb7c7",
+      "overlay": "rgba(8, 12, 18, 0.44)"
+    },
+    "chinese-literature": {
+      "temperature": "ink-literature",
+      "accent": "#c4b58e",
+      "overlay": "rgba(16, 14, 10, 0.36)"
+    },
+    "civilization-border": {
+      "temperature": "world-border",
+      "accent": "#b9c7b4",
+      "overlay": "rgba(8, 13, 12, 0.4)"
+    }
+  }
+}

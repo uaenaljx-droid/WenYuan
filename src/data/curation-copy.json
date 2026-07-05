@@ -1,0 +1,2151 @@
+{
+  "global": {
+    "eyebrow": "WENYUAN ATLAS",
+    "title": "文渊舆图",
+    "subtitle": "在文学与思想的地理中，漫游人类精神坐标",
+    "introTitle": "文渊",
+    "introSubtitle": "沿一颗地球，寻访文学与思想的精神坐标",
+    "introLoading": "群像已在云海深处亮起",
+    "enterButton": "入卷",
+    "searchPlaceholder": "搜索人物、作品、思想流派",
+    "sourceButton": "来源",
+    "refreshButton": "刷新",
+    "autoButton": "自动漫游",
+    "manualButton": "暂停",
+    "sourceDialogTitle": "资料来源",
+    "sourceDialogIntro": "此处只列出人物资料、图片状态和策展数据的来源线索。主界面不展示内部路径。",
+    "emptyState": "没有匹配的人物",
+    "profileWorks": "代表作品",
+    "profileBio": "生平",
+    "profilePersona": "人格摘要",
+    "profileKeywords": "关键词",
+    "profileBirthplace": "出生地",
+    "profileRelations": "相关人物",
+    "sourceUnavailable": "来源未详"
+  },
+  "routeCaptions": {
+    "east-west-dialogue": {
+      "confucius": "孔子：以礼与仁安顿人间秩序",
+      "socrates": "苏格拉底：以追问照亮灵魂深处",
+      "laozi": "老子：以退让听见自然之道",
+      "plato": "柏拉图：以理念寻找城邦与善",
+      "zhuangzi": "庄子：以逍遥松开万物边界",
+      "aristotle": "亚里士多德：以秩序观照万物知识",
+      "zhu-xi": "朱熹：以格物工夫整理人心",
+      "augustine": "奥古斯丁：以忏悔寻回时间与爱",
+      "wang-yangming": "王阳明：以良知会通知与行",
+      "descartes": "笛卡尔：以怀疑抵达清明之我",
+      "lu-xun": "鲁迅：以冷峻之笔照见病灶",
+      "nietzsche": "尼采：以深渊处重估价值",
+      "qian-zhongshu": "钱锺书：以博识机锋拆解世相",
+      "wittgenstein": "维特根斯坦：以语言之界量度世界",
+      "wang-xiaobo": "王小波：以清醒幽默抵抗庸常",
+      "foucault": "福柯：以规训缝隙辨认权力"
+    },
+    "oriental-thought": {
+      "confucius": "孔子：以礼与仁安顿人间秩序",
+      "laozi": "老子：以退让听见自然之道",
+      "zhuangzi": "庄子：以逍遥松开万物边界",
+      "mencius": "孟子：以浩然之气守护人心",
+      "xunzi": "荀子：以礼法磨砺人的形质",
+      "han-feizi": "韩非子：以冷眼辨认权力机关",
+      "zhu-xi": "朱熹：以格物工夫整理人心",
+      "wang-yangming": "王阳明：以良知会通知与行",
+      "gu-yanwu": "顾炎武：以实学守住天下责任",
+      "liang-qichao": "梁启超：以新民之笔催动时代",
+      "lu-xun": "鲁迅：以冷峻之笔照见病灶",
+      "qian-zhongshu": "钱锺书：以博识机锋拆解世相",
+      "wang-xiaobo": "王小波：以清醒幽默抵抗庸常"
+    },
+    "chinese-literature": {
+      "qu-yuan": "屈原：以孤忠照亮楚辞深处",
+      "sima-qian": "司马迁：以史笔承担命运之重",
+      "tao-yuanming": "陶渊明：以田园重排生命尺度",
+      "wang-wei": "王维：以空山月色安顿心境",
+      "li-bai": "李白：以月光与酒拓开胸襟",
+      "du-fu": "杜甫：以沉郁之笔记山河苍生",
+      "bai-juyi": "白居易：以平易诗心照见民生",
+      "li-shangyin": "李商隐：以幽微辞采封存心事",
+      "su-shi": "苏轼：以旷达安放风雨人生",
+      "xin-qiji": "辛弃疾：以壮怀照见家国山河",
+      "guan-hanqing": "关汉卿：以戏曲替冤屈发声",
+      "tang-xianzu": "汤显祖：以至情穿过礼法之墙",
+      "cao-xueqin": "曹雪芹：以繁华写尽人世盛衰",
+      "lu-xun": "鲁迅：以冷峻之笔照见病灶",
+      "shen-congwen": "沈从文：以湘西清水照见人性",
+      "zhang-ailing": "张爱玲：以冷眼写尽都市苍凉"
+    },
+    "western-philosophy": {
+      "socrates": "苏格拉底：以追问照亮灵魂深处",
+      "plato": "柏拉图：以理念寻找城邦与善",
+      "aristotle": "亚里士多德：以秩序观照万物知识",
+      "augustine": "奥古斯丁：以忏悔寻回时间与爱",
+      "thomas-aquinas": "托马斯·阿奎那：以理性扶住信仰穹顶",
+      "descartes": "笛卡尔：以怀疑抵达清明之我",
+      "spinoza": "斯宾诺莎：以自然之理澄明自由",
+      "locke": "洛克：以经验守护个人边界",
+      "rousseau": "卢梭：以自然之心追问文明",
+      "hume": "休谟：以怀疑温柔削弱确定",
+      "kant": "康德：以法度连接星空与内心",
+      "hegel": "黑格尔：以历史辨认精神自身",
+      "schopenhauer": "叔本华：以意志阴影听生命低语",
+      "kierkegaard": "克尔凯郭尔：以孤独选择逼近信仰",
+      "marx": "马克思：以资本批判照见结构",
+      "nietzsche": "尼采：以深渊处重估价值",
+      "wittgenstein": "维特根斯坦：以语言之界量度世界",
+      "heidegger": "海德格尔：以时间追问存在之居",
+      "sartre": "萨特：以自由之重逼人负责",
+      "foucault": "福柯：以规训缝隙辨认权力",
+      "derrida": "德里达：以细读松动意义中心",
+      "hannah-arendt": "汉娜·阿伦特：以公共世界守护行动"
+    },
+    "world-literature": {
+      "homer": "荷马：以古老歌声托起归途",
+      "dante": "但丁：以流亡之路穿越灵魂",
+      "shakespeare": "莎士比亚：以悲喜照亮人心剧场",
+      "cervantes": "塞万提斯：以荒唐骑士守护理想",
+      "goethe": "歌德：以诗与求知拓展生命",
+      "victor-hugo": "雨果：以宏大同情拥抱苦难",
+      "baudelaire": "波德莱尔：以都市忧郁炼出诗金",
+      "dostoevsky": "陀思妥耶夫斯基：以罪与信逼问灵魂",
+      "tolstoy": "托尔斯泰：以广阔笔触书写良知",
+      "kafka": "卡夫卡：以荒诞之门听现实低语",
+      "proust": "普鲁斯特：以记忆微光重返时间",
+      "joyce": "乔伊斯：以意识之河穿过城邦",
+      "woolf": "伍尔夫：以细微波纹倾听内心",
+      "borges": "博尔赫斯：以迷宫与书页容纳宇宙",
+      "calvino": "卡尔维诺：以轻盈结构安放想象",
+      "camus": "加缪：以荒诞守住清醒尊严",
+      "gabriel-garcia-marquez": "马尔克斯：以孤独开出家族繁花"
+    },
+    "modernism": {
+      "nietzsche": "尼采：以深渊处重估价值",
+      "freud": "弗洛伊德：以梦与欲望叩问自我",
+      "baudelaire": "波德莱尔：以都市忧郁炼出诗金",
+      "kafka": "卡夫卡：以荒诞之门听现实低语",
+      "proust": "普鲁斯特：以记忆微光重返时间",
+      "joyce": "乔伊斯：以意识之河穿过城邦",
+      "woolf": "伍尔夫：以细微波纹倾听内心",
+      "t-s-eliot": "艾略特：以荒原碎片寻回传统",
+      "rilke": "里尔克：以孤独倾听内在天使",
+      "borges": "博尔赫斯：以迷宫与书页容纳宇宙",
+      "beckett": "贝克特：以等待写尽存在荒凉",
+      "camus": "加缪：以荒诞守住清醒尊严",
+      "foucault": "福柯：以规训缝隙辨认权力",
+      "roland-barthes": "罗兰·巴特：以符号细读日常神话"
+    },
+    "civilization-border": {
+      "tagore": "泰戈尔：以歌声向万物致意",
+      "gibran": "纪伯伦：以流亡寓言安顿灵魂",
+      "rumi": "鲁米：以旋转与爱寻找中心",
+      "omar-khayyam": "奥马尔·海亚姆：以酒盏照见时间无常",
+      "murasaki-shikibu": "紫式部：以宫廷幽光书写物哀",
+      "kawabata": "川端康成：以雪国静美照见孤独",
+      "calvino": "卡尔维诺：以轻盈结构安放想象",
+      "borges": "博尔赫斯：以迷宫与书页容纳宇宙",
+      "gabriel-garcia-marquez": "马尔克斯：以孤独开出家族繁花"
+    }
+  },
+  "personaEditorial": {
+    "confucius": {
+      "oneLine": "以礼与仁安顿人间秩序",
+      "whisper": "在礼与仁之间，安顿人间秩序。"
+    },
+    "laozi": {
+      "oneLine": "以退让听见自然之道",
+      "whisper": "以退为进，听万物归于自然。"
+    },
+    "zhuangzi": {
+      "oneLine": "以逍遥松开万物边界",
+      "whisper": "乘物游心，把自由写入大梦。"
+    },
+    "mencius": {
+      "oneLine": "以浩然之气守护人心",
+      "whisper": "以浩然之气，守住人的尊严。"
+    },
+    "qu-yuan": {
+      "oneLine": "以孤忠照亮楚辞深处",
+      "whisper": "把孤忠沉入江水，也照亮来路。"
+    },
+    "tao-yuanming": {
+      "oneLine": "以田园重排生命尺度",
+      "whisper": "归去来兮，于田园中自守其真。"
+    },
+    "li-bai": {
+      "oneLine": "以月光与酒拓开胸襟",
+      "whisper": "举杯邀月，把天地写成胸襟。"
+    },
+    "du-fu": {
+      "oneLine": "以沉郁之笔记山河苍生",
+      "whisper": "以沉郁之笔，记山河与苍生。"
+    },
+    "su-shi": {
+      "oneLine": "以旷达安放风雨人生",
+      "whisper": "一蓑烟雨，安放旷达平生。"
+    },
+    "cao-xueqin": {
+      "oneLine": "以繁华写尽人世盛衰",
+      "whisper": "借一场繁华，写尽人世盛衰。"
+    },
+    "lu-xun": {
+      "oneLine": "以冷峻之笔照见病灶",
+      "whisper": "以冷峻之笔，照见沉默的病灶。"
+    },
+    "qian-zhongshu": {
+      "oneLine": "以博识机锋拆解世相",
+      "whisper": "于机锋与博识中，拆解人情世相。"
+    },
+    "wang-xiaobo": {
+      "oneLine": "以清醒幽默抵抗庸常",
+      "whisper": "以清醒与幽默，抵抗庸常之网。"
+    },
+    "wang-yangming": {
+      "oneLine": "以良知会通知与行",
+      "whisper": "在良知微光里，使知与行相逢。"
+    },
+    "homer": {
+      "oneLine": "以古老歌声托起归途",
+      "whisper": "让古老歌声，托起英雄与归途。"
+    },
+    "shakespeare": {
+      "oneLine": "以悲喜照亮人心剧场",
+      "whisper": "借众生悲喜，照出人心剧场。"
+    },
+    "goethe": {
+      "oneLine": "以诗与求知拓展生命",
+      "whisper": "在诗与求知之间，拓开生命尺度。"
+    },
+    "dostoevsky": {
+      "oneLine": "以罪与信逼问灵魂",
+      "whisper": "于罪与信之间，逼问灵魂深渊。"
+    },
+    "tolstoy": {
+      "oneLine": "以广阔笔触书写良知",
+      "whisper": "以广阔笔触，写尽良知与命运。"
+    },
+    "kafka": {
+      "oneLine": "以荒诞之门听现实低语",
+      "whisper": "在荒诞之门前，听现实低声作响。"
+    },
+    "proust": {
+      "oneLine": "以记忆微光重返时间",
+      "whisper": "循记忆微光，重返逝去时光。"
+    },
+    "joyce": {
+      "oneLine": "以意识之河穿过城邦",
+      "whisper": "让意识成河，流过现代城邦。"
+    },
+    "woolf": {
+      "oneLine": "以细微波纹倾听内心",
+      "whisper": "于细微波纹中，听见内心潮汐。"
+    },
+    "borges": {
+      "oneLine": "以迷宫与书页容纳宇宙",
+      "whisper": "把宇宙藏入迷宫与无尽书页。"
+    },
+    "socrates": {
+      "oneLine": "以追问照亮灵魂深处",
+      "whisper": "以追问为灯，照向灵魂深处。"
+    },
+    "plato": {
+      "oneLine": "以理念寻找城邦与善",
+      "whisper": "在理念之境，寻找城邦与善。"
+    },
+    "aristotle": {
+      "oneLine": "以秩序观照万物知识",
+      "whisper": "以秩序观万物，使知识各安其位。"
+    },
+    "augustine": {
+      "oneLine": "以忏悔寻回时间与爱",
+      "whisper": "在忏悔深处，寻回时间与爱。"
+    },
+    "descartes": {
+      "oneLine": "以怀疑抵达清明之我",
+      "whisper": "以怀疑为径，抵达清明之我。"
+    },
+    "kant": {
+      "oneLine": "以法度连接星空与内心",
+      "whisper": "仰观星空，内省心中法度。"
+    },
+    "hegel": {
+      "oneLine": "以历史辨认精神自身",
+      "whisper": "让精神穿过历史，辨认自身。"
+    },
+    "schopenhauer": {
+      "oneLine": "以意志阴影听生命低语",
+      "whisper": "在意志阴影里，听见生命低语。"
+    },
+    "nietzsche": {
+      "oneLine": "以深渊处重估价值",
+      "whisper": "临深渊处，重估一切价值。"
+    },
+    "wittgenstein": {
+      "oneLine": "以语言之界量度世界",
+      "whisper": "以语言为界，量度世界边缘。"
+    },
+    "foucault": {
+      "oneLine": "以规训缝隙辨认权力",
+      "whisper": "于规训缝隙间，辨认权力形状。"
+    },
+    "hannah-arendt": {
+      "oneLine": "以公共世界守护行动",
+      "whisper": "在公共世界里，守护思考与行动。"
+    },
+    "xunzi": {
+      "oneLine": "以礼法磨砺人的形质",
+      "whisper": "以礼法为砺，磨出人的尺度。"
+    },
+    "han-feizi": {
+      "oneLine": "以冷眼辨认权力机关",
+      "whisper": "在法术势之间，看清权力暗流。"
+    },
+    "sima-qian": {
+      "oneLine": "以史笔承担命运之重",
+      "whisper": "忍辱成史，替众生命运立传。"
+    },
+    "wang-wei": {
+      "oneLine": "以空山月色安顿心境",
+      "whisper": "空山一声鸟，万念归于澄明。"
+    },
+    "bai-juyi": {
+      "oneLine": "以平易诗心照见民生",
+      "whisper": "把世间疾苦，写成明白诗行。"
+    },
+    "li-shangyin": {
+      "oneLine": "以幽微辞采封存心事",
+      "whisper": "锦瑟弦中，藏着难言心事。"
+    },
+    "xin-qiji": {
+      "oneLine": "以壮怀照见家国山河",
+      "whisper": "铁马入梦，词心仍向山河。"
+    },
+    "guan-hanqing": {
+      "oneLine": "以戏曲替冤屈发声",
+      "whisper": "让窦娥一声，震醒沉默人间。"
+    },
+    "tang-xianzu": {
+      "oneLine": "以至情穿过礼法之墙",
+      "whisper": "一梦牡丹，唤醒生死之间。"
+    },
+    "shen-congwen": {
+      "oneLine": "以湘西清水照见人性",
+      "whisper": "清水照边城，人心自有微光。"
+    },
+    "zhang-ailing": {
+      "oneLine": "以冷眼写尽都市苍凉",
+      "whisper": "华灯背后，人情自有冷香。"
+    },
+    "zhu-xi": {
+      "oneLine": "以格物工夫整理人心",
+      "whisper": "格物穷理，使日用之学有根。"
+    },
+    "gu-yanwu": {
+      "oneLine": "以实学守住天下责任",
+      "whisper": "考据入世，天下仍在心上。"
+    },
+    "liang-qichao": {
+      "oneLine": "以新民之笔催动时代",
+      "whisper": "笔端风雷，唤起新民之梦。"
+    },
+    "thomas-aquinas": {
+      "oneLine": "以理性扶住信仰穹顶",
+      "whisper": "在理性阶梯上，仰望信仰。"
+    },
+    "spinoza": {
+      "oneLine": "以自然之理澄明自由",
+      "whisper": "把万物归于自然，也归于自由。"
+    },
+    "locke": {
+      "oneLine": "以经验守护个人边界",
+      "whisper": "从经验出发，守住自由边界。"
+    },
+    "rousseau": {
+      "oneLine": "以自然之心追问文明",
+      "whisper": "在文明尘土里，寻找自然之心。"
+    },
+    "hume": {
+      "oneLine": "以怀疑温柔削弱确定",
+      "whisper": "让确定性退后，经验慢慢说话。"
+    },
+    "kierkegaard": {
+      "oneLine": "以孤独选择逼近信仰",
+      "whisper": "在焦虑深处，独自作出选择。"
+    },
+    "marx": {
+      "oneLine": "以资本批判照见结构",
+      "whisper": "从劳动深处，看见历史暗流。"
+    },
+    "freud": {
+      "oneLine": "以梦与欲望叩问自我",
+      "whisper": "梦的裂缝里，欲望低声回返。"
+    },
+    "heidegger": {
+      "oneLine": "以时间追问存在之居",
+      "whisper": "在时间深处，追问何以为在。"
+    },
+    "sartre": {
+      "oneLine": "以自由之重逼人负责",
+      "whisper": "自由落在肩上，责任无处可逃。"
+    },
+    "derrida": {
+      "oneLine": "以细读松动意义中心",
+      "whisper": "在文字缝隙里，中心悄然松动。"
+    },
+    "roland-barthes": {
+      "oneLine": "以符号细读日常神话",
+      "whisper": "日常符号中，神话悄悄生长。"
+    },
+    "dante": {
+      "oneLine": "以流亡之路穿越灵魂",
+      "whisper": "从幽暗中行，直至群星重现。"
+    },
+    "cervantes": {
+      "oneLine": "以荒唐骑士守护理想",
+      "whisper": "瘦马长矛间，理想仍有光。"
+    },
+    "victor-hugo": {
+      "oneLine": "以宏大同情拥抱苦难",
+      "whisper": "苦难如夜，人心仍向黎明。"
+    },
+    "baudelaire": {
+      "oneLine": "以都市忧郁炼出诗金",
+      "whisper": "在污浊街灯下，炼出幽暗之花。"
+    },
+    "t-s-eliot": {
+      "oneLine": "以荒原碎片寻回传统",
+      "whisper": "荒原碎片里，旧声仍在回响。"
+    },
+    "rilke": {
+      "oneLine": "以孤独倾听内在天使",
+      "whisper": "独处深处，天使掠过心弦。"
+    },
+    "beckett": {
+      "oneLine": "以等待写尽存在荒凉",
+      "whisper": "等候无回应，人仍低声坚持。"
+    },
+    "calvino": {
+      "oneLine": "以轻盈结构安放想象",
+      "whisper": "看不见的城，在纸上轻轻升起。"
+    },
+    "camus": {
+      "oneLine": "以荒诞守住清醒尊严",
+      "whisper": "在荒诞之中，守住清醒尊严。"
+    },
+    "gabriel-garcia-marquez": {
+      "oneLine": "以孤独开出家族繁花",
+      "whisper": "让孤独开花，长成百年家族。"
+    },
+    "tagore": {
+      "oneLine": "以歌声向万物致意",
+      "whisper": "以歌声渡河，向万物致意。"
+    },
+    "gibran": {
+      "oneLine": "以流亡寓言安顿灵魂",
+      "whisper": "远行者低语，替灵魂点灯。"
+    },
+    "rumi": {
+      "oneLine": "以旋转与爱寻找中心",
+      "whisper": "在旋转与爱里，寻找神圣中心。"
+    },
+    "omar-khayyam": {
+      "oneLine": "以酒盏照见时间无常",
+      "whisper": "一只酒盏里，盛着流年无常。"
+    },
+    "murasaki-shikibu": {
+      "oneLine": "以宫廷幽光书写物哀",
+      "whisper": "帘影深处，情与无常相照。"
+    },
+    "kawabata": {
+      "oneLine": "以雪国静美照见孤独",
+      "whisper": "雪落无声，孤独自有清光。"
+    },
+    "percy-bysshe-shelley": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以奧西曼德微光，照见幽深来路。"
+    },
+    "walter-scott": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在OldM深处，听见时代回声。"
+    },
+    "j-d-salinger": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把九故事留给清醒而沉静的人。"
+    },
+    "toni-morrison": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循家而行，抵达人心暗处。"
+    },
+    "elias-canetti": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由Tong入夜，见时代微明。"
+    },
+    "elizabeth-von-arnim": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以Chri微光，照见幽深来路。"
+    },
+    "emily-bronte": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在Poem深处，听见时代回声。"
+    },
+    "joseph-von-eichendorff": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把Ausd留给清醒而沉静的人。"
+    },
+    "mary-wollstonecraft": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循瑞典、挪而行，抵达人心暗处。"
+    },
+    "ilse-aichinger": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由TheG入夜，见时代微明。"
+    },
+    "friedrich-holderlin": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以Lied微光，照见幽深来路。"
+    },
+    "dorothy-l-sayers": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在Gaud深处，听见时代回声。"
+    },
+    "stendhal": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把巴玛修道留给清醒而沉静的人。"
+    },
+    "mohamed-choukri": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循Temp而行，抵达人心暗处。"
+    },
+    "roger-zelazny": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由安伯志入夜，见时代微明。"
+    },
+    "harriet-beecher-stowe": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以汤姆叔叔微光，照见幽深来路。"
+    },
+    "kathy-reichs": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在Seiz深处，听见时代回声。"
+    },
+    "denis-diderot": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把宿命论者留给清醒而沉静的人。"
+    },
+    "john-bunyan": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循天路歷程而行，抵达人心暗处。"
+    },
+    "dbc-pierre": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由維農少年入夜，见时代微明。"
+    },
+    "pierre-louys": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以比利提斯微光，照见幽深来路。"
+    },
+    "julien-gracq": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在流沙海岸深处，听见时代回声。"
+    },
+    "roberto-bolano": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把2666留给清醒而沉静的人。"
+    },
+    "audrey-niffenegger": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循HerF而行，抵达人心暗处。"
+    },
+    "dan-simmons": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由海伯利安入夜，见时代微明。"
+    },
+    "alain-fournier": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以美麗的約微光，照见幽深来路。"
+    },
+    "kenta-nishimura": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在苦役列車深处，听见时代回声。"
+    },
+    "marquis-de-sade": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把索多瑪一留给清醒而沉静的人。"
+    },
+    "alexander-pushkin": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循鮑里斯·而行，抵达人心暗处。"
+    },
+    "grazia-deledda": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由Cann入夜，见时代微明。"
+    },
+    "fyodor-dostoyevsky": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以窮人微光，照见幽深来路。"
+    },
+    "j-r-r-tolkien": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在精靈寶鑽深处，听见时代回声。"
+    },
+    "s-ren-kierkegaard": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把畏惧与颤留给清醒而沉静的人。"
+    },
+    "maxine-hong-kingston": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循孙行者而行，抵达人心暗处。"
+    },
+    "chretien-de-troyes": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由Perc入夜，见时代微明。"
+    },
+    "alfred-jarry": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以愚比王微光，照见幽深来路。"
+    },
+    "herman-melville": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在白鯨記深处，听见时代回声。"
+    },
+    "georges-duhamel": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把Chro留给清醒而沉静的人。"
+    },
+    "francois-rabelais": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循巨人传而行，抵达人心暗处。"
+    },
+    "sylvia-plath": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由普拉斯的入夜，见时代微明。"
+    },
+    "zadie-smith": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以署名的男微光，照见幽深来路。"
+    },
+    "haruki-murakami": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在寻羊冒险深处，听见时代回声。"
+    },
+    "shmuel-yosef-agnon": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把Invi留给清醒而沉静的人。"
+    },
+    "nathaniel-hawthorne": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循TheS而行，抵达人心暗处。"
+    },
+    "ken-liu": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由Q484入夜，见时代微明。"
+    },
+    "viktor-suvorov": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以M-Da微光，照见幽深来路。"
+    },
+    "ferdinand-von-schirach": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在Q157深处，听见时代回声。"
+    },
+    "mahasweta-devi": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把Haja留给清醒而沉静的人。"
+    },
+    "j-g-ballard": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循太陽帝國而行，抵达人心暗处。"
+    },
+    "kim-stanley-robinson": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由火星三部入夜，见时代微明。"
+    },
+    "scott-o-dell": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以Isla微光，照见幽深来路。"
+    },
+    "paula-fox": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在舞奴深处，听见时代回声。"
+    },
+    "claude-simon": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把Homm留给清醒而沉静的人。"
+    },
+    "ngugi-wa-thiong-o": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循AGra而行，抵达人心暗处。"
+    },
+    "henry-wadsworth-longfellow": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由Deco入夜，见时代微明。"
+    },
+    "marion-zimmer-bradley": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以Dark微光，照见幽深来路。"
+    },
+    "iris-murdoch": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在大海，大深处，听见时代回声。"
+    },
+    "ludvig-holberg": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把TheP留给清醒而沉静的人。"
+    },
+    "rosalia-de-castro": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循Ocab而行，抵达人心暗处。"
+    },
+    "yuriko-miyamoto": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由Q781入夜，见时代微明。"
+    },
+    "michel-butor": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以Degr微光，照见幽深来路。"
+    },
+    "leon-bloy": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在TheW深处，听见时代回声。"
+    },
+    "audre-lorde": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把Sist留给清醒而沉静的人。"
+    },
+    "rick-riordan": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循TheM而行，抵达人心暗处。"
+    },
+    "giuseppe-tomasi-di-lampedusa": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由豹子(小入夜，见时代微明。"
+    },
+    "ken-ichi-yoshida": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以Q112微光，照见幽深来路。"
+    },
+    "alexander-radishchev": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在从彼得堡深处，听见时代回声。"
+    },
+    "aleksis-kivi": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把七兄弟留给清醒而沉静的人。"
+    },
+    "han-suyin": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循吾宅双门而行，抵达人心暗处。"
+    },
+    "edgar-allan-poe": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由告密的心入夜，见时代微明。"
+    },
+    "jonathan-swift": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以一只桶的微光，照见幽深来路。"
+    },
+    "alexandre-dumas": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在Jose深处，听见时代回声。"
+    },
+    "jane-austen": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把理智与情留给清醒而沉静的人。"
+    },
+    "agatha-christie": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循危機四伏而行，抵达人心暗处。"
+    },
+    "anne-tyler": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由ASli入夜，见时代微明。"
+    },
+    "joseph-campbell": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以千面英雄微光，照见幽深来路。"
+    },
+    "seicho-matsumoto": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在零的焦點深处，听见时代回声。"
+    },
+    "sadegh-hedayat": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把瞎猫头鹰留给清醒而沉静的人。"
+    },
+    "alan-hollinghurst": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循TheS而行，抵达人心暗处。"
+    },
+    "pu-songling": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由聊齋志異入夜，见时代微明。"
+    },
+    "q191305": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以Auré微光，照见幽深来路。"
+    },
+    "osamu-dazai": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在御伽草紙深处，听见时代回声。"
+    },
+    "madeleine-thien": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把不要說我留给清醒而沉静的人。"
+    },
+    "lygia-fagundes-telles": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循Ante而行，抵达人心暗处。"
+    },
+    "brandon-sanderson": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由邪惡圖書入夜，见时代微明。"
+    },
+    "hilary-mantel": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以狼廳微光，照见幽深来路。"
+    },
+    "louise-erdrich": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在TheB深处，听见时代回声。"
+    },
+    "nella-larsen": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把Quic留给清醒而沉静的人。"
+    },
+    "valerian-pidmohylny": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循Mist而行，抵达人心暗处。"
+    },
+    "vikenty-veresaev": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由TheD入夜，见时代微明。"
+    },
+    "emily-wu": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以Feat微光，照见幽深来路。"
+    },
+    "ivo-andric": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在Most深处，听见时代回声。"
+    },
+    "giovanni-boccaccio": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把Corb留给清醒而沉静的人。"
+    },
+    "nadine-gordimer": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循生态保护而行，抵达人心暗处。"
+    },
+    "mary-shelley": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由最后的人入夜，见时代微明。"
+    },
+    "ivan-turgenev": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以猎人笔记微光，照见幽深来路。"
+    },
+    "boris-akunin": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在Eras深处，听见时代回声。"
+    },
+    "milorad-pavic": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把哈扎尔辞留给清醒而沉静的人。"
+    },
+    "camille-flammarion": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循大众天文而行，抵达人心暗处。"
+    },
+    "daina-chaviano": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由Q877入夜，见时代微明。"
+    },
+    "gudrun-pausewang": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以TheL微光，照见幽深来路。"
+    },
+    "diana-gabaldon": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在異鄉人深处，听见时代回声。"
+    },
+    "philip-k-dick": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把尤比克留给清醒而沉静的人。"
+    },
+    "robert-jordan": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循時間之輪而行，抵达人心暗处。"
+    },
+    "joan-aiken": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由威利山莊入夜，见时代微明。"
+    },
+    "erich-von-daniken": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以諸神的戰微光，照见幽深来路。"
+    },
+    "olaf-stapledon": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在OddJ深处，听见时代回声。"
+    },
+    "vladimir-a-obruchev": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把Plut留给清醒而沉静的人。"
+    },
+    "walter-m-miller": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循TheD而行，抵达人心暗处。"
+    },
+    "jack-williamson": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由Saga入夜，见时代微明。"
+    },
+    "robin-cook": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以Coma微光，照见幽深来路。"
+    },
+    "stephen-baxter": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在TheL深处，听见时代回声。"
+    },
+    "jack-vance": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把Lyon留给清醒而沉静的人。"
+    },
+    "terry-brooks": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循TheS而行，抵达人心暗处。"
+    },
+    "stefan-zeromski": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由TheS入夜，见时代微明。"
+    },
+    "charles-stross": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以TheL微光，照见幽深来路。"
+    },
+    "robert-conquest": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在大恐怖深处，听见时代回声。"
+    },
+    "erle-stanley-gardner": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把Cool留给清醒而沉静的人。"
+    },
+    "edmund-wnuk-lipinski": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循Q565而行，抵达人心暗处。"
+    },
+    "gene-wolfe": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由新太陽之入夜，见时代微明。"
+    },
+    "r-a-salvatore": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以list微光，照见幽深来路。"
+    },
+    "francesco-patrizi": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在L’am深处，听见时代回声。"
+    },
+    "tommaso-campanella": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把Poes留给清醒而沉静的人。"
+    },
+    "alan-moore": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循V煞而行，抵达人心暗处。"
+    },
+    "poul-anderson": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由TheB入夜，见时代微明。"
+    },
+    "andrei-bely": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以彼得堡(微光，照见幽深来路。"
+    },
+    "margaret-atwood": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在Ston深处，听见时代回声。"
+    },
+    "charles-fort": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把诅咒之书留给清醒而沉静的人。"
+    },
+    "james-lovelock": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循電子捕獲而行，抵达人心暗处。"
+    },
+    "a-e-van-vogt": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由TheW入夜，见时代微明。"
+    },
+    "andrei-platonov": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以Happ微光，照见幽深来路。"
+    },
+    "rokeya-sakhawat-hossain": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "在蘇丹娜之深处，听见时代回声。"
+    },
+    "valery-bryusov": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把Q437留给清醒而沉静的人。"
+    },
+    "edwin-abbott-abbott": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循Ones而行，抵达人心暗处。"
+    },
+    "jonathan-lethem": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "由布魯克林入夜，见时代微明。"
+    },
+    "jane-roberts": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "以TheO微光，照见幽深来路。"
+    },
+    "france-preseren": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "在薩維卡洗深处，听见时代回声。"
+    },
+    "robert-frost": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "把AMas留给清醒而沉静的人。"
+    },
+    "william-carlos-williams": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "循裴特森而行，抵达人心暗处。"
+    },
+    "ismail-kadare": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "由Brok入夜，见时代微明。"
+    },
+    "torquato-tasso": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "以Apol微光，照见幽深来路。"
+    },
+    "arthur-rimbaud": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "在地狱一季深处，听见时代回声。"
+    },
+    "petrarch": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "把Epis留给清醒而沉静的人。"
+    },
+    "sebastian-barry": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "循Anni而行，抵达人心暗处。"
+    },
+    "adam-oehlenschlager": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "由Alad入夜，见时代微明。"
+    },
+    "apuleius": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "以Apol微光，照见幽深来路。"
+    },
+    "q590": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "在盧濟塔尼深处，听见时代回声。"
+    },
+    "alfred-de-musset": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "把TheM留给清醒而沉静的人。"
+    },
+    "marie-de-france": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "循Guig而行，抵达人心暗处。"
+    },
+    "ovid": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "由Hali入夜，见时代微明。"
+    },
+    "hafez": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "以TheD微光，照见幽深来路。"
+    },
+    "horace": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "在讽刺诗深处，听见时代回声。"
+    },
+    "william-auld": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "把Lain留给清醒而沉静的人。"
+    },
+    "guimaraes-rosa": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "循广阔的腹而行，抵达人心暗处。"
+    },
+    "hesiod": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "由女人总目入夜，见时代微明。"
+    },
+    "jules-verne": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "以皇帝的密微光，照见幽深来路。"
+    },
+    "tycho-brahe": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "在DeMu深处，听见时代回声。"
+    },
+    "czes-aw-mi-osz": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "把Ocal留给清醒而沉静的人。"
+    },
+    "nikolai-gogol": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "循塔拉斯·而行，抵达人心暗处。"
+    },
+    "jerome": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "由Comm入夜，见时代微明。"
+    },
+    "q44520": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "以阿格尼斯微光，照见幽深来路。"
+    },
+    "ferdowsi": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "在列王紀深处，听见时代回声。"
+    },
+    "qianlong-emperor": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "把樂善堂全留给清醒而沉静的人。"
+    },
+    "joachim-du-bellay": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "循法语的捍而行，抵达人心暗处。"
+    },
+    "gregory-of-nazianzus": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "由TheS入夜，见时代微明。"
+    },
+    "sergei-yesenin": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "以Q191微光，照见幽深来路。"
+    },
+    "selma-lagerlof": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "在Jeru深处，听见时代回声。"
+    },
+    "hans-jakob-christoffel-von-grimmelshausen": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "把最傻的傻留给清醒而沉静的人。"
+    },
+    "hannah-more": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "循Thou而行，抵达人心暗处。"
+    },
+    "natalie-clifford-barney": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "由Quel入夜，见时代微明。"
+    },
+    "natsume-soseki": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "以門微光，照见幽深来路。"
+    },
+    "menander": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "在Miso深处，听见时代回声。"
+    },
+    "pedro-calderon-de-la-barca": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "把TheG留给清醒而沉静的人。"
+    },
+    "norbert-elias": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "循文明进程而行，抵达人心暗处。"
+    },
+    "gertrude-stein": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "由TheA入夜，见时代微明。"
+    },
+    "park-kyung-ni": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "以土地微光，照见幽深来路。"
+    },
+    "geoffrey-of-monmouth": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "在梅林預言深处，听见时代回声。"
+    },
+    "ali-ibn-abi-talib": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "把Mush留给清醒而沉静的人。"
+    },
+    "herta-muller": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "循TheP而行，抵达人心暗处。"
+    },
+    "virgil": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "由牧歌集入夜，见时代微明。"
+    },
+    "isidore-of-seville": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "以Defi微光，照见幽深来路。"
+    },
+    "emil-cioran": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "在誕生之不深处，听见时代回声。"
+    },
+    "cornelius-castoriadis": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "把Q138留给清醒而沉静的人。"
+    },
+    "alexander-pope": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "循Mess而行，抵达人心暗处。"
+    },
+    "christine-de-pizan": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "由Lesl入夜，见时代微明。"
+    },
+    "johann-gottfried-herder": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "以Scul微光，照见幽深来路。"
+    },
+    "julia-kristeva": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "在Q294深处，听见时代回声。"
+    },
+    "ernest-renan": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "把Life留给清醒而沉静的人。"
+    },
+    "julien-benda": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "循TheT而行，抵达人心暗处。"
+    },
+    "simone-weil": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "由Oppr入夜，见时代微明。"
+    },
+    "pierre-bourdieu": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "以Repr微光，照见幽深来路。"
+    },
+    "j-b-s-haldane": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "在群体遗传深处，听见时代回声。"
+    },
+    "leszek-ko-akowski": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "把IsGo留给清醒而沉静的人。"
+    },
+    "pelagius": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "循Verb而行，抵达人心暗处。"
+    },
+    "paulo-freire": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "由被压迫者入夜，见时代微明。"
+    },
+    "enheduanna": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "以TheE微光，照见幽深来路。"
+    },
+    "william-stanley-jevons": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "在Thep深处，听见时代回声。"
+    },
+    "photios-i-of-constantinople": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "把Nomo留给清醒而沉静的人。"
+    },
+    "nichiren": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "循OnRe而行，抵达人心暗处。"
+    },
+    "a-c-bhaktivedanta-swami-prabhupada": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "由薄伽梵歌入夜，见时代微明。"
+    },
+    "juliusz-s-owacki": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "以Kord微光，照见幽深来路。"
+    },
+    "giorgio-agamben": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "在Wher深处，听见时代回声。"
+    },
+    "lawrence-kohlberg": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "把柯尔伯格留给清醒而沉静的人。"
+    },
+    "allan-kardec": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "循TheB而行，抵达人心暗处。"
+    },
+    "julian-of-norwich": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "由聖愛啟示入夜，见时代微明。"
+    },
+    "solomon-ibn-gabirol": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "以Azha微光，照见幽深来路。"
+    },
+    "paul-grice": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "在maxi深处，听见时代回声。"
+    },
+    "donna-haraway": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "把机器人宣留给清醒而沉静的人。"
+    },
+    "ibn-tufayl": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "循自修的哲而行，抵达人心暗处。"
+    },
+    "iamblichus": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "由Life入夜，见时代微明。"
+    },
+    "jules-michelet": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "以Hist微光，照见幽深来路。"
+    },
+    "alain-of-lille": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "在Serm深处，听见时代回声。"
+    },
+    "q1035": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "把TheP留给清醒而沉静的人。"
+    },
+    "friedrich-hayek": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "循致命的自而行，抵达人心暗处。"
+    },
+    "georg-wilhelm-friedrich-hegel": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "由精神现象入夜，见时代微明。"
+    },
+    "anselm-of-canterbury": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "以Deve微光，照见幽深来路。"
+    },
+    "plutarch": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "在Q197深处，听见时代回声。"
+    },
+    "erasmus": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "把愚人颂留给清醒而沉静的人。"
+    },
+    "adam-smith": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "循國富論而行，抵达人心暗处。"
+    },
+    "xuanzang": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "由大唐西域入夜，见时代微明。"
+    },
+    "george-berkeley": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "以分析學家微光，照见幽深来路。"
+    },
+    "walker-percy": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "在影迷（小深处，听见时代回声。"
+    },
+    "jean-baudrillard": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "把消费社会留给清醒而沉静的人。"
+    },
+    "ramon-llull": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "循Llib而行，抵达人心暗处。"
+    },
+    "samuel-taylor-coleridge": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "由抒情歌謠入夜，见时代微明。"
+    },
+    "charles-fourier": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "以法朗斯泰微光，照见幽深来路。"
+    },
+    "gershom-scholem": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "在Majo深处，听见时代回声。"
+    },
+    "jiddu-krishnamurti": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "把Comm留给清醒而沉静的人。"
+    },
+    "giovanni-pico-della-mirandola": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "循Apol而行，抵达人心暗处。"
+    },
+    "ivan-illich": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "由Tool入夜，见时代微明。"
+    },
+    "ludwig-von-mises": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "以人類行為微光，照见幽深来路。"
+    },
+    "giambattista-vico": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "在Dere深处，听见时代回声。"
+    },
+    "teresa-of-avila": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "把Q130留给清醒而沉静的人。"
+    },
+    "emmanuel-levinas": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "循总体与无而行，抵达人心暗处。"
+    },
+    "irenaeus": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "由駁斥異端入夜，见时代微明。"
+    },
+    "lucian-of-samosata": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "以Dial微光，照见幽深来路。"
+    },
+    "saadi": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "在真境花园深处，听见时代回声。"
+    },
+    "aratus": {
+      "oneLine": "以诗歌照见时代心纹",
+      "whisper": "把Phae留给清醒而沉静的人。"
+    },
+    "q154014": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "循丹敦之死而行，抵达人心暗处。"
+    },
+    "marguerite-yourcenar": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "由Alex入夜，见时代微明。"
+    },
+    "hermann-broch": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "以TheD微光，照见幽深来路。"
+    },
+    "friedrich-gottlieb-klopstock": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "在救世主深处，听见时代回声。"
+    },
+    "sibylle-lewitscharoff": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "把Q171留给清醒而沉静的人。"
+    },
+    "george-bernard-shaw": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "循聖女貞德而行，抵达人心暗处。"
+    },
+    "jean-racine": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "由LaTh入夜，见时代微明。"
+    },
+    "voltaire": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "以Q191微光，照见幽深来路。"
+    },
+    "ugo-foscolo": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "在TheL深处，听见时代回声。"
+    },
+    "alexander-blok": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "把十二个留给清醒而沉静的人。"
+    },
+    "joseph-brodsky": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "循戈尔布诺而行，抵达人心暗处。"
+    },
+    "q28494": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "由TheB入夜，见时代微明。"
+    },
+    "christopher-marlowe": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "以馬爾他的微光，照见幽深来路。"
+    },
+    "pierre-corneille": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "在熙德深处，听见时代回声。"
+    },
+    "cesar-aira": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "把HowI留给清醒而沉静的人。"
+    },
+    "lope-de-vega": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "循羊泉村而行，抵达人心暗处。"
+    },
+    "euripides": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "由Hera入夜，见时代微明。"
+    },
+    "knut-hamsun": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "以Grow微光，照见幽深来路。"
+    },
+    "aristophanes": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "在财神深处，听见时代回声。"
+    },
+    "ivan-bunin": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "把幽暗的林留给清醒而沉静的人。"
+    },
+    "plautus": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "循凶宅而行，抵达人心暗处。"
+    },
+    "georges-feydeau": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "由TheL入夜，见时代微明。"
+    },
+    "wole-soyinka": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "以Harm微光，照见幽深来路。"
+    },
+    "maurice-maeterlinck": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "在Inte深处，听见时代回声。"
+    },
+    "friedrich-hebbel": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "把Judi留给清醒而沉静的人。"
+    },
+    "august-von-kotzebue": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "循Mens而行，抵达人心暗处。"
+    },
+    "jan-kochanowski": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "由Ches入夜，见时代微明。"
+    },
+    "melissus-of-samos": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "以frag微光，照见幽深来路。"
+    },
+    "nizami-ganjavi": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "在Kham深处，听见时代回声。"
+    },
+    "tulsidas": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "把哈努曼四留给清醒而沉静的人。"
+    },
+    "bonaventure": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "循Itin而行，抵达人心暗处。"
+    },
+    "aesop": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "由伊索寓言入夜，见时代微明。"
+    },
+    "attar-of-nishapur": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "以Tazk微光，照见幽深来路。"
+    },
+    "giovanni-battista-riccioli": {
+      "oneLine": "以哲学照见时代心纹",
+      "whisper": "在Alma深处，听见时代回声。"
+    },
+    "christopher-paolini": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "把长老留给清醒而沉静的人。"
+    },
+    "veronica-roth": {
+      "oneLine": "以小说照见时代心纹",
+      "whisper": "循分歧者而行，抵达人心暗处。"
+    },
+    "michel-tournier": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "由TheE入夜，见时代微明。"
+    },
+    "pam-munoz-ryan": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "以Espe微光，照见幽深来路。"
+    },
+    "edith-nesbit": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "在鐵路邊的深处，听见时代回声。"
+    },
+    "queen-rania-of-jordan": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "把Q423留给清醒而沉静的人。"
+    },
+    "bozena-nemcova": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "循Wild而行，抵达人心暗处。"
+    },
+    "michio-mado": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "由大象入夜，见时代微明。"
+    },
+    "ion-creanga": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "以Q200微光，照见幽深来路。"
+    },
+    "ken-kesey": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "在飛越杜鵑深处，听见时代回声。"
+    },
+    "louisa-may-alcott": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "把TheB留给清醒而沉静的人。"
+    },
+    "eoin-colfer": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "循TheS而行，抵达人心暗处。"
+    },
+    "elizabeth-goudge": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "由TheL入夜，见时代微明。"
+    },
+    "naoko-takeuchi": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "以美少女戰微光，照见幽深来路。"
+    },
+    "johanna-spyri": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "在海蒂深处，听见时代回声。"
+    },
+    "charles-perrault": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "把鹅妈妈的留给清醒而沉静的人。"
+    },
+    "nina-bawden": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "循Carr而行，抵达人心暗处。"
+    },
+    "lina-kostenko": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "由Q555入夜，见时代微明。"
+    },
+    "wilhelm-grimm": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "以格林童話微光，照见幽深来路。"
+    },
+    "kenji-miyazawa": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "在Q115深处，听见时代回声。"
+    },
+    "anna-laetitia-barbauld": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "把Poem留给清醒而沉静的人。"
+    },
+    "frances-hodgson-burnett": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "循Rack而行，抵达人心暗处。"
+    },
+    "markus-zusak": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "由TheM入夜，见时代微明。"
+    },
+    "anne-sexton": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "以Live微光，照见幽深来路。"
+    },
+    "wilhelm-hauff": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "在TheS深处，听见时代回声。"
+    },
+    "lloyd-alexander": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "把West留给清醒而沉静的人。"
+    },
+    "antoine-galland": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "循一千零一而行，抵达人心暗处。"
+    },
+    "darren-o-shaughnessy": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "由TheC入夜，见时代微明。"
+    },
+    "judy-blume": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "以Doub微光，照见幽深来路。"
+    },
+    "david-starr-jordan": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "在Acla深处，听见时代回声。"
+    },
+    "lydia-chukovskaya": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "把Q396留给清醒而沉静的人。"
+    },
+    "james-herriot": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "循AllC而行，抵达人心暗处。"
+    },
+    "roger-hargreaves": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "由奇先生妙入夜，见时代微明。"
+    },
+    "kristin-cashore": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "以Grac微光，照见幽深来路。"
+    },
+    "ludovico-ariosto": {
+      "oneLine": "以戏剧照见时代心纹",
+      "whisper": "在瘋狂奧蘭深处，听见时代回声。"
+    },
+    "elizabeth-bishop": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "把OneA留给清醒而沉静的人。"
+    },
+    "flannery-o-connor": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "循Wise而行，抵达人心暗处。"
+    },
+    "paul-celan": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "由语言栅栏入夜，见时代微明。"
+    },
+    "andre-breton": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "以Seco微光，照见幽深来路。"
+    },
+    "annie-dillard": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "在汀克溪的深处，听见时代回声。"
+    },
+    "oliver-goldsmith": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "把威克菲德留给清醒而沉静的人。"
+    },
+    "paul-hazard": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "循Leop而行，抵达人心暗处。"
+    },
+    "saeko-himuro": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "由海潮之声入夜，见时代微明。"
+    },
+    "paul-claudel": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "以TheS微光，照见幽深来路。"
+    },
+    "michel-onfray": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "在無神論宣深处，听见时代回声。"
+    },
+    "kamo-no-chomei": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "把Hoss留给清醒而沉静的人。"
+    },
+    "akiko-yosano": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "循亂髮而行，抵达人心暗处。"
+    },
+    "jamaica-kincaid": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "由Lucy入夜，见时代微明。"
+    },
+    "francois-cheng": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "以天一言微光，照见幽深来路。"
+    },
+    "li-qingzhao": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "在如夢令深处，听见时代回声。"
+    },
+    "kanzo-uchimura": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "把HowI留给清醒而沉静的人。"
+    },
+    "david-foster-wallace": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "循TheB而行，抵达人心暗处。"
+    },
+    "soji-shimada": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "由占星術殺入夜，见时代微明。"
+    },
+    "simon-leys": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "以Note微光，照见幽深来路。"
+    },
+    "jonathan-franzen": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "在自由深处，听见时代回声。"
+    },
+    "tzvetan-todorov": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "把TheF留给清醒而沉静的人。"
+    },
+    "thomas-wolfe": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "循天使望鄉而行，抵达人心暗处。"
+    },
+    "hiraga-gennai": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "由Buts入夜，见时代微明。"
+    },
+    "hiroshi-mori": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "以全部成為微光，照见幽深来路。"
+    },
+    "pramoedya-ananta-toer": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "在Buru深处，听见时代回声。"
+    },
+    "boualem-sansal": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "把TheG留给清醒而沉静的人。"
+    },
+    "tony-judt": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "循Reap而行，抵达人心暗处。"
+    },
+    "moses-mendelssohn": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "由Jeru入夜，见时代微明。"
+    },
+    "bede": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "以Mart微光，照见幽深来路。"
+    },
+    "joseph-derenbourg": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "在Sede深处，听见时代回声。"
+    },
+    "hanna-johansen": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "把7×7T留给清醒而沉静的人。"
+    },
+    "friedrich-schleiermacher": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "循Chri而行，抵达人心暗处。"
+    },
+    "johannes-scotus-eriugena": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "由Anno入夜，见时代微明。"
+    },
+    "richard-hakluyt": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "以Prin微光，照见幽深来路。"
+    },
+    "kate-chopin": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "在Atth深处，听见时代回声。"
+    },
+    "aphra-behn": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "把Agne留给清醒而沉静的人。"
+    },
+    "giorgos-seferis": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "循Q151而行，抵达人心暗处。"
+    },
+    "d-t-suzuki": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "由大乘起信入夜，见时代微明。"
+    },
+    "wis-awa-szymborska": {
+      "oneLine": "以文学照见时代心纹",
+      "whisper": "以Cati微光，照见幽深来路。"
+    },
+    "giacomo-leopardi": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "在Q373深处，听见时代回声。"
+    },
+    "max-horkheimer": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "把Gesa留给清醒而沉静的人。"
+    },
+    "fernando-pessoa": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "循惶然錄而行，抵达人心暗处。"
+    },
+    "rene-girard": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "由Viol入夜，见时代微明。"
+    },
+    "karlheinz-deschner": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "以基督教犯微光，照见幽深来路。"
+    },
+    "guillaume-apollinaire": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "在醇酒集深处，听见时代回声。"
+    },
+    "gaito-gazdanov": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "把TheS留给清醒而沉静的人。"
+    },
+    "raymond-williams": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "循Mobi而行，抵达人心暗处。"
+    },
+    "emmanuel-todd": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "由LInv入夜，见时代微明。"
+    },
+    "edmond-jaloux": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "以Q322微光，照见幽深来路。"
+    },
+    "altaf-hussain-hali": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "在Haya深处，听见时代回声。"
+    },
+    "james-thomas-farrell": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "把斯塔茲朗留给清醒而沉静的人。"
+    },
+    "georgy-ivanov": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "循Disi而行，抵达人心暗处。"
+    },
+    "luis-cernuda": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "由Dond入夜，见时代微明。"
+    },
+    "james-beattie": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "以TheM微光，照见幽深来路。"
+    },
+    "charles-lamb": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "在Haml深处，听见时代回声。"
+    },
+    "yu-jie": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "把中国影帝留给清醒而沉静的人。"
+    },
+    "francois-de-malherbe": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "循Cons而行，抵达人心暗处。"
+    },
+    "mori-ogai": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "由muni入夜，见时代微明。"
+    },
+    "jacques-pierre-amette": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "以Brec微光，照见幽深来路。"
+    },
+    "donna-tartt": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "在金翅雀深处，听见时代回声。"
+    },
+    "joris-karl-huysmans": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "把Àreb留给清醒而沉静的人。"
+    },
+    "osip-mandelstam": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "循Ston而行，抵达人心暗处。"
+    },
+    "mikhail-bakhtin": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "由複述寫作入夜，见时代微明。"
+    },
+    "frederik-van-eeden": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "以Flor微光，照见幽深来路。"
+    },
+    "eudora-welty": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "在ACur深处，听见时代回声。"
+    },
+    "maria-konopnicka": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "把Mend留给清醒而沉静的人。"
+    },
+    "john-dryden": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "循TheW而行，抵达人心暗处。"
+    },
+    "sulpicius-severus": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "由Vita入夜，见时代微明。"
+    },
+    "cornelius-nepos": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "以Devi微光，照见幽深来路。"
+    },
+    "saxo-grammaticus": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "在丹麦人的深处，听见时代回声。"
+    },
+    "achille-mbembe": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "把Onth留给清醒而沉静的人。"
+    },
+    "karl-dietrich-bracher": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "循Q106而行，抵达人心暗处。"
+    },
+    "francois-furet": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "由TheP入夜，见时代微明。"
+    },
+    "alexandre-de-rhodes": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "以越葡拉詞微光，照见幽深来路。"
+    },
+    "nikephoros-i-of-constantinople": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "在Chro深处，听见时代回声。"
+    },
+    "marcus-terentius-varro": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "把Deli留给清醒而沉静的人。"
+    },
+    "socrates-of-constantinople": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "循Eccl而行，抵达人心暗处。"
+    },
+    "jacques-le-goff": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "由Q110入夜，见时代微明。"
+    },
+    "flinders-petrie": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "以麦伦普塔微光，照见幽深来路。"
+    },
+    "sei-shonagon": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "在枕草子深处，听见时代回声。"
+    },
+    "benedict-anderson": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "把全球化时留给清醒而沉静的人。"
+    },
+    "abu-al-ghazi-bahadur": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "循Shaj而行，抵达人心暗处。"
+    },
+    "nestor-the-chronicler": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "由往年纪事入夜，见时代微明。"
+    },
+    "david-manker-abshire": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "以Pape微光，照见幽深来路。"
+    },
+    "adam-of-bremen": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "在汉堡大主深处，听见时代回声。"
+    },
+    "shere-hite": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "把Rapp留给清醒而沉静的人。"
+    },
+    "herodotus": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "循歷史而行，抵达人心暗处。"
+    },
+    "guibert-of-nogent": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "由Depi入夜，见时代微明。"
+    },
+    "steven-runciman": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "以TheG微光，照见幽深来路。"
+    },
+    "daniele-ganser": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "在TheU深处，听见时代回声。"
+    },
+    "polybius": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "把歷史留给清醒而沉静的人。"
+    },
+    "jung-chang": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "循Empr而行，抵达人心暗处。"
+    },
+    "abraham-ortelius": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "由戲台奧比入夜，见时代微明。"
+    },
+    "jordanes": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "以哥特史微光，照见幽深来路。"
+    },
+    "madame-de-lafayette": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "在Zaïd深处，听见时代回声。"
+    },
+    "jan-d-ugosz": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "把Anna留给清醒而沉静的人。"
+    },
+    "fernand-braudel": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "循菲利普二而行，抵达人心暗处。"
+    },
+    "theda-skocpol": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "由国家与社入夜，见时代微明。"
+    },
+    "daniel-goldhagen": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "以希特勒意微光，照见幽深来路。"
+    },
+    "xenophon": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "在希尔罗深处，听见时代回声。"
+    },
+    "jean-charles-leonard-de-sismondi": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "把Q136留给清醒而沉静的人。"
+    },
+    "josephus": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "循猶太古史而行，抵达人心暗处。"
+    },
+    "pietro-bembo": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "由Pros入夜，见时代微明。"
+    },
+    "muhammad-ibn-ismaeel-al-bukhari": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "以Q194微光，照见幽深来路。"
+    },
+    "timothy-brook": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "在Cate深处，听见时代回声。"
+    },
+    "william-camden": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "把Brit留给清醒而沉静的人。"
+    },
+    "kukai": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "循Onth而行，抵达人心暗处。"
+    },
+    "nadezhda-mandelstam": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "由Hope入夜，见时代微明。"
+    },
+    "steven-pinker": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "以Word微光，照见幽深来路。"
+    },
+    "william-caxton": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "在Theb深处，听见时代回声。"
+    },
+    "otto-franke": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "把Dieo留给清醒而沉静的人。"
+    },
+    "e-v-gordon": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "循AnIn而行，抵达人心暗处。"
+    },
+    "nikolai-marr": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "由雅弗理论入夜，见时代微明。"
+    },
+    "paul-georg-von-mollendorff": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "以穆麟德转微光，照见幽深来路。"
+    },
+    "karl-richard-lepsius": {
+      "oneLine": "以学术照见时代心纹",
+      "whisper": "在Denk深处，听见时代回声。"
+    }
+  }
+}
